@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Xgboost, short for eXtreme Gradient Boosting, is a popular machine learning model under the umbrella of ensemble models in the field of supervised learning. Initially developed for the purpose of winning machine learning competitions, Xgboost has become a staple in industry due to its high performance and speed. It's an implementation of gradient boosted decision trees designed for speed and performance that dominantly utilized for handling structured data. It applies the principle of boosting weak learners using the gradient descent method.
+
+<HISTORY>
+The Xgboost algorithm came to light in 2014 by Tianqi Chen, as part of the Distributed (Deep) Machine Learning Community (DMLC). The motivation behind its creation was to push the limit of computing resources for boosted tree algorithms which are the foundation stone of many machine learning tasks. Boosting tree models serve as a solution to overcome high bias and poor predictive performance by creating an ensemble of weaker models to produce an aggregated strong learner.
+
+<KEY IDEAS>
+Xgboost utilizes the concept of gradient boosting, wherein new models are added to correct the errors made by existing models. These models are added sequentially until no further improvements can be made. Xgboost uses the gradient descent algorithm to minimize the loss when adding new models. It implements this algorithm in a parallelizable manner, which makes it more efficient than other gradient boosting methods. Xgboost also includes a regularization term in its cost function, which helps prevent overfitting. 
+
+<USES/APPLICATIONS>
+Xgboost is used in a wide variety of applications where high accuracy is required, particularly in structured or tabular data. It has gained immense popularity in machine learning competitions, including Kaggle, due to its superior predictive performance and speed. Common applications of Xgboost include but are not limited to, credit scoring, churn prediction, sales forecasting, and click-through rate (CTR) predictions in the field of online advertising. 
+
+<VARIATIONS>
+While Xgboost is a widely used gradient boosting method, it is by no means the only one. LightGBM and CatBoost, developed by Microsoft and Yandex respectively, are examples of other gradient boosting algorithms that offer similar functionalities with certain operational differences. The distinction between these algorithms lies in their handling of categorical features and missing values, and their capability to handle large datasets. Similarly, Random Forests can also be seen as an alternative to Xgboost, which also builds numerous decision trees but employs bagging instead of boosting. Xgboost forms a part of the larger family of ensemble methods aimed at improving model performance.

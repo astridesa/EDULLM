@@ -1,0 +1,21 @@
+Title: Recommendation System: An In-Depth Overview
+
+Introduction:
+
+A recommendation system is a subclass of information filtering system that seeks to predict the rating or preference a user would give to an item. These systems have become increasingly popular in recent years, and are utilized in a variety of areas, with frequently-seen use cases including movies or music recommendations, product suggestions in eCommerce, or content personalization in social media platforms. They personalize the internet experience, drive user engagement and retention, and can be a critical revenue driver for various businesses. 
+
+History:
+
+The earliest form of recommendation systems can be traced back to the information retrieval systems of the 1970s and 1980s. These primitive search engines were capable of providing user-specified information but lacked personalization. The growth of the internet in the 1990s introduced collaborative filtering, a method for making automatic predictions about user interests by collecting tastes from many users. In 2006, the Netflix Prize competition led to a boom in recommendation algorithm research, refining and improving these systems.
+
+Key Ideas:
+
+Recommendation systems typically operate by building a model from user input, most notably, the behavior that the users exhibit when interacting with the items. Some of the key ideas in recommendation systems include collaborative filtering, which uses the behavior of similar users to recommend items, and content-based filtering, which suggests items by comparing the content of the items to a user profile. More advanced methods, like hybrid variants or matrix factorization techniques, offer higher accuracy in prediction and have become increasingly popular in recent years.
+
+Variations:
+
+There are several types of recommendation systems, each suited to different types of usage. Content-Based Filtering recommends items by comparing the content of the items and a user profile. Collaborative Filtering predicts a user's interests by collecting preferences or taste information from many users. Hybrid Approaches combine collaborative and content-based filtering. Community-Based can suggest items based on the preferences of the user's social community. Knowledge-Based Systems suggest items based on explicit knowledge about the item, the user, and the context.
+
+Applications:
+
+Today, recommendation systems are ubiquitous and are utilized in a myriad of industries. They form the backbone of major online companies like Amazon, Netflix, and Spotify. In the eCommerce industry, they suggest products to customers, while in multimedia services, they recommend music, movies or TV shows. Recommendation systems are also used in the travel and tourism industry to suggest travel packages, hotels and tourist spots. In news services, they help to recommend personalized news articles to readers.

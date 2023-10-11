@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Random Forest is a versatile machine learning method that performs both regression and classification tasks using multiple decision trees and bootstrapping techniques. Belonging to the ensemble learning group, Random Forest improves the accuracy, robustness and stability through a majority voting system. It simplifies complex data by allowing for 'randomness' and 'diversity' in the model building process. In various data science fields, it is widely used for its interpretability, precision, and ability to tackle overfitting issues.
+
+<HISTORY>
+Random Forest was first introduced by Leo Breiman in 2001. The method was developed as an extension of the Decision Tree model to improve its performance by creating an ‘ensemble’ of trees instead of just relying on one. This tackled the decision tree’s vulnerability to overfitting and sensitivity to the training set. Breiman’s idea erased the problems faced during the usage of single decision trees by introducing randomness in the process of creating multiple trees.
+
+<KEY IDEAS>
+Random Forest employs the idea of bootstrapping and aggregation to utilize multiple decision trees. For each tree, a bootstrap sample from the training data is selected and the tree is grown using random feature selection, leading to 'decision trees' with high integrity but low correlation. Once individual trees are constructed, their predictions are made. For regression, we take the average of the output from all trees. For classification, the class receiving the majority of 'votes' from all trees is selected. 
+
+<USES/APPLICATIONS>
+Random Forest is used in various sectors owing to its flexibility and accuracy. For instance, in banking it is used for fraud detection, while in health care it helps detect illness through patient’s medical histories. In e-commerce, Random Forest can be used for predicting whether the customer will like a certain product or not. The algorithm’s feature importance ability also enables complex exploratory studies in high-dimensional biology and econometrics, whooping its usage across domains. 
+
+<VARIATIONS>
+Variations of Random Forest exist such as Extra Trees and Random Subspaces, which introduce additional random processes for more diversity amongst constituent trees. There is also an extension called 'Rotation Forest' that uses Principal Component Analysis for feature selection. These fit into the broader view of ensemble learning which includes bagging, boosting and stacking methodologies. Similar approaches include Gradient Boosting, XGBoost and AdaBoost, each having their own unique traits and effective use cases.

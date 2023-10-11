@@ -1,0 +1,16 @@
+Article: Convolutional Neural Networks
+
+Introduction:
+Convolutional Neural Networks (CNNs) are deep learning algorithms which can take in an input image and, by assigning importance to various aspects or objects in the image, can differentiate one from another. Unlike traditional neural networks, they are designed to process data with a grid-like topology, resembling an image. CNNs boast a significant advantage: the preprocessing required is much lower than other classification algorithms, making them highly efficient for image analysis.
+
+History: 
+CNNs are a product of the development and evolution of artificial neural networks. Their history dates back to the 1980s, from the pioneering work of Yann LeCun. In 1998, he used convolutional networks to introduce LeNet-5, a seven-level network used primarily for hand-written digit recognition. The popularity and utility of CNNs expanded greatly after 2010 due to the availability of powerful GPUs and the increase in the amount of digital image data.
+
+Key Ideas: 
+A typical CNN architecture consists of three types of layers: convolutional, pooling, and fully-connected. The convolutional layer performs a dot product of the weights of the filter and input, moving the filter across the entire input image. The pooling layer reduces the spatial size, controlling overfitting. The fully-connected layer serves to flatten the high-level features learnt by previous layers, and goes on to classify the images. 
+
+Variations: 
+There are many variations of CNNs, differing in their depth, complexity, and structure, designed to solve different problems. Examples include LeNet, AlexNet, ZFNet, GoogLeNet, and VGGNet. More recently, advancements include ResNets (Residual Networks), which solve the diminishing gradient problem by skipping connections; and Capsule Networks, which use dynamic routing to synthesize multiple convolutional layers and so better retaining spatial hierarchies between simple and complex objects.
+
+Applications: 
+CNNs have extensive applications in numerous fields. Notably, they are used in self-driving cars to recognize traffic signs, pedestrians and other vehicles. In healthcare, CNNs are used to analyze medical images and detect anomalies or diseases. They also play a major role in surveillance, helping to identify and track individuals in CCTV footage. Furthermore, CNNs' extraordinary image recognition makes them ideal for use in facial recognition systems. Other applications include social media services and agriculture.

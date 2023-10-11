@@ -1,0 +1,19 @@
+**Introduction**
+
+Adagrad, short for Adaptive Gradient, is a first-order optimization algorithm used widely in the machine learning and deep learning domain. Introduced by John Duchi et al., it adapts learning rates based on parameters, allowing efficient tuning and reducing the need for manual learning rate selection. Unlike traditional optimization methods, it performs smaller updates for frequent features and larger updates for infrequent features, addressing the challenge associated with learning rates across different features and improving the performance in parameter updates.
+
+**History**
+
+Proposed by John Duchi, Elad Hazan, and Yoram Singer in their 2011 paper entitled "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization," the Adagrad optimizer filled a huge gap in machine learning optimization. Their work aimed to address the issues inherent within earlier algorithms, such as lecturers' rates inefficiencies and insufficiency in handling sparse data. Adagrad's remarkable innovation was in allowing different learning rates for each feature, based on their behaviour in the learning process.
+
+**Key Ideas**
+
+The central idea of Adagrad is in its diagonal matrix adaptation of learning rates. Each model parameter obtains a learning rate proportional to the sum of the squares of its past gradients. The outcome is a learning rate update rule that is aggressive towards infrequent parameters and more conservative for frequent ones. This approach effectively addresses scenarios where data is sparse and learning can be imbalanced. It also eliminates the need for manually selecting an optimal fixed learning rate—a common issue in stochastic gradient descent and its variants.
+
+**Variations**
+
+There are various alternatives to Adagrad, each improving on its limitations. Some of these include AdaDelta, which seeks to reduce Adagrad's aggressive, monotonically decreasing learning rate. RMSProp is another algorithm that attempts to resolve this issue by using a moving average of squared gradients instead of accumulating all past squared gradients. Adam optimizer also combines benefits from RMSProp and AdaGrad with bias correction.
+
+**Applications**
+
+Adagrad Optimizer finds widespread use in machine learning and deep learning where data can be sparse and the model contains large amounts of parameters. Its adaptive learning-rate methodology proves extremely beneficial in large-scale and high dimensional problems, like neural networks. Additionally, Adagrad's ability to handle sparse data effectively makes it a popular choice in natural language processing and recommendation systems.

@@ -1,0 +1,16 @@
+Title: Understanding Decision Trees: An In-depth Survey
+
+**Introduction**
+Decision trees denote a supervised machine learning algorithm typically utilized in resolving classification and regression problems. They offer a highly effective and interpretable mechanism for predicting an output or decision based on numerous input variables. The algorithm works by partitioning data into various sub-sections, creating a tree-like structure that lends the method its name. At each stage of the partitioning, the algorithm opts for the value that best distinguishes the data, forming the basis of the decision-making process.
+
+**History**
+Decision Trees were first used in the 1960s and 1970s by researchers conducting operations research and information theory. The key goal was to improve on statistical methods with a simplistic, graphical representation of decisions, while considering myriad possible outcomes. However, the actual development of this machine learning model began in 1986 when Ross Quinlan, an Australian researcher, devised the ID3 (Iterative Dichotomiser 3) algorithm, which has been the inspiration of most current-generation decision tree algorithms.
+
+**Key Ideas**
+The decision tree starts with a single node, the root, that splits into subsequent nodes or branches, each representing a possible decision or outcome. The terminal nodes, or leaves, denote final decisions. Variables are chosen for node decisions based on metrics such as Gini impurity or information gain. Decision Trees are interpretable, as they provide clear rules for classification and regression. However, they can tend to overfit the data, creating overly complex trees that fail to generalize to unseen data effectively.
+
+**Variations**
+Several variations of decision trees exist, each with distinct splitting criteria, including ID3, C4.5 and CART (Classification and Regression Trees). ID3 uses entropy and information gain as splitting criteria. C4.5 is an extension of ID3 and employs both information gain and gain ratio. CART, another popular algorithm, uses the Gini impurity index. Furthermore, ensemble methods like Random Forest and Gradient Boosting leverage the power of multiple decision trees for more accurate predictions.
+
+**Applications**
+Decision trees are applied in various domains. In medicine, they facilitate diagnosing diseases by analyzing patients' symptoms. Retail businesses make use of decision trees to predict customer shopping behavior and tailor strategies accordingly. In finance, they assist in evaluating the risk associated with potential investments. Decision trees are further deployed in machine learning and AI systems for image and speech recognition, and even in Natural Language Processing for intent classification.

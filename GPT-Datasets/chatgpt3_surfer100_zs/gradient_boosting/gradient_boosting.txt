@@ -1,0 +1,18 @@
+**Survey Article: Gradient Boosting**
+
+**Introduction**
+Welcome to this survey article on Gradient Boosting, a powerful ensemble learning technique that has become a cornerstone in machine learning. In this article, we will explore the key concepts of Gradient Boosting, including its introduction, historical background, fundamental principles, variations, and a glimpse into its diverse applications. Your engagement with this survey will contribute to a comprehensive understanding of Gradient Boosting and its significance in the world of machine learning.
+
+**History**
+Gradient Boosting was introduced by Jerome Friedman in 1999 as an extension of boosting methods. It aimed to improve predictive accuracy by sequentially adding models that address the errors of their predecessors. Gradient Boosting gained rapid popularity due to its effectiveness and versatility in handling various data types and tasks.
+
+**Key Ideas**
+At the heart of Gradient Boosting is the iterative nature of model building. It combines weak learners, often decision trees, by fitting each new tree to the errors of the previous ensemble. The process involves minimizing a loss function using gradient descent, hence the name "Gradient Boosting." This approach ensures that each new model corrects the mistakes made by the ensemble so far, gradually improving overall performance.
+
+**Variations**
+Several notable variations of Gradient Boosting have emerged over the years. XGBoost, for example, optimizes the original algorithm for performance and efficiency. LightGBM focuses on faster training through histogram-based methods. CatBoost incorporates categorical variable handling into the boosting process. These variations offer unique advantages, making Gradient Boosting adaptable to a wide range of tasks.
+
+**Applications**
+Gradient Boosting finds applications in diverse domains. It excels in predictive modeling, where it achieves high accuracy in tasks like classification, regression, and ranking. Fraud detection, customer churn prediction, and medical diagnosis benefit from its robustness. In the field of natural language processing, Gradient Boosting is used for sentiment analysis, text classification, and named entity recognition. Its versatility and ability to handle complex relationships make it a valuable tool in many areas.
+
+Thank you for exploring this survey article. Your insights contribute to a deeper understanding of Gradient Boosting's role in advancing machine learning and its applications across various industries.

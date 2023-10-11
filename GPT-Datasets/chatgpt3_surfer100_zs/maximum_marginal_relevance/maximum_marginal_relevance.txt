@@ -1,0 +1,16 @@
+Survey on Maximum Marginal Relevance
+
+Introduction:
+Thank you for participating in this survey about Maximum Marginal Relevance (MMR). MMR is a framework used in information retrieval and natural language processing to improve the relevance and diversity of search results. In this survey, we aim to gather insights about the history, key ideas, variations, and applications of MMR. Your participation will help us better understand the perceptions and knowledge surrounding this concept. 
+
+History:
+In the history of information retrieval, MMR was introduced by Carbonell and Goldstein in 1998 as a method to address the problem of redundant search results. It aimed to provide a way to rank documents based on their relevance and diversity. Since then, MMR has gained attention and has been widely applied in various domains where diverse and meaningful search results are crucial.
+
+Key Ideas:
+The key idea behind MMR is to balance the relevance and diversity of search results. It does this by measuring the similarity between documents based on their content and selecting the next most relevant document that is maximally different from the previously selected ones. This approach ensures that users are presented with a set of documents that not only contain highly relevant information but also provide a variety of perspectives.
+
+Variations:
+Over the years, researchers have proposed several variations of MMR to cater to different needs. Some variations include incorporating user preferences in the diversification process, considering the temporal nature of documents, and exploring novel ways of measuring document similarity. These variations have expanded the applicability of MMR and have contributed to its continuous development.
+
+Applications:
+MMR has found applications in various domains such as text summarization, document clustering, recommendation systems, and question-answering systems. By integrating MMR into these applications, it is possible to present users with more diverse and relevant information, thereby enhancing their understanding and decision-making processes. These applications highlight the value and practicality of MMR in real-world scenarios.

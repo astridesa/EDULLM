@@ -1,0 +1,19 @@
+**Introduction**
+
+Neural Machine Translation (NMT) is an approach to machine translation that uses Artificial Neural Networks (ANNs). Unlike traditional statistical machine translation, which requires manual alignment of source and target languages, NMT networks are entirely data-driven, learning to translate by analyzing large amounts of bilingual text. NMT leverages the key concepts of Deep Learning for end-to-end learning, facilitating language translations with more natural language fluency and accuracy.
+
+**History**
+
+NMT was born out of the inability of previous approaches, like Phrase-Based Machine Translation (PBMT), to solve the problem of contextual translation at scale. The concept of NMT started to gain traction around 2013, spearheaded by researchers at Google. They used large-scale data-driven experiments to demonstrate the superior performance of NMT models, leading to a major shift in the machine translation paradigm.
+
+**Key Ideas**
+
+NMT operates on the idea of distributed representations and continuous vector spaces. The information pertaining to the source sentence is encoded into a set of continuous vectors that are then decoded into the target sentence. Key concepts behind NMT include encoder-decoder architectures, attention mechanisms, and sequence-to-sequence models. The neural network learns the correlation between source and target representations through training on large volumes of aligned bilingual corpora.
+
+**Variations**
+
+There are several variants of the NMT model such as the recurrent neural network (RNN), long short-term memory (LSTM), and transformer-based models. While RNN-based models have the strength of handling sequence data, they tend to suffer from the vanishing and exploding gradient problems. LSTM addresses this with memory cells. The transformer model, introduced in the "Attention is All You Need" paper, goes a step further, relying solely on self-attention mechanisms and outperforming other approaches significantly.
+
+**Applications**
+
+Applications of NMT are widespread and include real-time translation services, multilingual information retrieval, and speech recognition. NMT is also critical in the localization industry, helping businesses translate their materials for different markets. In the context of interpersonal communication, NMT allows people who speak different languages to communicate effectively. Furthermore, NMT plays a crucial role in making content accessible across languages on the internet, thus facilitating multicultural and multilingual discourse.

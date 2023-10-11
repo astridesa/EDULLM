@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Knowledge Distillation refers to a model compression technique where a small or tiny model, also known as a student model, is trained to mimic the behavior of a large complex model, known as the teacher model. This method implicates retaining much of the teacher model's predictive power while significantly reducing computational complexity. It is a popular approach to enhance the performance of smaller models, making them an ideal choice for low-resource hardware like mobile devices or edge computing. 
+
+<HISTORY>
+Knowledge Distillation was first introduced by Geoffrey Hinton and his team in a 2015 paper, "Distilling the Knowledge in a Neural Network". The approach was presented to overcome the limitations of deploying large Neural Network models to devices with low computational power. Since then, it has been widely adopted in the field of machine learning and deep learning to perform model compression without a significant loss in performance.
+
+<KEY IDEAS>
+At its core, Knowledge Distillation involves training a student model to mirror a teacher model, typically a large complex model. This is done by minimizing the distance between the output probability distributions of the student and teacher models, typically measured with the Kullback-Leibler divergence. A softening temperature is often introduced to smooth the teacher’s output, revealing more nuanced information about the input space. This offers the student model a richer guidance, helping it to learn more effectively.
+
+<VARIATIONS> 
+Several variations of Knowledge Distillation have emmerged over the past years. Some of these include 'FitNets', where hints drawn from the teacher model's intermediate layers are utilized in training the student model. Another variant, 'Attention Transfer', concentrates on transferring the teacher model’s attention maps. 'Born-Again Networks' provide a different spin where the teacher and student are the same structure, and layers are distilled iteratively. Other techniques include 'Probabilistic Knowledge Transfer' and 'Dark Knowledge Distillation'.
+
+<APPLICATIONS>
+Knowledge distillation finds applications in various sectors due to its ability to deploy lightweight models without sacrificing significant performance. It can be used in natural language processing tasks such as text classification, sentiment analysis, etc., where smaller models offer faster processing without a considerable trade-off in accuracy. Furthermore, it proves beneficial in deployments on smartphones and IoT devices where computational resources and energy efficiency are paramount. In image analysis and computer vision, distillation aides in real-time applications by deploying less complex models.

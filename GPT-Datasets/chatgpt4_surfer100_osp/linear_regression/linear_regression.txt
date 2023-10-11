@@ -1,0 +1,15 @@
+<INTRODUCTION>
+Linear regression is a foundational statistical modeling technique used in multiple research fields, including economics, engineering, and the sociological sciences. As a part of predictive modeling and machine learning, linear regression offers insights into the relationships between two or more features of a dataset. By fitting a line (or hyper-plane in multivariate cases) to data points, it measures the extent of statistical dependence between variables. It's widely used in forecasting, trend analysis, and in the formation of causative models between inputs and outputs.
+
+<HISTORY>
+The history of linear regression can be traced back to the 19th century when it was introduced by Francis Galton, an English polymath, in the context of developing variation theory. While studying the relationship between parents' heights and their offspring, Galton coined the term 'regression.' The primary problem it initially addressed revolved around predicting one variable's value based on the other known variable's value.
+
+<KEY IDEAS>
+At its core, linear regression models a relationship between two variables, independent (predictor) and dependent (response), by fitting a linear equation to observed data. The steps in creating this model include determining the best fit line (the regression line) and using it to predict future values. The model's key parameters are the slope and y-intercept, they designate the strength of the relationship and the initial value when x=0, respectively. It's grounded in certain assumptions (linearity, independence, homoscedasticity, and normality of residuals) to perform valid inferential statistical analyses.
+
+<USES/APPLICATIONS>
+Linear regression has vast ranging applications across fields including business, medicine, social sciences and more. In business, it's used for time series forecasting - predicting stock prices and sales volume based on time. In medicine, it assists in predicting disease progression. It's also used in social sciences for the prediction of economic trends, behavior analysis, etc. Further, it is also a building block for many complex machine learning models.
+
+<VARIATIONS>
+Multiple variations of linear regression exist, each serving a unique purpose under differing circumstances. Some of these are Ridge Regression, Lasso Regression, ElasticNet, Polynomial Regression, and Logistic Regression. While most of them attempt to deal with overfitting, underfitting and preserving the model's generalization, Polynomial Regression fits a nonlinear relationship into a linear regression model. Linear Regression's simplicity and efficiency has cemented its position in the larger picture of statistical analysis, data science and machine learning. 
+

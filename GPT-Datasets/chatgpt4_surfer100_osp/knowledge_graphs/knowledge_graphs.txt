@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Knowledge Graphs (KGs) belong to the field of semantic technology and artificial intelligence. They store data relationships in a graphical format. Simply put, it's a flexible, structured way of representing information, enabling intelligent systems to comprehend and utilise complex structures of data. This allows for accurate data retrieval, results prediction, and anomaly detection. The popularity of KGs soared with the advent of advanced analytics tools and machine learning algorithms that enhanced their application towards grabbing insights and decision-making. 
+
+<HISTORY>
+The precursor to modern Knowledge Graphs was conceived by Richard Fikes and Nils Nilsson in 1971 at Stanford Research Institute in the form of semantic networks. Later, during the 1980s and 1990s, logic-based and graph-based models were developed which inspired the creation of Resource Description Frameworks. Coming out of Google in 2012, the most popular Knowledge Graph shifted the focus of search engines from simply giving results to understanding users' intentions and the context behind queries.
+
+<KEY IDEAS>
+At the core of Knowledge Graphs are triples, known as 'subject-predicate-object' expressions, where the subject and object represent entities, and the predicate represents the relationship between them. These entities are placed in a graph structure. Triples allow Knowledge Graphs to make logical inferences, turning raw data into a meaningful whole. The expressivity of KGs, scalability, and compatibility with structured, unstructured, and semi-structured data levels up their utility in diverse domains. 
+
+<USES/APPLICATIONS>
+Knowledge Graphs are used in various fields such as eCommerce for personalised product recommendations; in search engines to provide better results by understanding users' intent and context; in healthcare for patient diagnosis and treatment; and in social networks to enhance user experience by understanding relationships and interactions. Knowledge Graphs can help integrate enterprise data, making it easy to retrieve and understand. They are also widely applied in the field of machine learning and natural language processing.
+
+<VARIATIONS>
+Many variations of Knowledge Graphs exist depending on the domain and use case. Notable ones include Wikidata, which seeks to collate structured data from various Wikimedia projects; Facebook's Entity Graph for enhancing users' feeds; and Google's Knowledge Graph used for its search engine. The Linking Open Data community project aims to intersect public datasets into a unified cloud. Each of these illustrate the broader shift towards data connectivity, where Knowledge Graphs play a vital role in turning isolated data into a connected whole.

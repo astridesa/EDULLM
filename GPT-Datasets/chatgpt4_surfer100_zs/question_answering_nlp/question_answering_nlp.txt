@@ -1,0 +1,16 @@
+Title: Question Answering Natural Language Processing: An Overview
+
+Introduction:
+Question Answering (QA) Natural Language Processing (NLP) is an exciting subfield of artificial intelligence which seeks to design algorithms and systems capable of providing accurate answers to questions posed in natural, human language. The task requires a profound understanding of linguistic semantics and context, as well as significant computational ability. It forms an essential part of human-machine interfaces, online customer support, and automated information retrieval systems.
+
+History:
+The concept of QA NLP has been around since the early 1960s with ELIZA, one of the first chatbots that could simulate conversation. The rise of information retrieval and the internet triggered the development of more sophisticated QA systems such as START, Watson, or modern voice assistants like Alexa and Siri. The advancement of deep learning methods in the 2010s, particularly transformer models, further accelerated the progress in this field, marking an exciting new era in QA NLP.
+
+Key Ideas:
+QA NLP primarily depends on three core notions: question classification, document retrieval, and answer extraction. Question classification involves understanding the type of answer expected (person, location, date etc.). Document retrieval refers to identifying relevant sources from a large text corpus. Finally, answer extraction involves locating the exact answer within the retrieved documents. All these steps involve advanced NLP techniques such as semantic analysis, named entity recognition, discourse analysis, and machine learning algorithms.
+
+Variations:
+QA NLP systems can be closed or open-domain. Closed-domain systems are designed to answer questions from a specific field, like medicine, law, or finance. These systems usually have a restricted dataset and high accuracy. Conversely, open-domain QA systems are designed to answer broad questions by leveraging large text corpora or the internet. They are challenging to design due to the vast information size and diversity. QA NLP can also be categorized based on the response type: factoid (single word or phrase) or non-factoid (longer narrative form).
+
+Applications:
+QA NLP has wide-ranging applications, from customer service to education. Virtual assistants like Apple's Siri or Google Assistant use QA NLP to answer user queries. Companies use it for providing automated customer support, saving resources and enhancing user experience. In education, it can aid learning by answering students' questions. The QA NLP technology can also be used in various business contexts, for example, to extract specific information from large datasets or automate email responses.

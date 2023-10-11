@@ -1,0 +1,18 @@
+Title: A Comprehensive Survey on Text Summarization
+
+Introduction:
+Text summarization is a vital natural language processing (NLP) technique that condenses lengthy pieces of text into concise summaries while preserving the essential information. In this survey, we delve into the evolution, key ideas, variations, and applications of text summarization.
+
+History:
+Text summarization traces its roots back to the early days of NLP when researchers first explored automated techniques to generate abridged versions of texts. Initially focused on extractive approaches, summarization algorithms gradually incorporated more advanced techniques such as abstraction, leading to significant advancements in the field.
+
+Key Ideas:
+Text summarization techniques are mainly categorized into two types: extractive and abstractive. Extractive methods aim to extract relevant sentences or phrases from the source text to form the summary, while abstractive methods generate new phrases to convey the main ideas. Both approaches employ various linguistic and statistical methods to achieve effective summarization.
+
+Variations:
+Within the extractive and abstractive paradigms, several variations of text summarization have emerged. Graph-based techniques leverage graph algorithms to identify important sentences or words in the text, while deep learning-based models use neural networks to produce high-quality summaries. Additionally, there are also query-focused summarization methods that aim to generate summaries based on specific queries or topics.
+
+Applications:
+Text summarization finds applications in various domains, including news articles, social media, legal documents, academic papers, and many more. Summarization algorithms enable faster information retrieval, facilitate browsing through large volumes of text, aid in document summarization for research, and enhance user experience by providing concise summaries of long texts.
+
+In conclusion, this survey provides an overview of text summarization, its historical roots, key ideas, various approaches, and applications. The advancements in this field have paved the way for effective information extraction and have the potential to revolutionize the way we consume and analyze textual data.

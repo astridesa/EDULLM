@@ -1,0 +1,14 @@
+<INTRODUCTION>
+The Gaussian Mixture Model (GMM) is a probabilistic model for representing normally distributed subpopulations within an overall population. It is a method of 'soft' classification which provides the likelihood of a given data point belonging to each established class. GMM uses Expectation-Maximization (EM) algorithms to estimate the probabilities. The mixture of Gaussian distributions, translated into numerous peaks within the distribution, is useful when multiple inherent subclasses are present within an overall class.
+
+<HISTORY>
+GMMs were introduced in the world of statistics in the early 70s by the research work of mathematicians and statisticians. The model combined classic elements of statistics, such as the law of Gaussian distributions, with machine learning procedures. It came about as a method for finding approximate solutions to complex problems where the actual statistical model for a given process is unknown or too complex to handle.
+
+<KEY IDEAS>
+The GMM distributes data into different Gaussian distributions, each characterized by parameters: the mean and the variance. During the initial phase, these parameters are randomly assigned, following which GMM uses the Expectation–Maximization (EM) algorithm to iteratively refine the values of the parameters. The steps involved in processing an EM iteration involve (1) E-step: for estimating the likelihood and (2) M-step: for maximizing parameters for the assumed Gaussian distributions. The process repeats until the marginal change in likelihood falls below a minimal threshold.
+
+<VARIATIONS>
+GMMs can be adapted to different problem contexts. For example, High-Dimensional Gaussian Mixture Models are used when dealing with data of high dimensionality. Variational Gaussian Mixture (V-GMM) is another variant that uses Variational Inference approach to fit a Gaussian Mixture more efficiently, especially applicable for large datasets. Other variants, like Bayesian Gaussian Mixture Models, employ a Bayesian approach for mixture modeling.
+
+<USES/APPLICATIONS>
+GMMs find usage in various real-world applications. In the field of image processing, GMMs are utilized for image segmentation and have a crucial role in Motion Detection in a complex visual environment. In the field of voice recognition, GMMs aid in identifying individual-specific patterns, including the speaker's voice's timbre. They are also key in anomaly detection where data distribution exhibits multiple peaks. The financial sector uses GMMs for credit rating, portfolio management, and risk management. GMMs are also prevalent in bioinformatics, especially in the activity of clustering gene expressions.

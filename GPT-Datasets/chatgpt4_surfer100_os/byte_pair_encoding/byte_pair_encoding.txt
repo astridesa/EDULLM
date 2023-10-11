@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Byte Pair Encoding (BPE) is a commonly used algorithm in Natural Language Processing (NLP) systems, specifically for tasks that require tokenization and vocabulary compression. It is a simple yet powerful method that allows systems to handle a wide range of vocabulary regardless of language or domain. The algorithm utilizes a form of data compression where frequent pairs of bytes are replaced with a byte that does not exist within the training dataset, helping to keep the vocabulary compact and manageable. 
+
+<HISTORY>
+Byte Pair Encoding was initially proposed for data compression in the 1990s. However, its application to Natural Language Processing wasn't discovered until much later. Sennrich, Haddow, and Birch first introduced it in Neural Machine Translation in 2015. They proposed it as a solution to the vocabulary problem in neural network-based language models, where common words were getting a disproportionately high representation, leaving rare words unrecognized.
+
+<KEY IDEAS>
+The primary idea behind Byte Pair Encoding revolves around building a vocabulary list of symbols (single or consecutive characters) and, iteratively, merging frequent neighbouring pair symbols on the list to form new symbols. This process continues until a preset limit is reached. With this method, the out-of-vocabulary issue is reduced, as the system can still process unrecognized words by breaking them down into known subword units, providing better encoding efficiency and model performance.
+
+<VARIATIONS>
+Traditional BPE has its limitations, particularly in handling rare words and morphologically rich languages. Various approaches have been taken to improve BPE, such as WordPiece, SentencePiece, and Unigram Language Model. For instance, WordPiece, as used by Google's BERT, modifies BPE by introducing a special token for the beginning of words, thus solving the issue with rare words. SentencePiece, on the other hand, allows language-agnostic tokenization by treating the input as a raw input stream, making it easier to use in multilingual contexts.
+
+<APPLICATIONS>
+Byte Pair Encoding is popular in many machine learning and NLP applications. Its most prominent use case is in Neural Machine Translation due to its ability to handle a wide range of vocabularies. Additionally, it is used in sentiment analysis, language-based AI models like GPT-2 and GPT-3, and in constructing language model pre-training methods like RoBERTa. With its potential to deal effectively with a vast vocabulary spectrum, BPE has set a new standard in processing and understanding languages in NLP applications.

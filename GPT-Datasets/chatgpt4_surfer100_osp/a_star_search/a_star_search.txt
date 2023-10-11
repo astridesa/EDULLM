@@ -1,0 +1,14 @@
+<INTRODUCTION>
+A* Search algorithm is a widely popular method used in pathfinding and graph traversal, a subfield of artificial intelligence, which aims to identify the shortest path in a graph from a starting point to a goal. Introduced by Nils J Nilsson, this algorithm revolutionized problem-solving in AI, with applications ranging from video game AI to logistics optimizations. The algorithm vertically combines heuristic methods such as Best-First-Search and formal methods such as Dijkstra's algorithm for traversal.
+
+<HISTORY>
+The A* Search algorithm was first described by Peter Hart, Nils J. Nilsson, and Bertram Raphael of Stanford Research Institute in 1968. The algorithm was introduced to solve the problem of finding an optimal path in a graph, a typical issue in Artificial Intelligence and robotics. Historically, methods like Dijkstra's and Bellman-Ford were used for shortest path problems, but A* improved upon these by including a heuristic function to estimate the cost of reaching the goal from any given node, allowing it to find the shortest path more efficiently.
+
+<KEY IDEAS>
+The central idea of the A* Search algorithm is to use a heuristic function, which the algorithm uses to estimate the cost of the path from a node to the goal. The total cost calculated by A* for a node (f(n)) is the sum of the cost from the start to a node (g(n)) and the heuristic cost from this node to the goal (h(n)). A* constructs a tree of paths and simple decision rules to decide which path to expand next, based on the cost of a path and the cost to complete the path. 
+
+<USES/APPLICATIONS>
+The A* Search algorithm has been extensively employed in various fields. It is highly used in routing protocols such as Open Shortest Path First (OSPF) and routing for telephone networks. In AI and machine learning, A* is used for search spaces where making an optimal choice in each state is not feasible. In video game development, A* is used for pathfinding elements like instructing an NPC to follow a player, while in robotics, it applies to motion planning.
+
+<VARIATIONS>
+The A* Search algorithm has given rise to numerous variations including Iterative Deepening A* (IDA*), Memory-Bounded A* (MA*), and Simplified Memory-Bounded A* (SMA*). IDA* uses less memory but is less efficient than A*, whereas MA* and SMA* offer solutions to memory-constraints in A*. This algorithm is part of a larger framework of graph search algorithms, like Dijkstra’s algorithm, Best-First-Search, and other heuristic search algorithms. Its successful integration of formal and heuristic methods remains its distinguishing feature.

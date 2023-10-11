@@ -1,0 +1,22 @@
+Article: Maximum Marginal Relevance: A Survey 
+
+1. Introduction
+
+The theory of Maximum Marginal Relevance (MMR) introduces a concept that balances the amount of new, relevant information presented and the similarity to information already provided. The fundamental idea is to optimize the presentation of information by avoiding redundancy and reinforcing pertinent data, with text summarization being a prime example. It plays a significant part in ranking algorithms inside Information Retrieval Systems.
+
+2. History
+
+The theory surfaced during the latter half of the '90s, introduced by Jaime Carbonell and Jade Goldstein of Carnegie Mellon University. Their work highlighted a multi-document summarization system called "Mead." Mead, utilizing the MMR concept, was programmed to choose sentences based on not only information presence but also their novelty, aiding in content diversity.
+
+3. Key Ideas
+
+MMR essentially formulates the information retrieval into a tradeoff between relevance and diversity. Two sentences can be highly relevant but duplicative, while two others may be minimally relevant but diversely informative. Thus, the primary idea lies in identifying an optimal balance that maximifies marginal relevance–sufficient data provision while minimizing content duplication.
+
+4. Variations
+
+MMR is often manipulated to adapt to different objectives. For instance, in reducing redundancy during multidocument summarization, a higher diversity factor may be chosen. In contrast, emphasizing relevance might be more fitting for single document summarization. Besides text summarization, MMR can apply to various domains–each necessitating its own unique variation.
+
+5. Applications
+
+Applications of MMR include single-document and multi-document text summarization, machine learning, and search engine results ranking. In machine learning, it helps curate diversified training data sets, improve regression algorithms, and balance bias-variance tradeoff. MMR is integral in search results, ensuring that returned items are not just relevant but also diverse, thereby improving the user's search experience.
+

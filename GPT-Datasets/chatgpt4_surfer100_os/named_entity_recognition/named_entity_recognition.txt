@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Named Entity Recognition (NER) is a crucial component of Natural Language Processing (NLP) and Information Retrieval (IR). It involves the identification and classification of named entities such as people, organizations, locations, and dates within a body of text. This process enables understanding of the context within documents and aids in tasks such as information extraction, machine translation, question answering, and news article filtering. Central to this process is the capacity of the algorithm to distinguish between common words and proper nouns pertinent to the context.
+
+<HISTORY>
+The early stages of Named Entity Recognition can be traced back to the mid-1990s, where the task was introduced during the Sixth Message Understanding Conference (MUC-6). Its initial purpose was to support Information Extraction (IE). Over time, NER evolved from rule-based approaches, which were time-consuming and laborious, to more flexible machine learning methods. The introduction of Conditional Random Fields (CRFs) in 2001 was a significant turning point that helped enhance the efficiency and adaptation of NER to various languages and domains.
+
+<KEY IDEAS>
+At the heart of NER lies the concept of understanding and recognising various elements in a text. This is achieved through two core areas: Named Entity Classification and Entity Linking. Named Entity Classification involves classifying the entities into predefined categories such as 'Person,' 'Location,' 'Organization,' etc. Entity Linking is about connecting a named entity to a distinct identifier in a Knowledge Base (KB) like Wikipedia or a database. These steps enable the understanding of semantic relations between entities and the meanings behind them.
+
+<VARIATIONS>
+Several variations distinguish how different algorithms approach NER. These variations can be broadly categorized into heuristic-based, supervised learning-based, semi-supervised learning-based, and unsupervised learning-based. Heuristic-based NER leverages rule-based methods or dictionary-based methods. Supervised learning-based NER uses annotated datasets and algorithms such as Decision Trees, Hidden Markov Models, and support vector machines. Semi-supervised and Unsupervised learning-based NER rely on clustering and distributional similarity, making use of less annotated data.
+
+<APPLICATIONS>
+NER has wide-ranging applications, primarily in enhancing the access and analysis of information. This technique is used in document summarization, information retrieval, and semantic role labeling, providing a more nuanced understanding of the content. In the medical field, NER aids in structuring medical notes, improving patient care. In the business sector, this technique assists in customer query routing, contract analysis, brand sentiment analysis, and compliance by extracting and categorizing critical information such as personal names, company names, monetary values, and percentages.

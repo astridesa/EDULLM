@@ -1,0 +1,18 @@
+Title: A Comprehensive Survey on RMSprop Optimizer
+
+Introduction:
+This article presents a survey on the RMSprop (Root Mean Square propagation) optimizer, a popular and efficient optimization algorithm widely used in training deep neural networks. RMSprop is an adaptive learning rate method which works cost-effectively for complex optimization problems where the gradient of loss function with respect to model parameters changes dynamically. The algorithm aims to rectify the radical reduction in learning rate, which is a prevalent issue in its predecessor technique, AdaGrad. It does this by maintaining a moving (discounted) average of the square of gradients.
+
+History:
+RMSprop was first proposed by Geoff Hinton in his Coursera course on neural networks for machine learning in 2012. Hinton introduced RMSprop as a solution for the diminishing learning rates in the AdaGrad algorithm for deep learning networks. The algorithm was not officially published in a research paper but has been widely adopted across machine learning communities due to its effectiveness in certain deep learning scenarios where other gradient descent optimization algorithms struggle.
+
+Key Ideas:
+The principle behind the RMSprop optimizer revolves around maintaining an exponentially decaying average of past squared gradients. This process adjusts the learning rate on a per-parameter basis depending on the magnitudes of parameter updates. It squashes the gradients by the root mean square of gradients to prevent explosion, thus making the network more robust to initialized values and the chosen learning rate. This property helps RMSprop to navigate ravines, i.e., areas where the surface curves much more steeply in one dimension than in another, which are common around local optima.
+
+Variations:
+RMSprop has seen variations and improvements over the years. Adam, short for Adaptive Moment Estimation, is a significant extension of RMSprop that besides storing an exponentially decaying average of past squared gradients like RMSprop, also keeps an exponentially decaying average of past gradients. Adam is often preferred over RMSprop as it mitigates its shortcomings, particularly the aggressive, uncompensated decay in the learning rate.
+
+Applications:
+RMSprop is predominantly utilized in various domains of deep learning, including image processing, natural language processing, and reinforcement learning. Specifically, in scenarios where processing large-scale data sets and training high-dimensional neural networks are required, RMSprop demonstrates efficiency and effectiveness. Its ability to handle sparse gradients on unbalanced data sets also makes it a useful option for text classification tasks, sentiment analysis, and recommendation systems.
+
+

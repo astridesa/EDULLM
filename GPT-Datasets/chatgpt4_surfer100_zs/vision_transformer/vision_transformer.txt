@@ -1,0 +1,19 @@
+**Introduction**
+
+Vision Transformers(ViT) represent the application of Transformer models, commonly used in Natural Language Processing (NLP), to computer vision tasks. ViTs have demonstrated superior results compared to conventional convolutional neural networks (CNNs), particularly in image classification tasks, owing to their capability to infer global dependencies in images. The transformative idea is to treat images as a sequence of patches, analogous to sequence of words in NLP.
+
+**History**
+
+ViTs were introduced in a 2020 paper titled “An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale” by researchers at Google Research. The study was motivated by the success of Transformers in NLP and hypothesized its potential benefit in handling long-range, global dependencies within images, a challenge in traditional CNNs. The ViT model marked a significant move from local to global feature learning methods in computer vision.
+
+**Key Ideas**
+
+The primary innovation of ViTs is the treating of images as sequences of fixed-sized patches of pixels, much like how sentences are treated as sequences of words in NLP. This allows ViTs to capture global dependencies within the image. The patches are then linearly embedded to a sequence of vectors, to be processed by a standard Transformer. The model also introduces a unique Position Embedding to maintain the 2D geometry of the image.
+
+**Variations**
+
+Several variations of the original ViT model have evolved, enhancing its benefits or addressing its limitations. For example, DeiT (Data-efficient image Transformers) focuses on achieving competitive results with fewer data, 'Swin Transformer,' introduces shifted windows to maintain both local and global information. Other notable variations include 'ConViT,' which incorporates convolutional inductions, and 'CvT (Tokens-to-Token ViT),' which integrates token and convolutional perception interchangeably.
+
+**Applications**
+
+Vision Transformers have been predominantly used for image classification tasks, where they have outperformed traditional CNNs models on ImageNet dataset. However, their use is not limited to this; they are adopted in areas such as object detection and semantic segmentation demonstrating impressive performance. Furthermore, the use of ViTs in medical imaging/analysis, autonomous driving, surveillance, and facial recognition, highlights their broad applicability and promising future in the realm of computer vision.

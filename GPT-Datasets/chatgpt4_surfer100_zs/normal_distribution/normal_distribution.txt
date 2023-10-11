@@ -1,0 +1,16 @@
+Title: An Overview of "Normal Distribution"
+
+Introduction:
+The Normal Distribution, also known as Gaussian Distribution, is a probability distribution that illustrates the behavior of myriad occurrences in nature, social science, and business. Illustrated as a symmetric bell-shaped curve, it is defined by two parameters - mean (µ) and standard deviation (σ). The curve showcases a high concentration of data around the mean and tails off as it moves further away, depicting that the likelihood of extreme outcomes is relatively low.
+
+History: 
+The normal distribution was first introduced by renowned mathematician De Moivre in an article he published in 1733. However, it was formalized by Carl Friedrich Gauss, a German mathematician, whose work in the early 19th century widely popularized the concept, hence its alternative name, Gaussian distribution. The more standardized version of normal distribution was introduced by the French mathematician Abraham De Moivre.
+
+Key Ideas:
+Normal Distribution is defined by the mean and the standard deviation. The mean represents the center of distribution, where data is at its highest frequency, while standard deviation demonstrates the dispersion of data from the mean. Approximately 68% of data falls within one standard deviation from the mean, about 95% within two deviations, and nearly 99.7% within three deviations; this is known as the Empirical Rule or the 68-95-99.7 Rule.
+
+Variations: 
+There are two types of normal distributions: Standard Normal Distribution and Non-standard Normal Distribution. The Standard Normal Distribution has a mean of zero and a standard deviation of one. All Non-standard Normal Distributions can be converted into Standard Normal Distributions by applying a method called standardization or normalization. The significance of standard normalization is that it allows easy comparison of data across different units of measurement.
+
+Applications:
+Normal Distribution is essential in both theory and practice of statistics. It's used in quality control manufacturing, in stock market returns and other fields in finance, in social sciences for behavioral statistics, and in natural sciences for study of measurements errors. Also, it aids in statistical hypothesis testing as several tests like t-test, ANOVA, chi-squared test assume normal distribution. The central limit theorem, which states that the sum of a large number of independent and identically distributed random variables approximately follows a normal distribution, further broadens its applications.

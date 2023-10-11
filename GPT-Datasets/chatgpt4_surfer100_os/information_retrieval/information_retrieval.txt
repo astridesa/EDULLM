@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Information Retrieval (IR) is an area of study focused on searching for documents, information, and information resources. This could encompass searching within databases or the internet, or within personal data repositories. The main goal of IR is to provide the user with the most relevant set of documents for their specific search query. This involves key elements like indexing, storing, and retrieving data, that forms the foundation of structures like search engines. 
+
+<HISTORY>
+The history of information retrieval dates back to the time of library catalogs in the 19th century. With the advent of computers in the middle of the 20th century, the subject began its transition to digital form. The journey of IR went up a gear in 1990 with the arrival of the World Wide Web and search engines. Gerard Salton, known as the 'father of information retrieval,' contributed significantly to the modern pursuit of IR with his work on the vector space model.
+
+<KEY IDEAS>
+Key concepts in information retrieval include relevance, recall, precision, and the indexing and ranking of search results. Relevance refers to how appropriate the retrieved documents are to the user's query. Recall is the percentage of all relevant documents that are successfully retrieved, while precision is the percentage of retrieved documents that are relevant. Indexing helps categorize the documents into quick searchable formats and ranking helps order the documents in terms of relevance to the user's query.
+
+<VARIATIONS>
+Information retrieval systems can be classified into different types based on the nature of the information source, search techniques, and the level of user interaction. Sources can range from unstructured data like web pages, to structured databases. Search techniques can be categorized as either ad-hoc or static. User interaction can vary from interactive (user iteratively refines their search) to non-interactive systems.
+
+<APPLICATIONS>
+IR plays a significant role in a variety of fields, from web search engines like Google and Bing, to database search in specific professional fields like legal and medical. Email programs use IR techniques for spam filtering, while recommendation systems for online shopping, movies, or music also utilize the principles of IR. IR has a pervasive influence on our daily lives, making accessibility to information easier in this digital age.

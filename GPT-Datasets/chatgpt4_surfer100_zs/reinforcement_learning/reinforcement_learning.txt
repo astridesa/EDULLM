@@ -1,0 +1,16 @@
+Title: Reinforcement Learning: Interplay of Algorithms and Learning Methods
+
+1. Introduction
+Reinforcement Learning (RL) represents a specific sphere of Machine Learning (ML), where an agent learns to behave in an environment, by performing certain actions and observing the results or feedback of these actions. Essentially, the agent learns through interaction to achieve a goal or complete a task. It closely emulates trial-and-error learning in humans and aims to maximize some portion of cumulative reward.
+
+2. History
+The foundation of Reinforcement Learning traces back to the fields of optimal control and operations research in the 1950s, which dealt largely with decision-making and resource allocation. The term "reinforcement learning" itself originated in the 1970s and the 1980s from research in animal learning, psychology, and AI. However, it was not until the 1990s that RL began its significant accomplishments, largely influenced by developments such as Q-learning and temporal difference learning.
+
+3. Key Ideas
+Central to RL are the concepts of states, actions, and rewards within a given environment. The agent makes observations about its current state and takes actions, leading to a change of state and a corresponding reward or penalty. Learning policies dictate the course of actions chosen by the agent. These policies are improved over time by maximizing the expected cumulative rewards, a practice known as "policy iteration". Another key idea, "value iteration", involves updating the estimated value of each state by considering future rewards.
+
+4. Variations
+RL has diverse varieties, including model-free methods like Q-learning and policy gradients that learn directly from samples of experience. Other variations include model-based RL which uses a model of the environment to make decisions; and deep reinforcement learning combines deep learning and RL for complex tasks involving high-dimensional inputs. Multi-agent RL and inverse RL are relatively newer variants dealing with multiple learning agents and learning from observed behavior respectively.
+
+5. Applications
+RL has shown remarkable success in a range of complex, dynamic fields. It's been used extensively for playing games, from old classics like Chess and Go to modern video games. Beyond games, RL finds applications in robotics for tasks like maneuvering, picking, and placing. It is also applied in resource management, autonomous vehicles, finance for automated trading, healthcare for personalized treatment policies, web systems for online advertising and recommendation systems, among other areas. Its versatility and adaptability to different problem settings highlight the potential opportunities this learning methodology holds.

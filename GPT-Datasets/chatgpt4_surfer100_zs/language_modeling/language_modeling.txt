@@ -1,0 +1,22 @@
+**Article Title: Language Modeling**
+
+**1. Introduction**
+
+Language Modeling (LM) is a critical component in the field of Natural Language Processing (NLP), a subsection of artificial intelligence (AI). The crux of LM revolves around the development of probabilistic models, which predict the next word in a sequence based on the words already present. It is used heavily in multiple applications such as speech recognition, machine translation, spelling correction, and information retrieval systems.
+
+**2. History**
+
+LM’s foundation was laid in the 1980s, with innovations such as N-grams. They are simple probabilistic models estimating probabilities of word sequence occurrences. Soon after, Hidden Markov Models (HMMs) gained popularity for their ability to recognize patterns over time. However, their lack to account for long sequence dependencies led to their replacement by Recurrent Neural Networks (RNNs) in the 1990s. In the mid-2010s, a leap to Transformer-based models like GPT and BERT revolutionized the field with enormous interpretive power owing to their use of attention mechanisms.
+
+**3. Key Ideas**
+
+At its core, LM estimates probabilities by observing a sequence of words, allocating higher probabilities to sequences that occur more frequently. The core idea behind it is the hypothesis of conditional probabilities, i.e., the probability of a word appearing depends highly on the words preceding it. Another essential idea is handling the rarity or absence of certain expressions in dataset training—this is tackled through techniques like smoothing and back-off models.
+
+**4. Variations**
+
+Several variations of LM exist, each with its unique method of probability estimation. While N-gram models use fixed-length word sequences, RNN-based models account for longer dependencies. Variations like the Transformer-based models employ attention mechanisms allowing models to manage longer-range dependencies in the sentence better. Furthermore, there are character-based and word-based models. The former considers text as a sequence of characters, while the latter views it as a sequence of words.
+
+**5. Applications**
+
+LM is virtually omnipresent in any computational task involving human language. It's used in autocomplete functions, predictive texting, and autocorrect systems. LM is also utilized in machine translation services, voice-controlled assistance, and information retrieval applications. More advanced applications comprise creating human-like dialogues through chatbots, generating human-like text, and sentiment analysis.
+

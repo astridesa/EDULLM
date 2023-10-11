@@ -1,0 +1,16 @@
+Title: Collaborative Filtering: A Comprehensive Study 
+
+INTRODUCTION 
+Collaborative filtering (CF) is a method utilized by recommendation systems in order to generate predictive suggestions to users based on the behaviors, preferences, and actions of similar, other users. It is especially effective in the fields where gathering extensive data about users and their preferences is possible. CF technologies drive the platforms at e-commerce giants like Amazon and streaming services such as Netflix, serving personalized product recommendations or film suggestions to their users. 
+
+HISTORY 
+The concept of collaborative filtering was introduced in the 1990s with the Tapestry system developed by Xerox PARC. It was initially applied in the area of information retrieval and, later, in e-commerce. The term itself was coined by David Goldberg and his team, who developed a system named ‘Tapestry’ which was an early application utilizing this technology. The growth of the internet has significantly propelled the sophisticated use of CF since the 2000s. 
+
+KEY IDEAS 
+The core idea behind collaborative filtering is that if individuals agreed in the past, they will agree in the future. It is fundamentally divided into two parts: memory-based and model-based approaches. Memory-based methods work directly with values of recorded user-item interactions to make predictions, whereas model-based methods use those values to form a predictive model. Techniques involve user-based, item-based, and the hybrid of both.
+
+VARIATIONS 
+Many variations of collaborative filtering exist, tailored to fit specific use-cases. Some common variations are matrix factorization, clustering, and deep learning methods. Matrix factorization decomposes the user-item interaction matrix into the product of two lower dimensionality rectangular matrices. Clustering, on the other hand, divides users/items into distinct groups, isolating like-minded users or similar items together. Recent developments employ neural networks and deep learning for better prediction accuracy.
+
+APPLICATIONS
+Collaborative filtering has been adopted in a multitude of systems due to its vast scalability and customizability. It is extensively used in e-commerce for product recommendations, in online streaming services for suggesting movies or songs, in social networking sites for friend suggestions, and even in job portals for job recommendations. Beyond this, CF has also found application in healthcare, publishing, and the travel industry. Its universal applicability is a testament to its effectiveness in enhancing user experience and engagement.

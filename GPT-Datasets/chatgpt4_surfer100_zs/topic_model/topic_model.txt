@@ -1,0 +1,16 @@
+**Topic Model: An In-Depth Review**
+
+**Introduction**
+A Topic Model is a statistical tool that presents an organized method of discovering hidden thematic structures in large volumes of texts. It encompasses numerous algorithms that automatically uncover topics in a variety of documents. The tool uses the 'bag of words' assumption, giving relevance to the frequency of words in documents while disregarding the order. Topic Modelling is a machine learning technique used in Natural Language Processing (NLP), information retrieval, and digital humanities.
+
+**History**
+Originating from Probabilistic Latent Semantic Indexing and Latent Dirichlet Allocation (LDA) techniques in the early 2000s, Topic Modeling has seen groundbreaking evolution. Following LDA, a range of topic models were proposed, including Correlated Topic Models, Dynamic Topic Models, and Hierarchical Dirichlet Processes, to name a few. These models aim to address various limitations inherent in LDA, thus extending its efficiency and applicability.
+
+**Key Ideas**
+Central to the theory of topic models is the concept that documents are represented as random mixtures over hidden topics with each topic characterised by a distribution over words. The frequency and arrangement of words within a document inform the potential topics it could fall under. By analyzing a large number of documents, these models can determine which topics appear together and how often, giving great insight into associations and themes.
+
+**Variations**
+Several variations of topic models have emerged, addressing specific complexities and requirements. Among these are the Dynamic Topic Model (DTM) that handles changes over time, Author-Topic Models for authorship profiling, Structured Topic Models for documents with metadata, and Correlated Topic Models that consider correlation between topics. In recent years, Non-negative Matrix Factorization and Word Embedding Topic Model are also employed for unique, specific requirements.
+
+**Applications**
+Topic models find immense applicability in numerous areas. In document classification, they help group similar documents or divide a single document into relative subtopics. Industries like journalism and law use them for content recommendation and legal precedent setting, respectively. Also, in Academic Research, topic models aid to detect trends and patterns in massive corpora of texts. In digital marketing, they assist in understanding customer sentiments and preferences. By identifying prevalent trends or themes in a dataset, they provide critical insights for business strategies.

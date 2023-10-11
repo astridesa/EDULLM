@@ -1,0 +1,15 @@
+<INTRODUCTION>
+Byte Pair Encoding (BPE) is a data compression technique in the field of natural language processing (NLP) and computational linguistics. It was initially used in lossless data compression and later adopted in NLP for subword tokenization. It segments words into subword units, allowing for more efficient encoding of information. With its application in various tasks such as machine translation and text generation, BPE helps to handle out-of-vocabulary words, making it a crucial tool in processing languages with large vocabularies or morphology-rich ones.
+
+<HISTORY>
+BPE was first introduced by Philip Gage in 1994 as a method to compress text data. At that time, it was particularly effective for preprocessing data before applying other compression methods. Years later, researchers found value in using BPE in NLP and machine translation, realizing its potential in effectively addressing the issue of unknown or out-of-vocabulary words in these fields.
+
+<KEY IDEAS>
+The core idea of BPE lies in iteratively replacing the most frequent pair of bytes with a single, unused byte. Starting with a vocabulary of individual characters, BPE finds the most frequent pair of symbols in the text (e.g., 'e' and 's') and replaces it with a new symbol (e.g., 'es'). This process is repeated a predefined number of times, gradually merging frequent pairs of symbols into single symbols. In the context of NLP, these symbols can represent whole words, parts of words, or individual characters, allowing BPE to handle out-of-vocabulary words effectively.
+
+<USES/APPLICATIONS>
+BPE is widely employed in machine translation and other NLP tasks where handling unknown and out-of-vocabulary words is necessary. For example, by splitting words into common subword units, BPE enables a translation model to generalize from known words to unknown words, significantly improving translation quality. It is also used in text generation and language modeling tasks where dealing with large vocabularies is crucial.
+
+<VARIATIONS>
+Variations of BPE include SentencePiece and Unigram Language Model. SentencePiece, proposed by Google, is a language-independent subword tokenizer and detokenizer that treats the input as a raw input string, eliminating the need for preprocessing and postprocessing. The Unigram Language Model, on the other hand, defines a probabilistic sentence piece segmentation, handling each sentence piece independently in the vocabulary. These variations adapt and expand on the key concepts behind BPE, demonstrating its influence across the field of NLP. 
+

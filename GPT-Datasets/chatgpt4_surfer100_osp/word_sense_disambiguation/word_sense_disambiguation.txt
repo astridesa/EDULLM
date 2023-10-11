@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Word Sense Disambiguation (WSD) is a task in Natural Language Processing (NLP) that focuses on identifying the correct meaning of a word in a text, given the context. As part of the semantic analysis field, it aims to resolve ambiguities by associating words with their appropriate meanings based on the surrounding text. This plays a critical role in several NLP applications such as Machine Translation, Information Retrieval, and Text Summarization. WSD is a challenging feature of language understanding due to the nuanced nature of human language.
+
+<HISTORY>
+The first scholarly account on Word Sense Disambiguation (WSD) goes back to the 1950s but gained prominence in computational linguistics in the 1990s. It was first discussed in the context of machine translation, where it was critical to choose the accurate translation of a source word based on the context. Margaret Masterman is widely credited as the one who introduced WSD to address ambiguities in language. The primary goal of WSD is to improve computational understanding of language by providing precise interpretation of words in context. 
+
+<KEY IDEAS>
+The crux of WSD revolves around the accurate determination of the meaning of a word based on its context. Context is judged by considering a set of surrounding words. WSD involves two key ideas: supervised WSD, which uses labelled data to identify the sense of a word, and unsupervised WSD, where no labelled data is used. The underlying learning method is typically based on decision trees, naïve Bayes, and neural networks. Features extracted to predict the right sense usually include surrounding words, their syntactic role, collocation, and some semantic features. 
+
+<USES/APPLICATIONS>
+Word Sense Disambiguation forms an integral part of several NLP applications. In Machine Translation, accurate interpretation of source words is essential to deliver correct translation. In Information Retrieval, it refines search results by distinguishing between different possible meanings of a search term. In Text Summarization, it helps in producing a coherent summary by appropriately understanding the nuances of the original text. Also, in the area of sentiment analysis and opinion mining, WSD can contribute significantly to the accuracy of inference. 
+
+<VARIATIONS>
+There are several variations and approaches to Word Sense Disambiguation. One key variation is based on the sources of knowledge used for disambiguation: corpus-based methods, which rely on textual corpora, and knowledge-based methods, which use lexical databases, like WordNet. Some methods integrate both approaches. Other variations include the use of deep learning models, which have shown great results in WSD, particularly transformer models like BERT. These evolved methodologies highlight the continuous evolution in the field of WSD, pushing the boundaries of NLP.

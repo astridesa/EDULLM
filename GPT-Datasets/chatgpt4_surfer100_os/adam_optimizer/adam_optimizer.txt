@@ -1,0 +1,14 @@
+<INTRODUCTION>
+The Adam (Adaptive Moment Estimation) Optimizer is a popular optimization algorithm mainly used in deep learning models to adaptively adjust the learning rate. It combines the benefits of two other extensions of stochastic gradient descent, namely Root Mean Square Propagation (RMSProp) and Adaptive Gradient Algorithm (AdaGrad), that also maintain a per-parameter learning rate to improve performance. The Adam Optimizer makes use of the concept of momentum by adding fractions of previous gradients to current ones, which helps the optimizer to navigate in the relevant direction.
+
+<HISTORY>
+In 2014, a group of researchers led by Diederik P. Kingma and Jimmy Ba from the University of Toronto proposed the Adam Optimization Algorithm. It was introduced as an improvement over previous gradient descent optimization algorithms used in deep learning models. The acronym Adam was derived from 'adaptive moment estimation' and the name was chosen to honor the biblical figure Adam, as the technique uses inferences from the history of gradients.
+
+<KEY IDEAS>
+Adam Optimization Algorithm operates by computing adaptive learning rates for different parameters. It works by maintaining a moving average of the square of gradients, and then using this average to scale the gradient descent step size. By doing so, Adam adapts the parameter updates according to the importance of parameters. Momentum and scaling are the two main functionalities of Adam, which help in damping oscillations and driving the gradients towards the minima of the function to be optimized.
+
+<VARIATIONS>
+Over time, several variations of the Adam Optimizer have been proposed to overcome its limitations. Some popular variants include AMSGrad, AdamW, Nadam, and Adamax. AMSGrad aims at improving the convergence properties of Adam. AdamW modifies the update rule to achieve better results in terms of generalization. Nadam is a combination of Adam Optimizer and Nesterov accelerated gradient. Adamax is a variation of Adam based on the infinity norm.
+
+<APPLICATIONS>
+Adam Optimizer is one of the most widely used optimization algorithms in deep learning. It finds application in various fields including Computer Vision, Natural Language Processing, and Reinforcement Learning, enabling faster and more effective training of neural networks. Moreover, Adam is commonly used in state-of-the-art deep learning models such as BERT and GPT for natural language understanding and generation. It is beneficial in cases where large amounts of data and parameters are involved.

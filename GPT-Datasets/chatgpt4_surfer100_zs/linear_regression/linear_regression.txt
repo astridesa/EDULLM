@@ -1,0 +1,16 @@
+Title: A Survey on Linear Regression
+
+Introduction:
+Linear Regression is a fundamental algorithm in predictive modeling and Machine Learning, serving as a prediction approach that assumes a linear relationship between input features and the output. It is a robust, simplistic, and time-tested method used extensively in the fields of finance, economics, social sciences, and biology. Linear Regression predicts the output based on one (simple linear regression) or multiple (multiple linear regression) inputs, thus providing an essential forecasting tool.
+
+History:
+The idea of Linear Regression dates back to the 19th century and is attributed to Francis Galton. Galton, a British polymath, envisaged this method during his studies on heredity, where he developed regression toward the mean. The term "regression" was coined from his observation that the heights of descendants of tall ancestors tend to regress (or go back) to average. Over the ensuing decades, it has been refined and developed, positioning itself as a critical technique in statistical and predictive modeling.
+
+Key Ideas:
+The core idea of Linear Regression hinges on establishing a relationship between independent (predictor) and dependent (outcome) variables using a best-fit straight line, also known as the regression line. This line is represented mathematically by the equation Y = a + bX + e, where Y is the dependent variable, X is the independent variable, a is the Y-intercept, b is the slope, and e is the error term. The model's task is to determine the optimum values of a and b to reduce the difference between predicted and actual outcome, giving us the best possible prediction.
+
+Variations:
+While Simple and Multiple Linear Regression models are the most common types, other variations have been developed to suit different needs. These include Ridge Regression, that introduces a penalty for complexity to counter multicollinearity; Lasso Regression, which not only introduces a penalty but can reduce coefficients to zero hence performing feature selection; and ElasticNet, a blend of Ridge and Lasso regression. Lastly, Polynomial Regression, suits data that follows a curve more than a straight line.
+
+Applications:
+Linear Regression finds considerable utility in a vast number of domains. In finance, it helps estimate the performance of a stock or portfolio. Economists use it to forecast GDP, while in healthcare, it predicts disease progression or patient outcomes. In the tech industry, it's harnessed in predicting sales, analyzing user behavior, or even in machine learning tasks like Natural Language Processing and computer vision. Despite its simplicity, the versatility of linear regression offers broad and far-reaching applications.

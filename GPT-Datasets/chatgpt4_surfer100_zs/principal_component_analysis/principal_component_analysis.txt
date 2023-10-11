@@ -1,0 +1,19 @@
+**Introduction**
+
+Principal Component Analysis (PCA) is a commonly utilized statistical technique in machine learning. This method focuses on converting a set of observations of possibly correlated variables into a set of linearly uncorrelated variables, known as principal components. Each succeeding principal component is defined in an orthogonal manner, presenting it as essentially uncorrelated with the preceding ones. The principal components encapsulate the data's variance in descending order, meaning the first principal component retains the most variance.
+
+**History**
+
+Founded by Karl Pearson in the early 20th century, PCA has evolved over the last century, becoming an instrumental technique in modern data analysis. Pearson's seminal work aimed to tackle an underlying question: given a series of measurements of individuals across multiple traits, what's the best way to condense this information into a single index? Since then, PCA's crucial role has remained constant, from simplifying large multivariate datasets to providing visually represented insights in machine learning, data visualization, and image compression.
+
+**Key Ideas**
+
+The two core ideas underpinning PCA include identification and quantification of patterns, and expressing data in a way that highlights similarities and differences. This transformation is defined in such a way that the first component has the highest possible variance, with each succeeding component accounting for the highest possible variance under the constraint that it is orthogonal to preceding components. Ultimately, PCA assigns a hierarchy to data features according to their relevance and eliminates noise, thus driving meaningful data interpretations.
+
+**Variations**
+
+Several PCA variations have surfaced over the years to overcome its limitations and enhance data analysis further. These include Kernel PCA, for nonlinear data, Sparse PCA, emphasizing sparsity and interpretability, and Robust PCA, addressing the sensitivity to outlying observations. Other variations like Non-negative matrix factorization and Factor analysis ensure data with non-negative elements are accommodated or to explore hidden factors impacting observations, respectively.
+
+**Applications**
+
+PCA's applications cover a wide range, from finance and bioinformatics to climate prediction and image processing. In finance, PCA helps in managing and mitigating portfolio risk and maximizing returns. Bioinformatics researchers employ PCA for genetic differencing, revealing relationships within the data, like differentiating genetically distinct groups or identifying common gene expressions. Climate scientists utilize PCA to identify and isolate significant climatic trends, while image processing leverages PCA for image recognition and computer vision, reducing the complexity of images.

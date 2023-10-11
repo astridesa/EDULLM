@@ -1,0 +1,21 @@
+**Article: Image Captioning Deep Learning**
+
+**Introduction**
+
+Image Captioning Deep Learning is an inter-disciplinary field that converges Computer Vision and Natural Language Processing to recognize and understand contents of a digital image and describe them in human language. It is a critical step in enabling computers to understand our visual world as humans do. By harnessing Deep Learning techniques, the task aims to recognize patterns and features in images and convert them into meaningful sentences.
+
+**History**
+
+The initial breakthrough in Image Captioning came around 2014 with the development of the Neural Image Caption (NIC) model that combined a Convolutional Neural Network (CNN) and a Recurrent Neural Network (RNN). ISC-2015 was another significant milestone, the Vinyals et al. developed an approach that curated end-to-end captions, which opened new avenues in the field. Since then, enhancing image understanding algorithms and optimizing the rich potential of deep learning methods for Image Captioning has been a focus area of research.
+
+**Key Ideas**
+
+The key idea in Image Captioning Deep Learning is to use CNNs as feature extractors that recognises possible objects within the image and RNNs or its variants such as Long Short-Term Memory (LSTM) networks for generating relevant text. These models use a common technique known as "Encoder-Decoder" architecture. The encoder encodes the inputs into an abstract representation, while the decoder uses this abstract representation to generate a sentence describing the image.
+
+**Variations**
+
+There’s significant variation in the methods and architectures used in Image Captioning Deep Learning. Some methods focus on improving the accuracy of the caption through attention mechanisms, using techniques such as Show, Attend and Tell. Other approaches, such as Soft Attention and Hard Attention, balance between calculation efficiency and caption accuracy. Recently, Transformer models, which replace recurrent layers with self-attention mechanisms, have also gained popularity for this task.
+
+**Applications**
+
+Image Captioning Deep Learning has wide-ranging applications. In the media industry, it can be used to automatically generate captions for large amounts of images or videos, saving manpower and time. For visually impaired individuals, the technology can be a potential game-changer, helping them understand images' content through generated captions. Additionally, this technology has potential in security surveillance by recognizing and describing unusual activities captured in real time. In e-commerce, it can help in product descriptions and recommendation based on the image search.

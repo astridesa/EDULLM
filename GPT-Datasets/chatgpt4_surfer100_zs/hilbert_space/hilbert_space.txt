@@ -1,0 +1,14 @@
+**Introduction**
+Hilbert Space is an abstract vector space and is an important concept in the realm of mathematics and quantum mechanics. In essence, a Hilbert Space is a real or complex inner product space which allows for notions of distance and angle between vectors to be defined and generalized. It is practically endless in its dimensions, and is named after the German mathematician David Hilbert, who originally introduced the concept. 
+
+**History**
+Hilbert Space’s concept owes its origin to studies by mathematician David Hilbert, who developed it as part of his representation theory. Hilbert’s research included quadratic forms and invariant theory, leading to his initial findings about Hilbert Space. In the early 20th century, John von Neumann and others integrated the idea of Hilbert Space into the rapidly developing quantum mechanics field, expanding the understanding and utilization of the concept. Hilbert Space has since become a cornerstone of functional analysis.
+
+**Key Ideas**
+Hilbert Spaces provide a framework that extends the methods of vector algebra and calculus from 2- and 3-dimensional spaces to infinite-dimensional spaces. A key aspect is the ability to perform operations like scalar multiplication and addition on elements of the space. Additionally, the inner product— a unique feature of Hilbert Space— lends itself towards the interpretation of vector lengths and angles between vectors, leading to geometric interpretations. The concept of orthogonality within Hilbert Space, which generalizes the idea of perpendicular vectors, is also of crucial importance. 
+
+**Variations**
+So-called 'infinite dimensional' Hilbert Space is used extensively in mathematical physics. Finite dimensional variations are essentially equivalent to Euclidean Space and facilitate the study of quantum mechanics. Separable Hilbert Spaces, which contain a countable dense subset, are used most often in quantum physics. There are also Rigged Hilbert Spaces, used primarily in quantum mechanics, which allow for a wider range of operators.
+
+**Applications**
+Hilbert Space has extensive application in various fields of mathematics and science—especially in quantum mechanics, where it forms the basis for representing state vectors. It is integral in modern theories of quantum mechanics due to its capacity to handle infinite dimensions. Moreover, it is crucial in the field of functional analysis and to the theory of partial differential equations. It is used heavily in mathematical physics to solve problems within quantum field theory and statistical mechanics. It's also employed in data analysis and signal processing within the realm of computer science and engineering.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Hidden Markov Models (HMM) are statistical models used to represent probabilistic relationships between observed and hidden events. They are an important class of models in the field of machine learning and artificial intelligence, particularly used for tasks that involve sequential data like speech and handwriting recognition, weather prediction, and gene prediction in bioinformatics. HMMs are notable for their ability to handle issues associated with temporal data.
+
+<HISTORY>
+The concept of the Hidden Markov Model was first introduced in the late 1960s by Leonard Baum and his colleagues. They began to apply HMMs to the field of speech recognition due to its ability to handle the temporal dynamics of speech. The use of HMMs significantly improved the performance of these early systems. Since then, the applications of HMMs have diversified and expanded in fields like genomics, finance, and many more.
+
+<KEY IDEAS>
+The fundamental idea behind an HMM is dealing with hidden or unobservable states with dependencies that only exist between adjacent states. Each state could emit an observable output following a certain probability distribution, which is often Gaussian. There are two important algorithms for HMM. The Forward-Backward procedure computes the state probabilities given a sequence of observations, while the Viterbi algorithm finds the most likely sequence of states for the given observations. In the training process, the Baum-Welch algorithm, an expectation-maximization (EM) method, is used to adjust the model parameters to maximize the likelihood of observing the training data.
+
+<VARIATIONS>
+Several variations of HMMs have been developed over all these years to accommodate different types of data and complex relationships. Semi-Markov models, for example, offer an extension of HMMs that allow state durations to follow an arbitrary distribution rather than be geometrically distributed. Other variants include Coupled Hidden Markov Models used for multi-sequence modelling and Factorial Hidden Markov Models for simultaneous modelling multiple interrelated chains.
+
+<USES/APPLICATIONS>
+Hidden Markov Models have found extensive use in various domains. They underpin the technology used for voice-based systems, including voice recognition and voice-controlled systems. They are also extensively used in bioinformatics for gene prediction. HMMs have found their way in finance for predicting stock prices due to their ability to model sequence data. In the field of robotics and artificial intelligence, HMMs help in modelling decision processes of intelligent agents and image recognition tasks.

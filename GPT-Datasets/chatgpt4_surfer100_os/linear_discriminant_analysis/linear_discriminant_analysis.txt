@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Linear Discriminant Analysis (LDA) is a statistical technique used in pattern recognition and machine learning to find a linear combination of features that can characterize or differentiate two or more classes of objects or events. It serves two significant purposes: dimensionality reduction and as classification models. LDA reduces dimensions by projecting a feature space (a dataset n-dimensional features) onto a smaller subspace while preserving the class-discriminatory information. Moreover, as a classifier, the combination of LDA and Bayes' theorem provides a strong tool in pattern recognition.
+
+<HISTORY>
+Linear Discriminant Analysis (LDA) is rooted in Ronald A. Fisher's work, who first introduced it in 1936 as part of his article, "The use of multiple measurements in taxonomic problems" as a method for characteristics two or more naturally occurring groups. Fisher formulated the LDA method to distinguish species based on the characteristics of iris flowers. Over time, this technique has been developed further and used in various domains including biomedical sciences, image recognition, and machine learning models.
+
+<KEY IDEAS>
+The central idea of LDA focuses around maximizing the distance between the means of the classes and minimizing the dispersion within each category. This requires computing the "between-class" variance and the "within-class" variance. LDA aims to maximize the former and minimize the latter, hence arriving at an optimized solution. It is to note that LDA assumes that the independent variables are normally distributed and the covariances of each group are identical. LDA applies a supervised technique, it requires labelled training data to be effective.
+
+<VARIATIONS>
+Variations of Linear Discriminant Analysis include Quadratic Discriminant Analysis (QDA) and Regularized Discriminant Analysis (RDA). QDA, unlike LDA, does not assume that the covariance of each of the classes is identical. Instead, it first estimates the covariance matrix for each class to capture the differences among the classes better. RDA is a compromise between LDA and QDA, using a parameter to control the level of similarity between the covariance matrices of the classes.
+
+<APPLICATIONS>
+LDA has a wide range of applications across numerous fields. In biomedical sciences, it is used for modeling differences in gene expression levels to identify genes responsible for certain diseases. In image recognition, LDA together with other techniques can be used to detect objects in images and video streams. In natural language processing, it can be utilized to classify documents into various categories. In psychology, it is used to determine which variables discriminate between groups formed by categorical dependent variables. It's widely used for its efficiency in high dimensional datasets, especially in areas of machine learning and data mining.

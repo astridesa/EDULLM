@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Coreference Resolution is a significant domain in Natural Language Processing (NLP) that deals with determining when two or more expressions in the text refer to the same entity. For example, in the sentences, "Daniel works at the cafeteria. He enjoys his job," 'Daniel' and 'he' relate to the same individual. Achieving accurate coreference resolution enables systems to understand text more thoroughly, fostering a more natural conversation between humans and artificial intelligence (AI).
+
+<HISTORY>
+The concept of coreference resolution has its roots in anaphora resolution, established in the late 20th century as a significant NLP issue. As computing technology advanced and the importance of understanding natural language grew, more sophisticated models were developed tailored towards this task. Initially, rule-based algorithms were predominant. Later, machine learning-based methods were introduced, heavily influenced by the statistical revolution in NLP. In the 2010s, as Deep Learning took center-stage, transformer-based models emerged as the state-of-the-art in coreference resolution.
+
+<KEY IDEAS>
+Coreference resolution centers on identifying and linking referents in a text, a process that is crucial for understanding and assigning meaning to discourse. The process essentially involves determining whether two or more expressions refer to the same entity in the world or in the discourse model. Precisely, there are three core types of coreferences: Anaphora when a word refers back to another word or phrase, Cataphora where a word refers to another word appearing later, and Exophora which refers to things outside of the text. All these are tackled by coreference resolution.
+
+<VARIATIONS>
+Different approaches have been applied to resolve coreferences, varying from Rule-based, Machine Learning-based to Deep Learning-based methods. Rule-based methods rely on linguistic insights, crafting rules that dictate how pronouns and noun phrases co-refer. Machine Learning approaches utilize features such as string matching and grammatical relations to train models. Deep Learning relies on architectures such as Recurrent Neural Networks (RNN) and more recently, Transformers, to learn the complexities of coreference resolution.
+
+<APPLICATIONS>
+Coreference resolution is pivotal in numerous NLP tasks and applications. It enables text understanding and plays a significant role in text summarization, information extraction, question answering, and machine translation systems. For example, in document summarization, coreference resolution can help determine the saliency of entities in a text. Similarly, in dialogue systems, such as chatbots and virtual assistants, coreference resolution plays a key role in maintaining the context of conversations.

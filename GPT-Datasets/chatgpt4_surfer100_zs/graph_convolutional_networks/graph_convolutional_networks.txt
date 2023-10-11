@@ -1,0 +1,19 @@
+**Introduction**
+
+Graph Convolutional Networks (GCNs) are a robust class of neural networks that directly operate on graphs, enabling them to capture the inherent structure of the data. GCNs perform convolutions over graphs, unlike traditional Convolutional Neural Networks (CNNs) which operate over a regular grid, typically images. GCNs can handle irregular spatial structures as input data, such as social networks or molecular databases, and are gaining substantial utility and popularity in various domains.
+
+**History**
+
+The concept of GCNs was first introduced in 2016, extending the scope of deep learning techniques to graph-structured data, which prior techniques struggled with. Early works relied on spectral graph theory, using graph Laplacian in the Fourier domain, which was computationally expensive and not scalable. The significant breakthrough came when first-order approximation methods were proposed, that kept the essence of capitalizing on graph structures while offering scalability and performance.
+
+**Key Ideas**
+
+The central idea of GCNs is to generalize the concept of convolution from regular grid-like structures to irregular graph structures. As convolutional operations are not directly possible in these irregular structures, a GCN propagates the relational data in the neighborhood of each node, applying learned transformation functions. The resulting node representations capture not just the nodes' attributes, but also their structural information - the connections that exist between them. This allows the network to understand the input graph better, enabling more accurate predictions and insights.
+
+**Variations**
+
+Over time, several variations of GCNs have emerged. For example, Graph Attention Networks (GATs) introduce attention mechanisms into GCNs to weigh neighbor contributions dynamically rather than uniformly. Another variation is the GraphSAGE, which uses the notion of sampling to handle large-scale graphs. ChebNet, another variation, leverages the Chebyshev polynomial to extend the convolution operation to irregular domains efficiently.
+
+**Applications**
+
+The application of GCNs is vast and still growing. They play a significant role in social network analysis, protein-protein interaction prediction, recommendation systems, and even traffic forecasting where the data is inherently graph-structured. In bioinformatics, GCNs are used to predict molecular properties, understand protein functions, and identify drug targets. Additionally, they have demonstrated considerable promise in natural language processing tasks such as machine translation and semantic parsing.

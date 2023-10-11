@@ -1,0 +1,21 @@
+**Article Title: Attention Mechanism in Deep Learning**
+___
+**Introduction**
+
+Attention Mechanism is a significant innovation in deep learning used to enhance the performance of models, especially in language translation, speech recognition and visual object recognition tasks. This ingenious concept alters the method in which models process inputs by instructing them to zero in on relevant subsets of the input data. Opening a pathway for models to selectively focus on valuable information, attention mechanism substantially increases their predictive accuracy and computational efficiency.
+___
+**History**
+
+The idea of Attention Mechanism was birthed in the realm of neuroscience, primarily focusing on humans' selective concentration ability on sensory details, thereby ignoring others. Transferred to Artificial Intelligence (AI) by Neural Machine Translation researchers, it was first introduced in the context of deep learning in 2014. The major breakthrough came when Bahdanau et al., in a pioneering paper, designed a sequence-to-sequence model for machine translation that had an inbuilt attention mechanism.
+___
+**Key Ideas**
+
+The core idea behind Attention Mechanism is to assign different weights or 'attention' to different inputs during the model's processing phase. It reflects the importance of each input in relation to others, subsequently adjusting the model's focus accordingly. This is achieved by creating a context vector, emphasizing the salient parts and allowing the model to make decisions based on the most important segments of the input data. The attention scores give the model an additional dimension, forming a more robust, context-aware output.
+___
+**Variations**
+
+Over time, diverse variations of Attention Mechanism have emerged. The Soft Attention model is a deterministic approach, generating fractions of the context vector for weighting. Meanwhile, the Hard Attention variation uses a stochastic approach, providing discrete weighting values. Self-Attention or Intra-Attention models focus on interactions within the input sequence and are pivotal in transformer-based models. The latest addition is Transformer models, used extensively in the field, introducing Multi-Head Attention, implementing attention mechanism multiple times in parallel.
+___
+**Applications**
+
+Attention Mechanism can be found in wide-ranging applications across Natural Language Processing (NLP), Computer Vision and Speech Recognition. Many breakthroughs like Google’s Neural Machine Translation system, Facebook’s FAIR sequence-to-sequence models and OpenAI's GPT-3 utilise this mechanism, helping generate high-quality translations and profound language comprehension. In computer vision, Attention Mechanism is applied to extract details from images more efficiently. Ultimately, it is transforming the AI landscape, offering nuanced problem-solving techniques by focusing on what truly matters.

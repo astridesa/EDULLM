@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Multilingual BERT, also known as mBERT, is a powerful general-purpose language model trained on multiple languages. It is a transformation-based model developed by Google, which significantly enhances the potential of machine learning algorithms in understanding and interpreting human languages. This model can generate rich and useful sentence embeddings for a variety of downstream NLP tasks including text classification, sentiment analysis, and entity recognition across all languages in were trained on.
+
+<HISTORY>
+BERT (Bidirectional Encoder Representations from Transformers), the framework that Multilingual BERT is based upon, was introduced in 2018 by researchers at Google AI Language. Multilingual BERT was developed as an extension of BERT to create a language model that could understand and process numerous languages. This opened up the potential for its use in cross-lingual tasks and led to considerable improvements in scaling NLP tasks across various languages.
+
+<KEY IDEAS>
+mBERT is designed as a pre-trained model that leverages bidirectional transformers, which are powerful neural networks that understand the context of a word based on all of its surroundings (left and right contexts). The unique aspect of mBERT is its universal applicability. Instead of training a language representation model for each language individually, mBERT is trained on numerous languages simultaneously. This multi-lingual training allows it to generate representations that disentangle the semantic meaning of words from their language idiosyncrasies.
+
+<VARIATIONS>
+While Multilingual BERT has been a significant step forward in understanding multiple languages, newer variations of BERT are continually being developed to further enhance this understanding. Models like XLM-R (Cross-lingual Language Model - RoBERTa) from Facebook AI, which is trained on even more languages than mBERT, and Microsoft's Unicoder, a universal language model, are examples of these innovations. These variations are all an attempt to build efficient models that capture language diversity even better than before.
+
+<APPLICATIONS>
+mBERT's potential applications span many areas of natural language processing tasks. This includes areas like cross-lingual document classification, where a model trained on one language can be used to classify documents in other languages, and cross-lingual named entity recognition, where named entities from one language can be recognized in other languages. Furthermore, mBERT can be utilized to enhance the functionality of virtual assistants and chatbots that can understand and respond to multiple languages. Due to its versatility, mBERT is instrumental in linking communities across language barriers and offering multilingual support in a range of applications.

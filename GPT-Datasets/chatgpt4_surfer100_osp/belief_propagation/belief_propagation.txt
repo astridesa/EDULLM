@@ -1,0 +1,14 @@
+<INTRODUCTION> 
+Belief Propagation (BP) is a message-passing algorithm used for performing inference on graphical models, such as Bayesian networks and Markov random fields. It operates within the realm of probabilistic graphical models, a key area of statistical machine learning. The algorithm determines the marginal distribution for each unobserved node, conditional on any observed nodes. BP has been largely embraced due to its potential to simplify the usually complex task of inference in graphical models. It has applications in fields as diverse as computer vision, coding theory, and computational biology.
+
+<HISTORY> 
+The origin of Belief Propagation dates back to the early 1980s, when it was introduced by Judea Pearl, primarily with Bayesian Networks in consideration. The algorithm was conceived as an easy, efficient solution to the problem of inference in graphical models, an issue that had long plagued statisticians. Pearl's pioneering work came to revolutionize inference methods, breathing life into the role of probabilistic graphs.
+
+<KEY IDEAS> 
+BP operates on graphical models by spreading messages between nodes. Each message sent from node X to Y represents X’s belief about Y, based on information gathered from other nodes. After several iterations, a unique, fixed point is reached constituting a set of beliefs for each node. Mathematically, the process involves recurrent equations applied based on a graph's structure, directing how messages are generated and updated. In loopy graphs, where cycles exist, the efficacy of BP traditionally reduces due to the lack of mathematical foundations, leading to approximate solutions.
+
+<USES/APPLICATIONS> 
+Belief Propagation is primarily employed in the research areas of coding theory and computer vision. In error-correcting codes, for example, BP has been extremely efficient in decoding Turbo and LDPC codes. Additionally, BP is also applied to sequence alignment in computational biology - an important task for understanding genetic mutations and evolutionary relationships. In computer vision, BP is often applied to stereo vision, image restoration, and object recognition, successfully dealing with the high dimensional problems encountered in these tasks.
+
+<VARIATIONS>
+Over the years, several variations of the Belief Propagation algorithm have emerged to deal with its limitations. For instance, Loopy Belief Propagation (LBP) was proposed as an extension to handle graphs with loops, even though it only provides an approximate solution. Furthermore, Generalized Belief Propagation (GBP) has been introduced to handle more complex graph structures. These variations, along with similar inference algorithms like Variable Elimination and Gibbs Sampling, highlight the ongoing quest for efficient, universally applicable methods of inference in graphical models.

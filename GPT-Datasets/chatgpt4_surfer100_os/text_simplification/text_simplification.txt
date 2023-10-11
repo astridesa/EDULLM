@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Text Simplification is a branch of Natural Language Processing (NLP) that aims to transform complex sentence structures into simpler versions while retaining its original meaning. This process involves various computational linguistic techniques like parsing, lexical substitution, sentence splitting, and reordering to make text more understandable. These simplified texts are beneficial for non-native speakers, children, elderly, people with learning disabilities, and anyone who finds complex texts difficult to comprehend.
+
+<HISTORY>
+Text Simplification started gaining prominence in the late 1990s and early 2000s. Early efforts were rule-based involving manual creation of linguistic simplification rules and generation of simplified text from them. Over the years, with increases in computational power and availability of massive texts, machine learning-based approaches have become prominent. Google's project, Simple English Wikipedia, is a notable milestone, providing a large dataset for the development and training of automatic text simplification systems. 
+
+<KEY IDEAS>
+The main principles of Text Simplification are enhancing readability and comprehension while maintaining the original meaning. This involves several steps: 1) Lexical Simplification - replacing complex words with simpler synonyms. 2) Syntactic Simplification - breaking down complex sentence structures into simpler, shorter sentences. 3) Deletion - removing less vital information. 4) Paraphrasing - reformulating sentences to make them simpler. 5) Semantic Similarity - maintaining the original message of the sentence.
+
+<VARIATIONS>
+There are three major ways to tackle Text Simplification: 1) Manual or rule-based simplification relies on predefined rules and human expertise. 2) Semi-automatic approaches use machine learning to guide the simplification process, but still rely on human intervention for final validation. 3) Fully automatic methods leverage computational linguistics and machine learning to implement end-to-end simplification, requiring minimal or no human intervention. These can be further classified as extractive (selecting important sentences and simplifying them) or abstractive (rewriting the entire text in a simpler form).
+
+<APPLICATIONS>
+Text Simplification is used broadly in a variety of domains. In education, it assists students, especially learners of a second language to understand materials. In healthcare, medical texts are simplified for patient understanding. It plays a crucial role in enhancing accessibility for people with reading disabilities or cognitive impairments. Text Simplification is also used in NLP tasks like machine translation, sentiment analysis, and summarization to provide better input to these systems leading to improved performance. The growing interest in Text Simplification signals importance of understandable and accessible information in today’s digital age.

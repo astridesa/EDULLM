@@ -1,0 +1,19 @@
+**Introduction**
+
+Automatic summarization is an enabler in the realm of artificial intelligence, harnessing NLP, ML, and text analysis techniques to distill lengthy datasets or documents into succinct, easily-digestible summaries. It identifies and condenses the most important points from a text source into shorter versions. Its primary function is to enable readers to understand the core purpose of a document without having to read it in entirety.
+
+**History**
+
+The development of automatic summarization dates back to the 1950s when Luhn laid the groundwork for text processing. The relevance of the technology surged in the late 20th century spurred by the advent of the Internet and the subsequent information explosion. Since then, various algorithms and techniques have been introduced and honed. Over time, the technology has evolved from extractive, focusing on selecting salient sentences, to abstractive summarization using NLP to generate new summaries.
+
+**Key Ideas**
+
+The underlying principle behind automatic summarization involves ranking and scoring parts of the text based on their relevance to the overall context. Two predominant methods are used: extractive and abstractive. Extractive summarization generates summaries by identifying key sections of the text and reproducing them exactly. Abstractive summarization, on the other hand, paraphrases and condenses the main ideas from the source text into novel, cohesive summaries, demonstrating a deeper understanding of the text.
+
+**Variations**
+
+Depending on the intended usage, automatic summarization techniques can vary. Among these are single-document summarization (condensing one document), multi-document summarization (combining information from multiple documents), query-focused summarization (tailoring the summary to a specific query), generic summarization (creating a general-purpose summary), and update summarization (generating new information from given documents). These variations allow for flexibility in the application of the technology across different domains.
+
+**Applications**
+
+Automatic summarization has a myriad of applications, particularly in information-intensive fields. It plays a pivotal role in digesting news articles, scientific research, legal documents, and business reports, dramatically enhancing productivity. Search engines also use this technology to generate brief snippets of information (meta descriptions) for user queries. Furthermore, it fuels recommendation systems, AI note-taking applications, and any time-sensitive information processing system where brevity is crucial. Its potential continues to unfold alongside advances in AI and natural language processing.

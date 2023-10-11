@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Machine Translation (MT) is a sub-field of computational linguistics that investigates the use of software to translate text or speech from one language to another. The objective is to automate translation to the extent possible, with minimal intervention from human translators. The output quality varies, it can range from high-quality translations that are very close to human translation down to low-quality, broken sentences, or nonsensical translations.
+
+<HISTORY>
+Machine translation came into existence as early as the 1950s, as computers began to be widely used for many purposes. One of the earliest systems was developed by IBM during the cold war, primarily to translate Russian texts to English. An important event in MT history was the introduction of a statistical approach to MT by IBM in the late 1980s. This was followed by the widely popular phrase-based MT in the 1990s. The recent development of neural machine translation (NMT) in the 2000s, based on deep learning, has contributed significantly to improving the quality of machine translation outputs.
+
+<KEY IDEAS>
+Machine Translation works on the principle of translating words or phrases from a source language to a target language, typically guided by grammatical rules and dictionaries, or statistical models learned from bilingual data. Recently, Neural Machine Translation (NMT) has become a standard approach, utilizing neural networks to improve translation quality. NMT uses an encoder-decoder framework and considers the full context of a sentence, resulting in more fluent and grammatically correct translations.
+
+<VARIATIONS>
+There are several variations of Machine Translation. Rule-based MT uses grammatical and syntactic rules plus dictionaries for translation. Statistical MT learns translation rules from large bilingual data. Neural MT uses a neural network architecture to produce translations. There is also Hybrid Machine Translation, where different MT systems are combined in an attempt to get the best of each. Some recent research focuses on multilingual NMT, where a single model learns to translate between multiple languages.
+
+<APPLICATIONS>
+MT has extended application in various fields. The most prominent and commonplace is online translation services like Google Translate and Microsoft Translator that are used for translating web pages and other text. Other applications include language localization in software applications, automated subtitle generation for movies and online media, and real-time translation in communication apps. Translation in specialized fields like medical, legal, and technical documents also uses MT, although it may need post-editing by humans due to complexity and precision requirements.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Recursive Neural Network (RvNN) is a form of deep learning method for processing structured data. It is part of the neural network family and specializes in processing hierarchical structures with a variable number of inputs. RvNN is primarily used in the field of Natural Language Processing (NLP), where it helps computers understand human language, and computer vision, where it helps interpret images and scenes more effectively. The motivation behind its concept is to model the constituent structure of the data rather than viewing them as a linear sequence.
+
+<HISTORY>
+The concept of recursive neural networks originated in the late 1990s and saw significant development starting from the early 2000s. The advent of the Recursive Neural Network was motivated by the need to address the limitations of recurrent neural networks in processing hierarchical data. Socher et. al., in the Stanford NLP Group, are widely recognized for their contributions to this field. RvNNs were designed to overcome the shortcomings of recurrent neural networks in effectively processing structured and hierarchical inputs.
+
+<KEY IDEAS>
+The main idea of a Recursive Neural Network is to apply the same set of weights recursively over a structure, to produce a parent in the hierarchy. This is achieved using a tree-like model where sibling nodes share the same parent node. The weights are responsible for computing the parent node representation from its child nodes. This idea builds a hierarchical representation by combining child representations step by-step, this operation is implemented recursively to each parent node until it reaches the top of the tree, the root node. 
+
+<USES/APPLICATIONS>
+Recursive Neural Networks are used in various fields like NLP and Computer Vision. In NLP, RvNNs are instrumental in sentiment analysis, language modelling, text summarization, among other tasks. They help model sentences or documents as a whole rather than individual words or phrases, enabling the computer to grasp the semantic meaning of a text better. In computer vision, RvNNs assists in parsing scene information from images. By building a hierarchy of image parts and their spatial relations, RvNNs enable improved object recognition, scene parsing, and image annotation. 
+
+<VARIATIONS>
+There are several variations of Recursive Neural Networks. The Recursive Neural Tensor Network (RNTN) is a popular modification that allows more interactions by introducing a tensor-based feature function. Other variations include Matrix-Vector RNN and Gated RNN. These variations offer a lot of promise for tasks involving hierarchical and structured data. Additionally, there cater to the issues like gradient vanishing or exploding which mainly arise in traditional RNNs. RvNNs exemplify the flexibility that neural networks offer, fitting into a broader picture of using deep learning for structured and unstructured data alike.

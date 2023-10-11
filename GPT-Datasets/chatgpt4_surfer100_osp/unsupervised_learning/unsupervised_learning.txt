@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Unsupervised learning is a type of machine learning algorithm used to draw inferences from datasets consisting of input data without labeled responses. It's part of the broader field of Artificial Intelligence (AI). Unsupervised learning algorithms work by modeling the underlying structure or distribution in the data in order to learn more about the data. The most common unsupervised learning method is cluster analysis, which is used for exploratory data analysis to find hidden patterns or grouping in data.
+
+<HISTORY>
+Unsupervised learning, as a fundamental concept, has roots stretching back to the beginnings of data-driven sciences and mathematics. Yet its specific interpretation in the area of machine learning emerged in the mid-20th century, catalyzed by advancements in computing power and technology. Hierarchical clustering, one of the oldest and most fundamental unsupervised learning algorithms, was introduced during the 1950s and 1960s. This method addresses the problem of finding hidden structures in unlabeled data, a key idea that underscores unsupervised learning.
+
+<KEY IDEAS>
+Unsupervised learning moves beyond pattern recognition, pursuing a broader understanding of data structures. This may involve the discovery of hidden patterns, relationships, or variations. Unsupervised learning methods typically revolve around clustering or dimensionality reduction. Clustering methods, like K-means, hierarchical clustering, and DBSCAN, group individual data points into discrete categories. Dimensionality reduction techniques, on the other hand, such as Principal Component Analysis (PCA) or Singular Value Decomposition (SVD), help compress the data while maintaining its structure and utility for further learning or visualization. 
+
+<USES/APPLICATIONS>
+Unsupervised learning finds use in a variety of fields. In marketing, for example, unsupervised machine learning algorithms can segment customers into groups for targeted advertising. In finance, the risk patterns and associations can be identified. Anomaly detection, which identifies outliers or unusual data points in datasets, is used in fraud detection or fault detection. Unsupervised learning is also integral in processing and understanding large datasets in image and speech recognition tasks, for extracting meaningful features. 
+
+<VARIATIONS>
+Variations of unsupervised learning include semi-supervised learning and self-supervised learning. Semi-supervised learning uses a combination of a small amount of labeled data and a large amount of unlabeled data for training. Self-supervised learning, on the other hand, generates its own labels from the input data, which often involves predicting one part of the data from another part. Unsupervised learning forms part of a broader picture that includes supervised learning, reinforcement learning, and other machine learning paradigms, contributing unique strengths to the whole.

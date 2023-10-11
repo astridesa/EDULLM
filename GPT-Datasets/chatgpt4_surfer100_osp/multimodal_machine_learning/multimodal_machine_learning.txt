@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Multimodal Machine Learning is a subfield of artificial intelligence that merges machine learning and multimodal interaction. The goal is to construct models that can process and relate information from multiple modalities - such as sound, text, and image concurrently. It is part of computer vision, natural language processing, and audio speech processing, aiming to mimic human intelligence where multiple senses work in synchrony. Such coordination dramatically enhances the ability to understand, interpret and act upon a variety of concurrent events and entities. 
+
+<HISTORY>
+The concept of multimodal machine learning was introduced as an extension of understanding that single modality is not sufficient to understand the complexity of human communication with machines. The journey began with voice-based interaction, which then progressed to include visual and text mechanisms. Over the years, researchers have proposed different models like Multimodal Neural Networks (MNNs) and Recurrent Neural Networks (RNNs) to tackle situational contexts or emotions which can be understood better with multiple sensory sources.
+
+<KEY IDEAS>
+The core idea behind multimodal machine learning is fusion. Fusion strategies help accommodate information from various modalities, either at the feature level or decision level. Feature-level fusion involves integrating features from each modality before prediction, while decision-level fusion involves integration after separate predictions have been made for each modality. Deep learning techniques like convolutional neural networks (CNNs) for image processing, recurrent neural networks (RNNs) for sequence processing, and transformers for text processing play a pivotal role in multimodal machine learning.
+
+<USES/APPLICATIONS>
+Multimodal machine learning finds potent uses across diverse verticals. In autonomous vehicles, the model processes information from various sensory inputs like radar, LIDAR, cameras, and GPS to navigate safely. In healthcare, it helps to merge medical images, patient records, and lab test results to improve diagnosis. Furthermore, in the field of entertainment and social media, multimodal machine learning is used for video annotation, multi-sensory robotics, gesture recognition, and emotion detection among others.
+
+<VARIATIONS>
+Multimodal machine learning is a broad concept and includes various models and techniques like Multimodal Recurrent Neural Networks (MRNNs), Multimodal Deep Belief Networks (MDBNs), Multimodal Autoencoders, and multimodal transformers. Such methods are designed for the integration and analysis of various modalities for more comprehensive representation learning. With AI focusing on achieving human-like comprehension, Multimodal ML holds immense promise in developing machines that can better understand and interact with the real world.

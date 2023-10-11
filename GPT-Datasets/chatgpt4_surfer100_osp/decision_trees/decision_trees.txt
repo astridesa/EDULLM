@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Decision Trees are a type of Supervised Machine Learning where the data is continuously split according to a certain parameter. It is part of Data Mining and Machine Learning fields and is mainly used for classification and regression tasks. The motivation behind this concept is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. Decision Trees are simple to understand and interpret, yet deliver powerful predictive outputs. 
+
+<HISTORY>
+Decision Trees were first introduced by Ross Quinlan, a researcher in machine learning, who developed an algorithm known as ID3 (Iterative Dichotomiser 3) dating back to the 1980s. The algorithm was developed in order to create a Decision Tree that predicts the value of a target variable based on several input variables. This was a significant development in the field of Machine Learning as it addressed the problem of handling categorical data and missing values while predicting multi-output concepts.
+
+<KEY IDEAS>
+The main idea behind Decision Trees is to split the data into different subsets based on variable features which eventually leads to a final prediction. This is done by asking a sequence of questions until the data can no longer get split. Nodes in the tree represent a specific feature in the dataset, and the edges between nodes represent a decision rule. The leaf nodes of the tree represent the output or 'decision' encompassed by the model. Algorithms like ID3, C4.5, and CART (Classification and Regression Tree) are used to construct Decision Trees.
+
+<USES/APPLICATIONS>
+Decision Trees have a wide range of applications including Customer Relationship Management (CRM), Fraudulent Statement Detection, Disease Diagnosis among others. They can also be used for data exploration and pattern discovery in a set of data, providing valuable insights about trends and relationships between different variables. 
+
+<VARIATIONS>
+Decision Trees form the basis for more complex models such as Random Forests and Gradient Boosted Trees. These ensemble techniques use multiple Decision Trees to achieve better predictive performance. In Random Forests, many different Decision Trees are created that operate as an ensemble. Each tree makes individual classifications and the class that gets the most votes becomes the model’s prediction. In Gradient Boosted Trees, new models are trained to predict residuals or errors of prior models and then added together to make the final prediction.

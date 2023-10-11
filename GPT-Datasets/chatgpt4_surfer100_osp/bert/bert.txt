@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Bidirectional Encoder Representations from Transformers (BERT) is a state-of-the-art natural language processing model, under the broad canopy of Transformer models, designed to enhance the understanding of contextual relations among words in a sentence. Introduced by Google AI, BERT's relevance spans applications such as text classification, information retrieval, and translation. It revolutionizes the field by incorporating a new method that relies on bidirectional training and exhibiting nuanced understandings of language semantics.
+
+<HISTORY>
+BERT was introduced by researchers at Google AI Language in 2018 as a solution to drawbacks in how previous models handled context in languages. Prior to BERT, models like Word2Vec and GloVe treated word vectors individually and hence were unaware of the word-to-word context in a sentence. BERT resolves this by understanding context bidirectionally, providing a more cohesive interpretation of language.
+
+<KEY IDEAS>
+Underlying BERT is the concept of bidirectional training. In essence, this feature allows the model to consider context from both the left and right side of a word in a sentence, unlike previous models that only operated unidirectionally. This is applicable for two elements: Transformer encoders, (that lifts local interactions to a global level) and Masked Language Model (MLM), (a pre-training mechanism where some input tokens are masked out, and the model predicts those masked tokens based on their context). Together, these make BERT highly efficient in understanding the relationships between words.
+
+<USES/APPLICATIONS>
+BERT has widespread applications in various tasks of natural language understanding. It's extensively used to bolster multilingual and monolingual machine translation, entity recognition, part-of-speech tagging, and sentiment analysis among other tasks. With its exceptional capability of understanding context, BERT has been used to alleviate the efficiency of Google's search algorithms, thereby optimizing the results.
+
+<VARIATIONS>
+The seminal introduction of BERT triggered the development of variations and similar models, thereby enrichifying the NLP literature. Some notable variations include RoBERTa (an optimized BERT by Facebook), ALBERT (A Lite BERT that is memory efficient), and ELECTRA (more efficient pre-training approach). These variations aim to refine and expand the boundary set by BERT, thereby offering more opportunities for researchers and practitioners.

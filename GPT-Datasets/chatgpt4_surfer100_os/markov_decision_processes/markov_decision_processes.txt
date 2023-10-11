@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Markov Decision Processes (MDPs) are mathematical models used in optimally deciding a sequence of actions when outcomes are partly random and partly under the decision maker’s control. MDPs are a vital tool in decision theory, reinforcement learning and operations research, providing a mathematical framework for modeling decision-making problems in situations where outcomes are partly random and partly under the control of a decision maker.
+
+<HISTORY>
+The concept of Markov Decision Processes was named in the 1950s after the Russian mathematician Andrey Markov, who's a pioneer in stochastic processes research more broadly. The general theory of MDPs was developed by Richard Bellman and his colleagues in the 1950s and 1960s, who are credited with important foundational contributions, including the celebrated Bellman Equation. Since then, numerous advancements have been made in the usage of MDPs, especially in the field of artificial intelligence. 
+
+<KEY IDEAS>
+The fundamental concept in MDPs is the balance between exploration (of uncharted territory) and exploitation (of current knowledge). The main components of an MDP are a set of states, a set of actions, a transition function (which defines the probability of moving from one state to another given an action), and a reward function (which assigns a numerical reward to the decision maker for each action). The aim is to find a policy, or set of rules that dictate what actions to take in each state, which maximizes the expected cumulative reward. The Bellman Equation, a fundamental theorem of dynamic programming, provides a recursive computation method for the value of the optimal policy.
+
+<VARIATIONS>
+MDPs have been extended in various ways to better model different decision problems. For instance, Partially Observable MDPs (POMDPs) extend MDPs to allow the decision maker to only partially observe the state of the environment. Continuous MDPs use continuous state and action spaces as opposed to standard MDPs' discrete spaces, better modeling physical systems. Multi-Armed Bandit problems are MDPs with one state, modeling situations in which a fixed limited set of resources must be allocated between competing choices in a way that maximizes their expected gain.
+
+<APPLICATIONS>
+MDPs have numerous applications, particularly in automated decision-making models. These include robotics, where they are used to plan tasks and movements, and reinforcement learning, where they are used to model the environment and agent's interactions. In finance, MDPs are used to model and solve sequential investment decision problems. They have also been used in fields as varied as manufacturing, healthcare, power systems, communications, transportation and game theory. The breadth of applications showcases their robust potential in tackling complex problems.

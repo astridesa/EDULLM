@@ -1,0 +1,16 @@
+Survey: Relation Extraction
+
+Introduction:
+Relation extraction is a natural language processing task that aims to identify and classify relationships between entities in text. This survey aims to provide an overview of relation extraction, its history, key ideas, variations, and applications.
+
+History:
+Relation extraction has drawn significant attention in the field of natural language processing over the years. Early efforts focused on extracting simple relations such as "is-a" or "part-of" from structured data. With the emergence of large-scale text corpora, researchers started exploring the extraction of complex relations from unstructured text, leading to the development of various techniques and algorithms.
+
+Key Ideas:
+Several key ideas underpin relation extraction. Firstly, a crucial aspect is the identification of entities in the text, which involves named entity recognition. Next, techniques such as syntactic parsing and dependency parsing are utilized to establish the grammatical structure of a sentence. Lastly, features extraction techniques, such as word embeddings or lexical patterns, are employed to capture relevant information for relation extraction.
+
+Variations:
+Relation extraction techniques vary based on different aspects. This includes the type of supervised or unsupervised learning algorithms utilized, the level of granularity of relations extracted (binary, ternary, or n-ary), and the incorporation of external knowledge sources like ontologies or knowledge graphs. Additionally, the use of neural network-based models has gained popularity in recent years, showing promising results in relation extraction.
+
+Applications:
+Relation extraction finds application in various domains such as information extraction, question answering, knowledge graph construction, and sentiment analysis. It plays a vital role in tasks like event extraction, entity linking, and semantic role labeling. By uncovering relationships between entities, relation extraction contributes to the understanding of textual data and enables more advanced natural language understanding systems.

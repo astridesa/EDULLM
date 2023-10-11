@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Radial Basis Function (RBF) is a real valued function primarily associated with machine learning and neural networks. It is particularly powerful when working with Multivariate Interpolation owing to its abilties to process multiple inputs simultaneously. RBF's appeal lies in its inherent multi-dimensional functionality, making it ideal for handling complex, non-linear data. Its utilization is widespread across numerous disciplines, including machine learning, pattern recognition, and image processing.
+
+<HISTORY>
+RBFs trace their origins back to the late 20th century, with early usages focusing on solving system interpolation problems. Dr. Robert Schaback and Dr. Michael Powell are notable figures having contributed significantly to their development. The term "Radial Basis Function" was coined by Dr. Powell in 1985 while discussing Multi-dimensional Interpolation. Later, RBFs found their application in Artificial Neural Networks (ANNs) and have since made significant contributions to the Machine Learning field.
+
+<KEY IDEAS>
+RBF functions revolve around two key concepts: radial symmetry and localized influence. The radial symmetry ensures the output of the function depends on the distance from the center or origin. The localized influence means that only data close to certain 'radial basis' points affect calculations. In machine learning, especially in RBF networks, these radial basis points often serve as landmark points that help infer complex multidimensional patterns from the data.
+
+<VARIATIONS>
+Among the varied forms of RBFs, Gaussian, Multi-quadric, and Inverse Multi-quadric are frequently utilized. These variations differ primarily in the choice of the radial basis function, which can significantly influence the network's learning ability. For instance, the Gaussian RBF, with its bell-shaped curve, is often used in Probability Theory. Furthermore, practitioners can adjust certain parameters in these functions to adapt to specific requirements and contexts.
+
+<APPLICATIONS>
+Radial Basis Functions have vast applications, with primary use in RBF Networks, a type of Artificial Neural Networks, for pattern recognition and function approximation tasks. They are extensively used in image processing for shape manipulation. RBF's are utilized in time-series prediction due to their ability to handle non-linearities. In computer graphics, their utility in 3D shape reconstruction is recognized. RBFs have also found novel applications in Machine Learning, particularly in Support Vector Machines and clustering algorithms for their capacity to create complex decision boundaries.

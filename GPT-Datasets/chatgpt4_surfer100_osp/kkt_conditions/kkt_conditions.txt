@@ -1,0 +1,14 @@
+<INTRODUCTION>
+The Karush-Kuhn-Tucker (KKT) conditions are an essential part of optimization theory, specifically in the subfield of mathematical programming. They are first-order necessary conditions for a solution in nonlinear programming to be optimal. The KKT conditions extend the method of Lagrange multipliers, accommodating inequality constraints and demonstrating applications in numerous optimization problems. The motivation behind the concept is to provide a characterization of optimal points satisfying constraints within an optimization problem, thereby simplifying and providing insights into the solutions.
+
+<HISTORY>
+The KKT conditions were independently proposed by Harold W. Kuhn and Albert W. Tucker in 1951; and earlier by William Karush in his Master's thesis in 1939, but Karush's work did not gain recognition until much later. The conditions were developed in the context of quadratic programming - a specific type of nonlinear programming problem - and addressed the shortcomings of the Lagrange multipliers method by additionally considering inequality constraints. 
+
+<KEY IDEAS>
+The KKT conditions outline several mathematical concepts that can determine an optimal solution given an objective function and a set of constraints. At the heart of these conditions are the notions of primal feasibility, dual feasibility, and complementary slackness. Primal feasibility ensures that all constraints of the problem are satisfied, while dual feasibility enforces the non-negativity constraints of the dual problem. Lastly, the complementary slackness condition implies that at any optimal solution, either the equality constraint should hold, or the associated dual variable should be zero. Together, these conditions establish a necessary and sufficient condition for optimality in convex optimization problems.
+
+<USES/APPLICATIONS>
+The KKT conditions have found extensive applications in various fields such as economics, engineering, operations research, and computer science. They serve as a theoretical backbone in quadratic programming, semidefinite programming, and other optimization algorithms. The conditions have also been employed in support vector machines (SVMs) to build optimal hyperplanes for classification tasks. Moreover, they are instrumental in solving constrained discrete and continuous planning problems in robotics and control systems.
+
+<VARIATIONS>
+While the original KKT conditions apply to optimization problems where the objective and constraint functions are differentiable, variations of the KKT conditions have been proposed for non-differentiable problems. For instance, the Fritz John conditions extend the KKT conditions to problems where the constraints may not be strictly feasible. In this larger context, the KKT conditions play a vital role in the field of mathematical programming, as part of the spectrum of necessary and sufficient conditions for constrained optimization.

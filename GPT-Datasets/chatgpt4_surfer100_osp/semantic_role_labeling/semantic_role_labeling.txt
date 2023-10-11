@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Semantic Role Labeling (SRL) is a Natural Language Processing (NLP) task that assigns labels to words or phrases in a sentence that indicate their semantic role in the statement. These roles can include the agent, action, recipient, location, or time of the action. It forms a crucial part of information extraction and understanding systems in AI. SRL is used in applications such as speech recognition, machine translation, and information extraction.
+
+<HISTORY>
+SRL was formalized in the 1960s and 1970s through the work of Charles Fillmore and his 'Case Grammar'. However, it wasn't until the late 1990s and early 2000s, that researchers began applying machine learning to perform automatic SRL, motivated by a need to improve information extraction accuracy. The PropBank project at the University of Colorado Boulder was one of the first to annotate corpora with semantic roles to train algorithms.
+
+<KEY IDEAS>
+The key idea is to label each word or phrase in a sentence with its semantic role, e.g., agent, patient, instrument, location, or goal. These labels create a semantic understanding of the sentence structure. Traditionally, the roles have been based on a 'predicate-argument structure'. For instance, in the sentence "The cat (Agent) chases (Action) the mouse (Patient)", the labels help understand the sentence better. The labeling can be processed through machine learning models or rule-based approaches.
+
+<USES/APPLICATIONS>
+Semantic Role Labeling extends its practical applications in several NLP tasks. It plays a crucial role in improving the performance of machine translation by enabling more accurate semantics understanding. Furthermore, in information extraction, it aids in extracting structured information from unstructured text data, thereby improving search engine accuracy and text summarization. It is also used in question answering systems to understand the context of given questions.
+
+<VARIATIONS>
+There exist various SRL models and approaches based on different linguistic theories or machine learning techniques. For instance, FrameNet and VerbNet are resources similar to PropBank, encapsulating semantic roles based on a different linguistic theory. Similarly, on the algorithmic front, early SRL systems were based on rule-based methods or manually engineered features. However, with the advent of deep learning, models like LSTMs and then Transformers have been successfully applied to the SRL task.

@@ -1,0 +1,19 @@
+**Introduction**
+
+Semisupervised learning is a machine learning paradigm that utilizes a combination of labeled and unlabeled data for training. Typically, a small amount of labeled data with a large amount of unlabeled data is used. The unlabeled data, when used in conjunction with a small amount of labeled data, can produce considerable improvement in learning accuracy. The appeal for this type of learning lies in its ability to extract meaningful information from the data’s structure to improve the learning results, especially where labeled data is scarce or expensive to generate.
+
+**History**
+
+Semisupervised learning emerged in response to the drawbacks of supervised and unsupervised learning strategies, notably the high cost of data labeling and the lack of guidance on output for unlabeled data, respectively. Originating from theory in the 1990s, this learning mechanism has evolved with advancements in technology and increased availability of large, heterogeneous data sets. Semisupervised learning closed the gap between the high-volume data generation and the scarcity of labeled data, giving rise to models that outperform traditional machine learning models in certain circumstances.
+
+**Key Ideas**
+
+The seminal idea behind semi-supervised learning lies in utilizing the inherent structure of the unlabeled data to improve performance. There are two principal assumptions semi-supervised learning models work under: the Continuity Assumption and the Cluster Assumption. The continuity assumption suggests similar inputs have similar outputs, while the cluster assumption states data belonging to the same cluster are likely to be in the same class. Most semisupervised learning algorithms, such as self-training, multi-view training, co-training, and multi-instance learning, are based on these assumptions.
+
+**Variations**
+
+Various methods exist within the field of semi-supervised learning, aimed at different problem categories. Self-training, also known as self-learning, involves a model initially trained with labeled data, which then uses the learned knowledge to label the unlabeled data. In contrast, multi-view training – another form of semi-supervised learning - capitalizes on the diverse views obtained from different feature subsets. Transductive learning focuses on improving the predictions on the unlabeled dataset. Other methodologies include active learning, in which the learning model queries the user/teacher for labels, and ensemble learning, a situation where multiple models are combined to achieve better performance.
+
+**Applications**
+
+The application of semi-supervised learning spans a wide range of fields. In bioinformatics, it helps in genomics and proteomics, notably in protein function prediction when only limited labeled data exist. In natural language processing, semi-supervised techniques improve information retrieval by training on a large unlabeled corpus and a limited amount of labeled data. Other application domains include web page classification, image recognition, and speech analysis. The ability to work efficiently with a small amount of labeled data alongside unlabeled data makes semi-supervised learning indispensable in domains where labeled data acquisition is exorbitantly priced.

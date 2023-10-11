@@ -1,0 +1,19 @@
+**Introduction**
+
+Recursive Neural Networks (RNNs) are a subtype of artificial neural networks designed to recognize patterns in sequential data. They work by processing data with cycles, allowing information to persist over time and making connections backwards, forwards, and over arbitrary lengths of time. In essence, RNNs recycle their outputs as inputs for subsequent steps, hence "recursive." RNNs have a wide range of application in areas such as natural language processing, image recognition, and computational neuroscience.
+
+**History**
+
+The concept behind RNNs has a deep-rooted history. In the 1980s, the fundamental ideas were developed as a part of the paradigm of parallel distributed processing. The 1990s saw the addition of Long Short-Term Memory (LSTM) to overcome issues related to longer sequences. Over the past decade, there has been a resurgence of interest in RNNs, largely driven by advances in hardware, algorithms, and the explosion of available data.
+
+**Key Ideas**
+
+The crux of RNNs is the concept of shared parameters across different parts of the model - the steps in the sequence. Every layer of the network passes data not only to the next layer but also its future step along the input sequence. Another key idea is the use of backpropagation through time, a method for training RNNs by unrolling all the inputs over time and applying standard backpropagation. Lastly, "gates" (as in LSTM) are introduced to manage the flow of information for the prevention of the vanishing gradient problem.
+
+**Variations**
+
+Several variations of RNNs have been developed to handle specific tasks better. LSTMs, as mentioned earlier, were created to improve RNNs' efficiency with long sequences. The Gated Recurrent Unit (GRU) is a more recent refinement on the LSTM concept, with fewer gate computations. Bidirectional RNNs process data in both directions with two separate hidden layers. Variations like these enhance overall performance and diversify the types of problems RNNs can solve.
+
+**Applications**
+
+RNNs find extensive use in natural language processing tasks since languages are inherently sequential. This includes machine translation, text generation, and speech recognition. They are also vital in image and video processing for gesture recognition or captioning. In finance, they're used for predicting stock market trends. Despite their complexity, RNNs' ability to deal with sequential information, combined with their iterative learning process, makes them powerful tools across a range of domains.

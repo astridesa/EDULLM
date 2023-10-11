@@ -1,0 +1,16 @@
+Survey: Hidden Markov Models
+
+Introduction:
+This section aims to introduce the concept of Hidden Markov Models (HMMs) to the participants. HMMs are powerful statistical models used to represent systems that undergo successive probabilistic transitions. This section will briefly explain the basics of HMMs and provide the necessary background information for the subsequent sections.
+
+History:
+In this section, participants will explore the historical development of Hidden Markov Models. Starting from its early roots in the 1960s, the section will highlight key contributions and milestones in the field. Participants will gain an understanding of how HMMs have evolved over time and their relevance in various disciplines.
+
+Key Ideas:
+This section will delve into the fundamental concepts and principles behind Hidden Markov Models. Participants will learn about the core elements of HMMs, such as states, transitions, and observations. They will also be introduced to the notion of hidden states and the probabilistic framework that characterizes HMMs.
+
+Variations:
+In this section, participants will explore the different variations and extensions of Hidden Markov Models. The section will cover topics such as continuous HMMs, time-inhomogeneous HMMs, and higher-order HMMs. Participants will gain insights into the modifications made to basic HMMs, enabling them to handle more complex real-world scenarios.
+
+Applications:
+The final section will focus on the diverse range of applications of Hidden Markov Models. Participants will discover how HMMs have been successfully applied in various fields, including speech recognition, bioinformatics, natural language processing, and finance. Real-world examples will be provided, showcasing the practical significance of HMMs and their potential for solving complex problems.

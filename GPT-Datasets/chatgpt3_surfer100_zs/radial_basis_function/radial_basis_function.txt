@@ -1,0 +1,18 @@
+Title: A Survey on Radial Basis Function
+
+Introduction:
+Radial basis functions (RBFs) are mathematical functions commonly used in various fields, including computer science, engineering, and mathematics. RBFs are known for their ability to approximate complex functions accurately and efficiently. This survey explores the key ideas, historical development, variations, and applications of RBFs.
+
+History:
+The concept of radial basis functions was first introduced in the 1980s by Broomhead and Lowe. Initially, RBFs were primarily used in the field of interpolation, where they offered advantages over other methods. Over time, RBFs gained attention in optimization, machine learning, and data analysis, leading to extensive research in understanding their capabilities and limitations.
+
+Key Ideas:
+At the core of RBFs lies the concept of radial symmetry. RBFs are centered at specific points and radiate influence based on their distance from these centers. The choice of RBFs, their centers, and certain parameters determine the shape and flexibility of the overall function. RBFs can adapt to the data distribution and capture complex relationships, making them versatile for various applications.
+
+Variations:
+Several variations of RBFs have been proposed to enhance their capabilities. These include multiquadric, Gaussian, and inverse multiquadric RBFs, each with different mathematical properties and characteristics. Furthermore, RBFs can be combined with other techniques, such as radial basis function networks, to tackle specific challenges or improve performance in specific scenarios.
+
+Applications:
+RBFs find practical applications in a wide range of fields. They are extensively used in function approximation, interpolation, meshless methods, computer graphics, and image processing. RBF networks have also been employed in pattern recognition, time series analysis, and data classification tasks. RBF-based optimization algorithms have shown effectiveness in solving complex optimization problems.
+
+In conclusion, this survey provides an overview of the key concepts, historical background, variations, and practical applications of radial basis functions. Understanding RBFs and their diverse applications can aid researchers and practitioners in harnessing the full potential of this mathematical tool in their respective fields.

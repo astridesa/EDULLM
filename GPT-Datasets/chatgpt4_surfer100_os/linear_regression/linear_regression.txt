@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Linear regression is the most well-known and widely used predictive analytics technique. It’s a statistical method used to understand the relationship between two continuous variables, one independent variable (predictor), and one dependent variable (response) or target variable. It finds the line of best fit for a set of pairs of data points, providing a model for predicting the dependent variable based on the independent variable. In simple terms, it reveals how changes in one value are associated with changes in another.
+
+<HISTORY>
+Linear Regression dates back to the 19th century, developed by the pioneer statistician Francis Galton. Documented in his paper "Regression Towards Mediocrity in Hereditary Statistic," the term "regression" was introduced to denote the fact that offspring of exceptionally tall or short parents tend to "regress" towards the average. Galton used a set of bivariate height data for parents and offspring, which concluded with the first simple linear regression model.
+
+<KEY IDEAS>
+The core idea of linear regression is fitting the best possible line to a set of data points. Two forms of Linear Regression are Simple Linear Regression and Multiple Linear Regression. Simple Linear Regression predicts the target variable based on a single feature, while Multiple Linear Regression does with multiple features. The regression line is denoted by the equation Y = a + bX where, Y is the dependent variable, X represents independent variable, a is the intersection of the regression line and the Y-axis (intercept), and b is the slope of the regression line. 
+
+<VARIATIONS>
+There are several variations of Linear Regression. Apart from Simple and Multiple Linear Regression already discussed, some others include Polynomial Regression, Ridge Regression, Lasso Regression, and ElasticNet Regression amongst others. Polynomial Regression expands the number of features from the original data into a specified degree for complex relationships. Ridge, Lasso, and ElasticNet are types of regularized linear regression models that prevent overfitting by adding a penalty term to the loss function.
+
+<APPLICATIONS>
+Linear Regression finds wide application in various fields. It's extensively used in business to forecast sales and predict costs. In healthcare, it helps forecast the progression of diseases, and in finance, it’s used to construct an investment portfolio. For machine learning and AI, linear regression has played a critical role, acting as a stepping stone for beginners. However, it's very important to remember the limitations of linear regression, such as it assumes a linear relationship between variables and may perform poorly on non-linear data. Nonetheless, the predictions from linear regression provide a solid baseline upon which to compare other models.

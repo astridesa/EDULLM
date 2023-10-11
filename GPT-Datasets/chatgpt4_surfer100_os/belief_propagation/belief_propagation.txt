@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Belief Propagation (BP) is an inferencing algorithm predominantly used in graphical models of statistical machine learning. It operates on factor graphs and Bayesian networks. Belief Propagation can handle networks with diverse structures like trees, loops, and connections, and demonstrates success in capturing the probabilistic relationship between variables. It is chiefly used in applications like coding theory, computer vision, artificial intelligence and communication networks, to determine marginal distributions over the variables.
+
+<HISTORY>
+Belief Propagation was first conceptualized in 1982 within the capacity of information theory by Robert Gallager. For its early years, Belief Propagation was primarily applied in decoding low-density parity-check codes. Yair Weiss proposed an extension of BP to general graphs, commonly known as the Loopy Belief Propagation, in 2000, which expanded its practical applicability.
+
+<KEY IDEAS>
+The key idea behind Belief Propagation is to appraise and update the “beliefs” or probability distributions of the nodes in a graph, based on the beliefs of the neighboring nodes. It operates through an iterative process where nodes continually send messages to their neighbours until a stable state is achieved or a predefined number of iterations are completed. BP's strength lies in its power to efficiently decompose complex multidimensional integrals or summations into more manageable calculations.
+
+<USES/APPLICATIONS>
+Belief Propagation has found varied applications, particularly in areas requiring computation of marginal distributions of a desired set of variables. Notably, it has gained prominence in coding theory for decoding LDPC codes and turbo codes. It is applied in stereo vision systems to calculate pixel disparity. Belief propagation is also used in artificial intelligence for inference in Bayesian networks, for improving computer algorithms, and in creating more effective communication systems.
+
+<VARIATIONS>
+Belief Propagation's core principle of exploiting graph structure to perform efficient probabilistic inference has been extended to many variations. Notable among these are Loopy Belief Propagation, for graphs containing loops, and Generalized Belief Propagation, which improves upon LBP for certain application areas. Iterative Belief Propagation, another popular modification, has proven effective for specific inference problems, and significantly outperforms conventional BP in some scenarios.

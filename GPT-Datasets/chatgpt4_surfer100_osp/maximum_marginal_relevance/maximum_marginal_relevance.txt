@@ -1,0 +1,16 @@
+<INTRODUCTION>
+Maximum Marginal Relevance (MMR) is a method primarily used in information retrieval and natural language processing domains. It was invented to deal with the problem of redundancy in text-based retrieval responses. MMR prioritizes extracting diverse information while maintaining relevance to the query. It aims to provide a balance between redundancy and relevance in information sequences, making it a useful tool for multi-document summarization, question-answering, and other information retrieval tasks.
+
+<HISTORY>
+The concept of Maximum Marginal Relevance was introduced by Jade Goldstein, Mark Kantrowitz, Vibhu Mittal, and Jaime Carbonell at Carnegie Mellon University in 1998. The method was proposed to address the challenge of redundancy often present in multi-document summarization of information retrieval systems. It aimed to sidestep the common problem of retrieving several documents containing the same information, which added no new value to the user. 
+
+<KEY IDEAS>
+The key idea behind Maximum Marginal Relevance (MMR) is to provide a solution to redundancy within retrieved information. Mathematically, it can be defined as:
+MMR = arg max [λ * Sim1 (D_i, Q) - (1- λ) * max Sim2 (D_i, D_j)],
+where, D_i & D_j are documents, Q is a query, λ is a value between 0 and 1, Sim1 measures similarity between D_i and Q, and Sim2 is the similarity between D_i and the already selected D_j. Maximizing this equation aids in selecting diverse and relevant information components that form a summary.
+
+<USES/APPLICATIONS>
+Maximum Marginal Relevance is widely used in natural language processing tasks, especially in information retrieval systems, where it serves to eliminate redundant information. In doing so, MMR delivers more concise and diverse responses to user queries. This is particularly useful in the field of automatic text summarization, where MMR significantly reduces system-generated textual redundancy. Other applications include question-answering systems and information extraction tasks where relevance and non-redundancy play significant roles. 
+
+<VARIATIONS>
+There exist other methods that also aim to deal with redundancy in information retrieval tasks, such as Cluster-based Retrieval and Relevance Feedback. MMR, however, excels as it maintains a balance between novelty and relevance. The concept of MMR plays a critical role in a broader class of algorithms for extracting diverse information, essentially forming the foundation for multiple diversity-promoting methods in not only Natural Language Processing but also in other fields such as recommender systems and search result diversification.

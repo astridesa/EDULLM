@@ -1,0 +1,16 @@
+Title: Logic and Logical Agents
+
+1. Introduction
+The science of correct reasoning or valid inference, logic, is instrumental in various disciplines, especially computer science. Crucial to artificial intelligence, logic forms the basis of logical agents - computer programs whose operation can be explained or predicted by logical inference. These autonomous entities perceive the environment via sensors and act upon it using actuators, following logic-based decisions formed from pre-determined knowledge and currently available information. 
+
+2. History
+Logics and their applications to computing and artificial intelligence have a rich history, heavily contributing to the modern conceptualization of logical agents. Early civilizations, including the Greeks and Indians, established the foundations of formal logic. However, it's the advent of symbolic logic in the 19th century by George Boole that directly underpins contemporary logical agents. Merging symbolic logic with advancements in computing during the 20th century, artificial intelligence researchers began developing the first logical agents, suggesting the profound relationship between logic and computation.
+
+3. Key Ideas
+Central to logical agents' design are a few key ideas: logical representation and reasoning. Representation involves encoding the world’s pertinent features into a language the agent can understand. Reasoning is the process through which the agent uses logic to extrapolate conclusions from these representations. Furthermore, external events shape deductive reasoning and problem-solving capabilities of logical agents. They also rely on first-order logic (predicate logic) and propositional logic, making their operations intricate yet intriguing.
+
+4. Variations
+Various forms of logic cater to different contexts and challenges in the operation of logical agents. Classical logic, although widely used, can be limiting, prompting the use of other variations. These include modal logic, used to express propositions about necessity and possibility; temporal logic, which deals with the logical relationships between points in time; and fuzzy logic, which handles reasoning that is approximate rather than fixed & exact. These variations offer flexibility and broader applicability to the logical agents.
+
+5. Applications
+Logical agents are utilized in numerous settings, largely linked to artificial intelligence. Some applications include automated reasoning, in which agents infer new knowledge from existing data; intelligent systems such as personal assistants and recommendation algorithms; and game artificial intelligence, where agents devise strategies based on set rules and current situations. More notably, they find use in formal verification processes, aiding in proving or disputing the correctness of algorithms or systems.

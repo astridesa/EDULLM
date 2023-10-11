@@ -1,0 +1,14 @@
+<INTRODUCTION>
+The Perceptron is a linear algorithm used for binary classifiers in machine learning and artificial intelligence. It is a type of classifier used to understand and categorize patterns within data, often for supervised-learning tasks where the data is already labeled. It's a simple model that lays the foundational principles for more complex neural networks. The Perceptron algorithm classifies input into two possible outputs (1 or 0) based on a linear predictor function combining a set of weights with the feature vector.
+
+<HISTORY>
+Invented in 1958 by Frank Rosenblatt at Cornell University, the Perceptron is one of the earliest machine learning algorithms. Inspired by the information processing of a single neural cell called a neuron, Rosenblatt sought to develop an algorithm that mimicked these biological processes. Despite its initial popularity, limitations discovered by Minsky and Papert in 1969, particularly the inability to solve problems that are not linearly separable, somewhat tarnished its reputation. However, the advent of multi-layer perceptrons, utilizing layers of these simple perceptrons, revived its significance.
+
+<KEY IDEAS>
+The Perceptron model is a single layer neural network that uses a linear predictor function to classify data. It takes an input, aggregates it (weighted sum) and returns 1 if the value is above a certain threshold and -1 if it is below. Key to the working of a Perceptron is the concept of weights. Weights are real numbers expressing the importance of the respective inputs to the output, which the algorithm learns during its supervised learning process. The Perceptron learning rule is the method employed by the Perceptron to learn from its mistakes by adjusting the weights.
+
+<VARIATIONS>
+Over time, several variations of the Perceptron algorithm have been developed to overcome its limitations. An improvement of the standard Perceptron is the Multi-Layer Perceptron, which consists of multiple layers of perceptrons, thus enabling it to solve problems that are not linearly separable. Another variation includes the Kernel Perceptron, where a kernel function is used to calculate the dot product in a higher dimension space.
+
+<USES/APPLICATIONS>
+The Perceptron algorithm finds its application in numerous fields. It is primarily used in supervised learning of binary classifiers; categorizing data into one of two categories. It is effectively used in predicting whether an email is spam or not, whether a tumor is malignant or benign, and in natural language processing. Furthermore, Perceptrons also serve as the fundamental block for building more complex neural networks and thus find their applications everywhere a neural network is deployed. Despite its limitations and simplicity, the Perceptron remains a key part of machine learning methodologies.

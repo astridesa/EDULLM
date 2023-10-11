@@ -1,0 +1,16 @@
+**Title: Linear Discriminant Analysis: A Comprehensive Survey** 
+
+**Introduction**
+Linear Discriminant Analysis (LDA) is a popular statistical technique for dimensionality reduction that maintains class separability. Rooted in supervised learning, it aims to identify or create new features in a way that optimizes the separation between known classes present in a dataset. This powerful method is an essential tool in pattern recognition and classification problems, becoming a significant asset for fields that require discriminative features.
+
+**History**
+LDA was first formulated in 1936 by Ronald Fisher, initially named ‘Fisher’s Linear Discriminant’, he employed it as a two-class model. His work changed modern statistics and is recognized as one of the most influential papers of the 20th century. Since then, the technique has evolved and expanded, accommodating multi-classes and underlying different variations, confirming its prominence in modern-day machine learning and data science.
+
+**Key Ideas**
+The fundamental concept of LDA involves finding a linear combination of features that characterizes or differentiates two or more classes. It focuses on maximizing class separation by reducing in-class variance (i.e., data points within the same class are brought close together) and increasing between-class variance (i.e., data points from different classes are pushed apart). To achieve this, LDA constructs a new feature space that minimizes overlap between classes, enhancing class discrimination.
+
+**Variations**
+Several modifications have been made to the classic LDA method to accommodate different applications. Regularized LDA introduces regularization terms into the optimization objective. Quadratic Discriminant Analysis (QDA) is a variant that relaxes the assumption of equal covariance matrices for each class. Kernel LDA is another variant that applies the 'kernel trick' to map the data into a higher-dimensional space, making it possible to separate non-linearly separable classes. 
+
+**Applications**
+LDA has a wide range of applications due to its ability to optimize class separability. It saw foundational usage in biometric identification, like face recognition, where it facilitated high-dimensional data analysis. In medical imaging, it is frequently used for dimensionality reduction before classification. In finance, LDA aids in the detection of fraudulent transactions by providing insights into patterns of transactions. Its use extends to text classification, customer segmentation, and chemical detection among many others. Its main strength comes in solving problems where predictive accuracy is more important than interpretability.

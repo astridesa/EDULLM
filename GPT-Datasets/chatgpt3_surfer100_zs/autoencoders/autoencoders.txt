@@ -1,0 +1,17 @@
+Survey on Autoencoders
+
+Introduction:
+Autoencoders are a type of artificial neural network used in unsupervised learning tasks. They are neural networks that aim to reconstruct the input data at the output layer, with a compressed representation in the hidden layer. In this survey, we will explore the history, key ideas, variations, and applications of autoencoders.
+
+History:
+Autoencoders have roots dating back to the 1980s, with the introduction of the neural network models. However, their comeback gained prominence with advancements in deep learning and computational power. They are regarded as self-supervised learning models that learn from data without explicit labels, making them useful in various domains.
+
+Key Ideas:
+The key idea behind autoencoders is to learn a compressed representation or encoding of the input data. They consist of an encoder that maps the input data to a hidden layer representation, and a decoder that aims to reconstruct the input from the hidden representation. By minimizing the reconstruction error, autoencoders learn meaningful representations of the data.
+
+Variations:
+Autoencoders come in various forms, each with unique characteristics and applications. Variations include sparse autoencoders, denoising autoencoders, variational autoencoders, and deep autoencoders. Sparse autoencoders focus on learning sparse representations, while denoising autoencoders can handle noisy input data. Variational autoencoders incorporate probabilistic modeling, and deep autoencoders consist of multiple hidden layers.
+
+Applications:
+Autoencoders have found applications in a wide range of domains, including image and video processing, anomaly detection, recommendation systems, dimensionality reduction, and generative modeling. They have been proven effective for tasks such as reconstructing images, generating new data samples, and creating embeddings for downstream tasks.
+

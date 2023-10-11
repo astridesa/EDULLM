@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Singular Value Decomposition (SVD) is a principal technique in linear algebra that factorizes a matrix into three other matrices. It is known for creating a godsend for data compression, information retrieval, and extracting useful features. SVD operates by splitting a matrix into singular vectors and singular values, thereby revealing the underlying structure within the data. It allows mathematical insights that can't easily be gleaned from the unfactored matrix. Using this technique, relationships among variables and patterns within data can be effectively modeled.
+
+<HISTORY>
+Singular Value Decomposition was first introduced in a series of papers by Erhard Schmidt and Camille Jordan around the late 19th and early 20th century. Since then, it has been largely used as a fundamental concept in the development of many modern mathematical and statistical techniques. As early linear algebra research progressed, its potential became apparent and various new applications across a wide range of scientific and mathematical fields were developed. SVD has become one of the mainstays of modern linear algebra and its applications.
+
+<KEY IDEAS>
+The key idea of SVD is to decompose a matrix into three other matrices - the left singular vectors, the singular values, and the right singular vectors. It is based upon the mathematical feature that every matrix has a singular decomposition. The singular vectors provide a matrix for transformation while the singular values sort out the strength of each component. The process takes a dataset with many variables, potentially correlated, and returns a dataset with fewer variables, uncorrelated.
+
+<VARIATIONS>
+While standard SVD is designed for dense matrices, there are also variations like Sparsified Singular Value Decomposition for sparse matrices, allowing large amounts of computational saving. Randomized SVD is another variation that uses approximation techniques to give almost similar results to normal SVD but faster. Adding to these, Truncated SVD selects top largest singular values and allows a high level of data compression and noise reduction. Each variation is created and optimized for particular types of data and problems.
+
+<APPLICATIONS>
+SVD is indispensable in many fields due to its ability to break down datasets and reveal their underlying structure. It's famously used in recommendation systems for movies or products, for instance. In Natural Language Processing, SVD is applied to reduce dimensions and detect latent semantics. In Image Processing, it's used in image compression and recognition. Similarly, in Data Science, it proves useful for Principal Component Analysis and Linear Regression. One can boldly say the applications of SVD are as diverse as the fields it's used in.

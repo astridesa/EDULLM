@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Named Entity Recognition (NER) is a subtask of information extraction in the field of Natural Language Processing (NLP). It involves identifying predefined classes of entities in a text such as person names, organizations, locations, expressions of times, quantities, and more. As an essential step towards understanding text, NER is a fundamental method for extracting knowledge from unstructured data. The motivation behind NER includes its application in numerous tasks such as question answering, machine translation, and semantic interpretation.
+
+<HISTORY>
+The development of NER was driven by critical language processing tasks like machine translation and semantic understanding. The term was introduced in the Message Understanding Conferences (MUC) of the 1990s. MUC was a series of evaluation exercises organised by the US government, where key Information Extraction tasks, including NER, were defined. NER continues to address the challenge of identifying and classifying named entities in text data, crucial for further semantic processing.
+
+<KEY IDEAS>
+The key idea behind NER is the extraction and classification of named entities, such as people, organizations, and locations, from unstructured text. Generally, NER models involve two steps: detection of entities and classification of these entities into predefined categories. This is usually achieved by tagging the words, or sequence of words, in a text that correspond to the correct entity category. Both rule-based approaches and machine learning-based approaches (like supervised learning, semi-supervised learning, and unsupervised learning) have been widely used in NER.
+
+<USES/APPLICATIONS>
+Named Entity Recognition has wide-ranging applications in the field of NLP. It has been essential in relation extraction, information retrieval, and question answering systems. It enables the automated reading and understanding of news articles, social media posts, etc. NER is also critical for building efficient chatbots and virtual personal assistants. Furthermore, it is used in the biomedical field to extract medical information from texts.
+
+<VARIATIONS>
+NER has seen several variations in its approach and application, including multilingual NER, cross-lingual NER, and domain-specific NER. The latter aims to identify entities specific to a certain domain, like the biomedical field. Recently, deep learning methods like Recurrent Neural Networks (RNNs) and its variants, Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRUs), as well as Transformer models have been leveraged for NER tasks. These variations showcase the vast potential and the ongoing evolution of Named Entity Recognition.

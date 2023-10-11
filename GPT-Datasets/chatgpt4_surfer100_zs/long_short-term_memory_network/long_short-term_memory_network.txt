@@ -1,0 +1,21 @@
+**Title: A Survey on Long Short-Term Memory Networks**
+
+**1. Introduction**
+
+Long Short-Term Memory Networks (LSTM) are an innovative type of Recurrent Neural Networks (RNNs) that have been specifically designed to effectively manage and maintain the essential elements extracted from time-varying or sequence data. LSTMs have been a remarkable advancement in the field of artificial intelligence because they address the shortcomings of traditional RNNs such as the undesirable effects of gradient vanishing and exploding, which impede RNNs’ learning ability for long time-lag tasks.
+
+**2. History**
+
+Introduced by Sepp Hochreiter and Jürgen Schmidhuber in 1997, the LSTM addresses the vanishing gradient problem experienced by traditional RNNs. The main novelty of LSTM was the incorporation of gating units. These units permit or restrict information from flowing through the sequence chain, thereby effectively containing the exploding or vanishing gradient problem. Since its inception, LSTM has served as a prerequisite for various network designs addressing further issues and limitations.
+
+**3. Key Ideas**
+
+The core concept behind LSTM networks is the cell state, a controllable information pipeline that carries the required details from early input sequences to later ones, making provision for long-term dependencies. LSTM adjusts the cell state through carefully designed structures called gates, which are capable of removing or adding information to the cell state. There are three main types of gates: forget gate deciding what information should be discarded, input gate deciding what new information should be stored in the cell state, and output gate deciding what information should be utilized.
+
+**4. Variations**
+
+Over the years, several variations of LSTMs have been introduced to maximize efficiency and minimize computational resources. The Gated Recurrent Unit (GRU) is a popular variation, which merges the cell state and hidden state, and uses two gates. Another important variation is the Peephole LSTM, which lets the gate layers peep into the cell state. The Convolutional LSTM replaces simple multiplication operations with convolutional operations, making it especially effective for spatial temporal data.
+
+**5. Applications**
+
+LSTM found a myriad of applications in fields where sequence or time series data are crucial. In natural language processing, LSTM has proven effective in machine translation, sentiment analysis, named entity recognition, and text generation due to its ability to capture context dependencies. In computer vision, LSTM has been utilized for video processing and in action recognition tasks. Also, in time series analysis and forecasting including stock market prediction or weather forecasting, LSTM exhibits prime performance.

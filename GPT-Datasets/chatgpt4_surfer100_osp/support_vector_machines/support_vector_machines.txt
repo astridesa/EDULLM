@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Support Vector Machines (SVM) is a supervised machine learning algorithm that is often used in classification problems, but it can also be used for regression tasks. A part of the field of statistical learning theory, SVM techniques are known for their strong capabilities in terms of prediction and their robustness in handling high-dimensional data. The basic idea is to identify the optimal hyperplane which separates different classes in the given data. Applications of SVM range from text categorization to image and pattern recognition.
+
+<HISTORY>
+The Support Vector Machines methodology was first introduced by Vladimir Vapnik and Alexey Chervonenkis in 1963. However, it wasn't until the 1990s, when the methodology was developed further through computational learning theory, that SVM became a major tool for machine learning. The SVM algorithm was developed to solve binary classification by finding the hyperplane that separates two classes with maximum margin, thus addressing the problem of overfitting. 
+
+<KEY IDEAS>
+Support Vector Machines work by mapping input vectors to a higher dimensional space where the data can be separated, ideally completely. A hyperplane is introduced to separate the different classes within the data. The main idea is to find the hyperplane with the maximum margin to categorise the input vectors. SVMs use kernel functions to compute the distance between two points in this high dimensional space with less computational cost than other similar methods. The algorithm essentially attempts to maximize this margin, which limits the classification error and provides better predictive performance. 
+
+<USES/APPLICATIONS>
+Support Vector Machines are used for various classification and regression tasks. SVM has been successfully used in handwritten digit recognition, text categorization, image classification, bioinformatics (including Protein classification and Cancer classification), and stock market price prediction, among others. It's particularly popular in text mining fields due to its ability to handle high-dimensional data. 
+
+<VARIATIONS>
+There have been several extensions to the traditional SVM model. One major variation is the Multi-class SVM, which can classify data into more than two groups. Another variant is Support Vector Regression (SVR) which uses the same concepts to perform regression analysis. Kernel SVMs are another variation that use different functions, or kernels, to transform the input data, enabling non-linear classification. Besides these, there is a whole family of SVM-inspired algorithms including Least Squares SVM, Twin SVM, and Distribution SVM. These all extend and adapt the basic SVM model to suit specific challenges of diverse data types.

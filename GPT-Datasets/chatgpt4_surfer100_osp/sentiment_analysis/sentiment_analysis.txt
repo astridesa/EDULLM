@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Sentiment Analysis, also known as opinion mining, is a subfield of Natural Language Processing (NLP) that utilizes text analysis and computational linguistics to identify and extract subjective information from a source text. It's a method used to detect the sender's attitude, judgments, or feelings towards specific topics based on the text given. Sentiment Analysis can detect various emotions - from happiness, sadness, anger, surprise to neutral - thus it has wide applications in areas like customer feedback interpretation, social media monitoring, and even market trends prediction. 
+
+<HISTORY>
+The pioneer of Sentiment Analysis was psychologist Robert Plutchik, who introduced the "wheel of emotions" in the 1980s. However, the era of Sentiment Analysis in the field of computing began around the early 2000s, alongside the boom of the internet and the vast amount of text data that came with it. The primary goal behind Sentiment Analysis was to create systems that could understand human emotions as efficiently as humans do.
+
+<KEY IDEAS>
+The key ideas behind Sentiment Analysis involve Natural Language Processing (NLP), text analysis, computational linguistics and Artificial Intelligence (AI). The process usually involves data collection, pre-processing, feature extraction, and classification. There are three main types of Sentiment Analysis: fine-grained (where sentiment is divided into categories like very positive, positive, neutral, negative, and very negative), emotion detection (identificating feelings such as happy, sad, angry, etc), and aspect-based (where sentiment is analysed with context to a specific aspect of a product or service).
+
+<USES/APPLICATIONS>
+Sentiment Analysis is used widely in brand monitoring, allowing companies to gain insights from social media and customer reviews about how people feel about their product or service. Additionally, it's used in politics to understand public sentiment towards policies or politicians, in market analysis to predict stock trends based on public sentiment, and even in healthcare to detect conditions like depression based on the sentiment in a patient’s communication.
+
+<VARIATIONS>
+There are variations in sentiment analysis based on the complexity of the task and the level of depth required. Some models focus on polarity detection (positive, negative, neutral), others on emotion detection while some on aspect-based sentiment analysis. It fits into the larger picture of text classification and Natural Language Processing. Examples of models that perform sentiment analysis include Recurrent Neural Networks, Convolutional Neural Networks, and Long Short-Term Memory Networks.

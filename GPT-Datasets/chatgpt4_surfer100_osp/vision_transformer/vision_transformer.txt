@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Vision Transformer (ViT) is a novel approach in the field of computer vision that leverages transformer architectures typically used for natural language processing tasks. Originally introduced by Google Brain, ViT works by treating image pixels as a sequence to perform various vision tasks like image classification, detection, etc. Unlike traditional convolutional neural networks (CNNs), ViT attains a holistic view of the entire image. This revolutionary model has paved the way for more flexible methods in visual analysis, driving advancements in automated driving, robot navigation, and image editing.
+
+<HISTORY>
+The Vision Transformer model was first outlined in 2020 in a paper titled "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" by the Google Brain team. Overcoming the limitations of CNNs - particularly their lack of ability to process global, long-range dependencies across images - Google Brain looked to the principles used in natural language processing with transformers. By reimagining an image as a sequence of patches (much like a sequence of words), they sought to introduce an innovative way for algorithms to learn from visual data. 
+
+<KEY IDEAS>
+The Vision Transformer employs the transformer architecture that is highly successful in natural language processing tasks for computer vision. Instead of viewing images through the lens of a grid, ViT splits images into fixed-sized patches, flattens them into a sequence of linear embeddings, and feeds them into the transformer. Augmenting this with positional embeddings allows the model to understand spatial context. The overall design enables the detection of notable patterns across the entire image, enabling more nuanced understanding and accuracy for complex tasks. 
+
+<USES/APPLICATIONS>
+Vision Transformers have proved useful in various computer vision tasks, including object detection, semantic segmentation, and image classification. They've also been instrumental for applications requiring high levels of image interpretation, such as autonomous driving and clinical diagnostics. By providing greater context for an entire image and leveraging vast amounts of unlabelled data, the ViT model can also enhance performance in areas like surveillance and robotics.
+
+<VARIATIONS>
+Several variations of the Vision Transformer have emerged since its introduction. Data-efficient Image Transformers (DeiT), for instance, piggybacks on ViT but with superior data efficiency. Concurrent Time-series Enhanced Transformer (CoT), on the other hand, improves transformers for Computer Vision by concurrently fusing local and global context for better visual representation and interpretation. Despite the variations, ViT established the groundwork for rethinking the way algorithms interpret and learn from visual data.

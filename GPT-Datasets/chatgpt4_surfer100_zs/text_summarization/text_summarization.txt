@@ -1,0 +1,21 @@
+Title: Text Summarization: An Overview
+
+Introduction 
+
+Text summarization, commonly referred to as text-specific data reduction, involves the process of pinpointing and presenting vital pieces of information from a larger body of text. This quintessential method not only improves the user's understanding but also aids in swift decision making by delivering the data essence promptly. It is a flourishing area of research in today's information-oriented era where it aids the reader to swiftly capture the essence of a given document while evading redundant reading.
+
+History 
+
+The genealogy of text summarization dates back to the early 1950s when Hans Peter Luhn from IBM who is often regarded as the ‘Father of Information Retrieval’ attempted to capture the themes from documents using statistical frequency. Over time, it has evolved through various research phases, leaping from extractive approaches to abstractive methods, introducing an era of advanced information digestion. Ongoing developments in computational linguistics, machine learning, and artificial intelligence have significantly sculpted its progressions and potential.
+
+Key Ideas 
+
+Text summarization principally pivots around two main ideas: extractive and abstractive summarization. Extractive summarization compiles a summary by selecting key sentences from the source document, whereas abstractive summarization reformulates the text to generate new sentences. The process broadly involves understanding the primary theme, recognizing the significant ideas, eliminating redundancies and finally, formulating a coherent, concise narrative.
+
+Variations 
+
+The technique varies based on purpose, output and method. Approaches can be categorized as supervised or unsupervised, based on the use of training data. Depending on the number of documents used, it could either be single or multi-document summarization. Further sub-categorization includes query-focused summarization, where summaries revolve around a specific search phrase, and generic summarization, delivering an all-round summary without a specific focus.
+
+Applications 
+
+The utility of text summarization spans several domains. In business intelligence, it helps users swiftly comprehend extensive reports or documents. In media, it caters to headline creation and news briefs disseminations. Education witnesses its benefit in developing study notes and literature reviews. As more and more data gets converted into digital text, the demand for effective text summarization techniques keeps intensifying in countless fields.

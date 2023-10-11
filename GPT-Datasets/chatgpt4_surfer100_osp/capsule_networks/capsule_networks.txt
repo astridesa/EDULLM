@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Capsule Networks (CapsNets) are a class of neural networks aimed at overcoming some of the limitations of Convolutional Neural Networks (CNNs). The field is part of computer vision and machine learning, and the motivation behind CapsNets is to allow artificial intelligence systems to understand the hierarchical arrangement of simple to complex objects and recognize them at various perspectives. CapsNets try to encode not just the presence of visual features, but also their relationship in terms of position, size, orientation, and so on.
+
+<HISTORY>
+The concept of Capsule Networks was introduced by Geoffrey Hinton and his colleagues in two papers published in 2011 and 2017. Traditional CNNs, while outstanding at recognizing patterns in images, are less effective at understanding spatial hierarchies, and this is where CapsNets come in. They improve upon CNNs by introducing a mechanism for ensuring that the system preserves information about the spatial and temporal hierarchy of objects.
+
+<KEY IDEAS>
+Capsule Networks look into considering relative spatial relationships between features, which CNNs overlook. CapsNets organize neurons into "capsules" that output a small vector. These capsules model various types of visual entities, and their outputs are combined using "routing by agreement" algorithm. The algorithm dynamically updates the connection weights between capsules rather than using max-pooling. The magnitude of output vector represents the presence of a specific entity, where the pose parameters such as rotation, size, and position are accounted within the direction of the vector.
+
+<USES/APPLICATIONS>
+The primary application of Capsule Networks is in the domain of computer vision, where they can recognize objects in images, even when the object is at a different angle, placement, deformation, or pose from the training images. They have also shown promise in applications such as Image Captioning, Object Segmentation, and Biomedical Image Processing. 
+
+<VARIATIONS>
+Capsule Networks have brought about a significant change in the perception and working of Convolutional Neural Networks. Many variations of CapsNets have been proposed to enhance their performance and capability. Some examples include the Transforming Auto-encoder Capsule Network and the Matrix Capsule. These ideas have further motivated the development of more sophisticated models that can consider complex object compositions and spatial relationships in images.

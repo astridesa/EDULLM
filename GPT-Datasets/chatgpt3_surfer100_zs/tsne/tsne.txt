@@ -1,0 +1,18 @@
+Title: A Comprehensive Survey of t-SNE: Introduction, History, Key Ideas, Variations, and Applications
+
+Introduction:
+In recent years, t-SNE (t-Distributed Stochastic Neighbor Embedding) has emerged as a powerful data visualization technique widely used in various domains. Developed by Laurens van der Maaten and Geoffrey Hinton in 2008, t-SNE is particularly effective at visualizing high-dimensional data in a lower-dimensional space. This survey article aims to provide an overview of t-SNE's development, key ideas, variations, and applications.
+
+History:
+t-SNE originated as a modification of another popular dimensionality reduction technique, called SNE (Stochastic Neighbor Embedding). However, unlike SNE, t-SNE is able to retain the global structure of the original high-dimensional data in the lower-dimensional space. This improvement addressed an important limitation of SNE, making t-SNE more suitable for exploratory data analysis and visualization tasks.
+
+Key Ideas:
+At its core, t-SNE represents each data point as a probability distribution over its neighbors in both the high-dimensional and lower-dimensional spaces. It then minimizes the Kullback-Leibler divergence between these two distributions, allowing for the preservation of both local and global structure during the embedding process. By adjusting the perplexity hyperparameter, t-SNE can control the focus on local versus global information, offering flexibility in visualization results.
+
+Variations:
+Over the years, several variations and enhancements to the original t-SNE algorithm have been proposed. These variations aim to tackle specific challenges, such as handling large datasets, dealing with missing values, integrating with other machine learning techniques, or improving the interpretability of the resulting visualizations. Some notable variants include modified t-SNE, kernel t-SNE, FIt-SNE, and parametric t-SNE.
+
+Applications:
+t-SNE finds applications in a wide range of fields, from genomics and bioinformatics to computer vision and natural language processing. Its ability to visually uncover patterns and relationships in complex datasets makes it valuable for exploratory data analysis, anomaly detection, clustering validation, and feature engineering. Moreover, t-SNE's visualization outputs have been used for tasks like cell classification, object recognition, document clustering, and sentiment analysis.
+
+In conclusion, t-SNE has gained popularity as a versatile tool for visualizing high-dimensional data in a lower-dimensional space. With its rich history, underlying key ideas, numerous variations, and broad range of applications, t-SNE continues to be an invaluable asset in exploratory data analysis and data visualization.

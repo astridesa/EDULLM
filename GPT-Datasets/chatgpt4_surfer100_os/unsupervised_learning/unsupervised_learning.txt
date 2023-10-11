@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Unsupervised Learning is an algorithmic approach that uses techniques for identifying patterns in data. Unlike supervised learning, it doesn’t require labeled input information. Instead, it infers the inherent structure within the dataset itself. Unsupervised learning algorithms can fulfill tasks such as clustering, dimensionality reduction, and association rule mining. It's especially useful for exploratory analysis since it automatically identifies complex structures and patterns.
+
+<HISTORY>
+Unsupervised Learning has its roots in statistical methods that go back decades. It became more popularized with the advent of machine learning and with early work such as J.B. MacQueen's 1967 introduction of the K-means clustering algorithm. These algorithms initially mainly dealt with statistical clustering of data. With advances in neural networks and deep learning technologies, unsupervised learning has now extended to more complex applications, including image and speech recognition.
+
+<KEY IDEAS>
+Key concepts in Unsupervised Learning include clustering, which groups similar data together, and dimensionality reduction, which reduces the number of random variables under consideration by obtaining a set of principal ones. Further, it also encapsulates density estimation, finding the distribution of inputs, and anomaly detection, identifying data points that do not conform to an expected pattern. These techniques rely on the inherent patterns and distributions in the data rather than explicit input-output pairs.
+
+<VARIATIONS>
+Various variations of Unsupervised Learning algorithms exist. In the context of clustering, there are algorithms like K-means, Hierarchical Clustering, and DBSCAN. For dimensionality reduction, Principal Component Analysis (PCA), t-SNE, and UMAP are popular methods. Then, there are autoencoders, a type of artificial neural network used for learning efficient codings of input data, and Generative models like Generative Adversarial Networks (GANs).
+
+<APPLICATIONS>
+Unsupervised Learning has numerous real-world applications. In marketing, it can be used for customer segmentation, allowing businesses to target specific groups of customers. In finance, it can identify fraudulent transactions. Equity portfolio management, image recognition, and natural language processing also utilize unsupervised learning. Other applications include bioinformatics, for gene clustering, and in social network platforms, for friend suggestion and detecting fake profiles.

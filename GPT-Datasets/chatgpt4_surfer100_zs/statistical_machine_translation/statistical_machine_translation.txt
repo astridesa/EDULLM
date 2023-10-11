@@ -1,0 +1,16 @@
+Title: Statistical Machine Translation: A Glimpse into its Journey, Mechanism, Variations and Applications
+
+**Introduction**
+Statistical Machine Translation (SMT) is a type of automated translation technique in which statistical methods are employed to predict the likelihood of a set of words (phrase) in the target language. Unlike rule-based translation systems, which strictly rely on a built-in dictionary and grammatical rules, SMT structures the translation model on the analysis of bilingual text corpora. The larger the text corpus, the better the translation results since more accurate and diverse statistical data can be utilized for analysis.
+
+**History**
+The roots of Statistical Machine Translation can be traced back to the early 1990s, where IBM first introduced several statistical models, known as the IBM Models. This marked the shift from Rule-Based Machine Translation to a more effective data-based approach. The emergence of large bilingual corpora significantly propelled SMT's development, and throughout the late 1990s and early 2000s, translation systems such as Google Translate and Bing Translator began utilizing SMT, leading to its mainstream adoption.
+
+**Key Ideas**
+Statistical Machine Translation operates based on the idea of leveraging probability distribution over strings, using techniques such as maximum likelihood estimation and Bayes' theorem. SMT makes use of a language model that assigns probabilities to sequences of words, and a translation model that considers probabilities of one sequence being a valid translation of another. The selection of the best translation is then based on the principle of choosing the highest probability among possible translations.
+
+**Variations**
+Over the years, several variations of the SMT model have been developed, primarily segregating into two categories: phrase-based models and syntax-based models. Phrase-based models break text into phrases instead of individual words, offering a broader contextual understanding. On the other hand, syntax-based models attempt to consider the grammatical structure of the source language, thereby providing a syntactically consistent translation. Neural machine translation (NMT), which leverages deep learning techniques for translation, is a newer variant often considered a departure from traditional SMT.
+
+**Applications**
+Statistical Machine Translation's advancements have enabled various real-world applications. Aside from being employed in popular online translation tools like Google Translate, it aids in translating digital content like websites, emails, and documents in multinational organizations easing global communication. Moreover, its utilization extends to industries like entertainment for subtitling and dubbing foreign films, in healthcare for translating medical literature, and in research for multilingual data analysis.

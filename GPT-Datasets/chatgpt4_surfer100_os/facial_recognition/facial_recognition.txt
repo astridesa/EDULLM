@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Facial recognition is a biometric AI-based technology used to identify and verify an individual's identity by comparing facial features from an image with those stored in a database. The technology is extensively used in security systems and has been gaining prominence in a diverse range of applications. It works by measuring and analysing patterns in a person’s facial details - the size, shape, and position of the eyes, nose, cheekbones and jaw.
+
+<HISTORY>
+Facial recognition technology has seen a substantial evolution. It began in the mid-1960s with Woodrow Wilson Bledsoe's system that manually detected facial features on photographs. 1991 witnessed the first real-time facial recognition system developed by MIT's Alex Pentland. In the 2000s, the technology advanced thanks to the bloom of 3D recognition, skin texture analysis and the advent of deep learning in the 2010s. Today, facial recognition is a full-fledged technology used in many industries for various applications.
+
+<KEY IDEAS>
+Facial recognition technology operates on two primary tasks: Verification and Identification. Verification, or "one-to-one" matching, compares a person's face with an image in a database (typically ID photo) to confirm it's the same individual, while Identification, or "one-to-many" process, identifies unknown individuals by comparing a person's face against multiple records in a database. The system detects and measures facial features using complex algorithms and technologies such as eigenfaces, local binary patterns histogram (LBPH), Scale-Invariant Feature Transform (SIFT), and deep learning algorithms like convolutional neural networks.
+
+<VARIATIONS>
+Variations in facial recognition technology include but are not limited to 2D, 3D, and skin-texture analysis. 2D recognition is the most common method which takes into consideration the width of the nose, the depth of the eye sockets, and the shape of the cheekbones. However, it can be affected by changes in light. 3D recognition uses sensors to capture information about the shape of a face which gives more accuracy. Skin Texture Analysis uses the visual details of the skin, as captured in standard digital or scanned images and analyses unique lines, patterns, and spots apparent in a person’s skin into a mathematical space.
+
+<APPLICATIONS>
+Facial recognition has a broad and growing range of applications. In law enforcement and security, it assists in identifying criminals or potential threats. It is used in smartphones for  biometric authentication and mobile payment. The technology also has social media applications where it is used for auto-tagging users in photos. It's increasingly being used in retail to analyze customer behavior and airport security for passport verification. Although the use of facial recognition is popular, it has sparked privacy-related discussions on its ethical use.

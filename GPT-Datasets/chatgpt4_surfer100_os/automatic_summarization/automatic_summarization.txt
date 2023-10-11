@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Automatic summarization is a process used in natural language processing and computational linguistics to summarize large volumes of information. The aim is to generate a concise and fluent summary while maintaining the important information content and overall meaning. The benefits of automatic summarization are significant, particularly in an age where the amount of information can be overwhelming. It can be used on various types of data, such as text, audio, and even images or videos.
+
+<HISTORY>
+The idea of automatic summarization has been in existence since the 1950s, with the introduction of research on text simplification and sentence shortening. In the 1980s, the focus moved towards methods for extracting the most important sentences from a document, known as extractive summarization. In recent years with advancements in machine learning and artificial intelligence, more sophisticated techniques, such as abstractive summarization, which can produce new phrases and sentences, have been developed to provide more human-like summaries.
+ 
+<KEY IDEAS>
+Automatic summarization relies on two primary models: extractive summarization and abstractive summarization. Extractive summarization works like a highlighter, selecting key phrases or sentences from the source text to construct the summary. On the other hand, abstractive summarization, akin to rephrasing, generates entirely new sentences to encapsulate the essence of the source text. Both models involve a deep understanding of the semantics and syntactic structures of the documents to determine the significant content.
+
+<VARIATIONS>
+Various methodologies of automatic summarization exist. These include the linguistic approach, which involves the direct manipulation of the source text; machine learning approach, which classifies and selects sentences based on training data; and the statistical approach, which selects sentences based on statistical properties of the documents. Recently, neural network-based techniques and methods that employ deep learning have gained popularity thanks to their ability to generate more natural-sounding, coherent, and accurate summaries.
+
+<APPLICATIONS>
+Automatic summarization has broad application across various domains. In the news industry, it can be used to generate concise summaries of articles for quick reading. In the legal field, summarization tools could assist in summarizing lengthy legal documents. In academia, researchers could use summarization tools to get quick summaries of academic articles. Additionally, automatic summarization is integral in generating metadata for digital libraries, improving information retrieval efficiency in search engines, and assisting in report writing, amongst other applications.

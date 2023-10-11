@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Collaborative Filtering (CF) is a popular method used in recommendation systems, which is part of the field of machine learning. Based on the assumption that individuals with similar preferences in the past will likely have similar tastes in the future, it filters out items that a user might like based on the reactions of similar users. Examples of its applications include movie, music, and products recommendations. The motivation behind CF models extends to a variety of diverse areas such as e-commerce, entertainment, and social media platforms, aiming to enhance user experience.
+
+<HISTORY>
+The concept of CF started alongside the growth of the internet in the mid-1990s when agglomerations of items began to emerge. It was introduced in the context of information retrieval and information filtering to tackle the information overload problem. This problem was also referred to as the "tyranny of choice," first addressed by GroupLens for movie recommendations. The CF model holds an important position in the approach to designing knowledge-based recommenders.
+
+<KEY IDEAS>
+CF operates based on two main principles: user-based and item-based similarity. User-based CF identifies users who share similar preferences, recommends items which the current user hasn't encountered but which similar users have valued. On the other hand, item-based CF identifies items that are similar to those that a user has already rated highly and suggests those. The recommendation quality strongly depends on the similarity measure used and the accuracy of the user-item matrix.
+
+<USES/APPLICATIONS>
+CF is primarily used in recommendation systems. Be it the movies and shows recommended on Netflix, the products suggested on Amazon, or the music put forth on Spotify, CF plays a pivotal role in these recommendations. It can also be used for recommending articles on a news website, suggesting new friends on social media, and more. It helps to personalize the user experience on different platforms, improving user engagement and platform profitability.
+
+<VARIATIONS>
+Apart from the standard user-based and item-based CF, other variants include model-based CF and hybrid systems combining CF with other techniques. Model-based CF uses machine learning algorithms to predict a user's interest in different items. Hybrid CF models combine the strengths of CF and content-based filtering to enhance recommendation accuracy and overcome scalability and sparsity issues. CF is part of a larger landscape of recommender systems, each with their own strengths and weaknesses, and is often used in tandem with these other approaches to provide more accurate recommendations.

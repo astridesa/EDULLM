@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Gradient Descent is a first-order iterative optimization algorithm for finding a local minimum of a differentiable function in Machine Learning and Deep Learning. It is part of the larger field of computational optimization in computer science. Gradient Descent optimizes an objective function modelled on a cost function or loss function. Principally used in training machine learning models, the fundamental motivation behind Gradient Descent is to reduce the error or improve accuracy in models by iteratively moving in the direction of steepest descent.
+
+<HISTORY>
+The concept of Gradient Descent was introduced in the late 19th century by Augustin-Louis Cauchy, a French mathematician, for solving linear systems. However, it gained momentum in the field of machine learning in the 20th century. Gradient Descent aims to solve the difficulties of finding the optimal solution in high-dimensional spaces in machine learning by iteratively adjusting the model parameters to minimize a given function.
+
+<KEY IDEAS>
+The main idea of Gradient Descent revolves around adjusting parameters iteratively to minimize a cost function. It works based on three core components: the current point, the gradient at the current point, and the learning rate. The method calculates derivatives indicating the steepest slope at the current point. Then, it takes steps proportional to the negative of the gradient at that point determined by the learning rate. The process repeats until it identifies the local minimal. Three primary types of gradient descent methods determine how much data we use to compute the gradient of the objective function: Batch Gradient Descent, Stochastic Gradient Descent, and Mini-batch Gradient Descent.
+
+<USES/APPLICATIONS>
+Gradient Descent is used in various machine learning models such as linear regression, logistic regression, and neural networks to optimize the model's prediction accuracy by minimizing the cost function. This iterative approach is applied to minimize the errors by tuning the parameters which in turn improves the model's predictions. Further, in Deep Learning, Gradient Descent is employed to update parameters in deep neural networks.
+
+<VARIATIONS>
+Variations of Gradient Descent have evolved to improve upon the shortcomings of the basic version, these include Momentum Gradient Descent, Nesterov Accelerated Gradient, Adagrad, RMSprop, and Adam. These variations target specific issues such as handling sparse data, choosing appropriate learning rates, reducing oscillation and converge faster than the traditional Gradient Descent. The development of these variations confirms the fundamental role of Gradient Descent in understanding the optimization landscape in machine learning models.

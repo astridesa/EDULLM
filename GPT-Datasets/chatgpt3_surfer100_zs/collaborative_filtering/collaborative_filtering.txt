@@ -1,0 +1,18 @@
+Title: Collaborative Filtering: A Comprehensive Survey
+
+Introduction:
+Collaborative Filtering (CF) is a popular technique used in information filtering and recommendation systems. It allows users to discover and make decisions based on the opinions and experiences of other like-minded individuals. This article provides an overview of CF, highlighting its history, key ideas, variations, and applications.
+
+History:
+The roots of CF can be traced back to the early 1990s when researchers began exploring methods for personalized recommendation systems. Notable contributions include the GroupLens project and the development of item-based CF algorithms. Over the years, CF has evolved and incorporated advancements in machine learning and data mining techniques.
+
+Key Ideas:
+At the core of CF lies the assumption that users with similar preferences in the past will have similar preferences in the future. CF utilizes user-item rating data to build models that identify patterns and relationships between users and items. The two dominant CF approaches are user-based CF, which recommends items based on the preferences of similar users, and item-based CF, which recommends similar items to those a user has previously rated positively.
+
+Variations:
+CF has several variations that aim to address its limitations. Model-based CF incorporates additional user or item attributes to improve prediction accuracy. Hybrid CF combines CF with other recommendation techniques such as content-based filtering. Trust-based CF focuses on the trust relationships between users to generate more accurate recommendations.
+
+Applications:
+CF has been successfully applied in various domains, including e-commerce, entertainment, and social media. In e-commerce, CF algorithms help users discover products through personalized recommendations. In the entertainment industry, CF powers movie and music recommendation engines, enhancing user experiences. CF has also found applications in social media by suggesting relevant connections or friends based on user preferences.
+
+In conclusion, Collaborative Filtering is a powerful technique that leverages the opinions of similar individuals to provide personalized recommendations in various domains. Understanding the history, key ideas, variations, and applications of CF provides valuable insights for researchers and practitioners working in recommendation systems and information filtering.

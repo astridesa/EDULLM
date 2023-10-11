@@ -1,0 +1,19 @@
+**Introduction**
+
+Adam Optimizer is a highly efficient and versatile optimization algorithm widely recognized in the world of Deep Learning. Originating from the adaptive moment estimation, Adam is designed to harmonize the advantages of two other extension of stochastic gradient descent (SGD), AdaGrad and RMSProp. It combines exponentially decaying averages of both past gradients and past squared gradients to compute adaptive learning rates for each weight in a system, contributing towards quick convergence and avoid steep variations in gradients.
+
+**History**
+
+The Adam optimization algorithm was first introduced by Diederik P. Kingma from the University of Amsterdam and Jimmy Ba from the University of Toronto. Their paper "Adam: A Method for Stochastic Optimization" was presented at the 3rd International Conference for Learning Representations (ICLR) in 2015. It quickly rose in popularity due to its superior performance and computational efficiency when compared with earlier SGD algorithms.
+
+**Key Ideas**
+
+At the core of the Adam Optimizer are the concepts of adaptive learning rates and momentum. Adam modifies each parameter's learning rate adaptively by adopting methods from AdaGrad and RMSProp. AdaGrad scales down overall learning rate while preserving relative rates, and RMSProp uses running average of gradients. Adding to these, Adam uses momentum by adding a fraction of the previous update vector to current one, thus aiming at surmounting ravines or local minima. The algorithm calculates an exponential moving average of the gradient and the squared gradient, and these averages are bias-corrected to provide accurate initial estimates.
+
+**Variations**
+
+While Adam optimizer has seen extensive use and success, there are advancing variations that improve upon the initial model. AdamW, unveiled by Loshchilov and Hutter, separates weight decay from the rest of the algorithm to provide more accurate regularization. Similarly, AMSGrad, proposed by Reddi et al, introduces a 'long-term memory' of past gradient values preventing premature convergence. NovoGrad, developed by Goyal et al, brings additional capabilities by normalizing second moments of gradients.
+
+**Applications**
+
+Adam Optimizer plays a pivotal role in training deep learning models, including Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), across diverse domains. It finds wide applications within tasks like image and speech recognition, natural language processing, biomedical informatics, and reinforcement learning, to name a few. Its efficiencies in terms of computational cost and convergence characteristics have made it a method of choice in several machine learning and AI applications.

@@ -1,0 +1,16 @@
+Survey on Language Modeling
+
+Introduction:
+Language modeling is a field within natural language processing that focuses on predicting and generating human language. By utilizing statistical and computational models, language modeling aims to understand the nuances and patterns in written or spoken language. This survey will delve into the history, key ideas, variations, and applications of language modeling.
+
+History:
+Language modeling has a rich history, with roots tracing back to the mid-20th century when researchers first started exploring the statistical modeling of language. Early pioneers like Claude Shannon laid the foundation for formal language theories. Over time, advancements in machine learning techniques, such as recurrent neural networks (RNNs) and transformer models, significantly enhanced the field.
+
+Key Ideas:
+In language modeling, one of the key ideas is n-grams, which represent sequences of n words as basic units of analysis. Markov models form another essential concept, involving the assumption that the probability of a word depends only on the words that immediately precede it. More recently, neural network-based approaches, especially with the advent of deep learning, have become significant in achieving state-of-the-art results.
+
+Variations:
+Language modeling encompasses various variations, including character-based models that predict the next character in a sequence, word-level models that estimate the likelihood of the next word, and subword models that operate at a more granular level. Moreover, variants like hierarchical language models and contextualized word embeddings have gained prominence, boosting performance across diverse tasks.
+
+Applications:
+Language modeling finds applications in a wide range of areas. Its significance is evident in machine translation, speech recognition, grammar correction, sentiment analysis, chatbots, and more. It plays a vital role in virtual assistants like Siri, Alexa, and Google Assistant, enhancing their ability to understand and generate human-like responses. Language modeling also aids in predictive typing and recommendation systems.

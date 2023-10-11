@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Latent Semantic Indexing (LSI) is a statistical method to identify and compare the fundamental concept within the text. Nestled within the Information Retrieval (IR) subfield, this method analyzes relationships among a set of documents and the terms they contain by creating a "semantic" space. The primary goal of LSI is to bring out the underlying semantic structure in the text data for information retrieval purposes, which include document categorization, document clustering, and relevance feedback. Associated with LSI are the concepts of 'semantic space' and 'similarity of terms'.
+
+<HISTORY>
+Latent Semantic Indexing, introduced by Scott Deerwester, Susan T. Dumais, George W. Furnas, Thomas K. Landauer, and Richard Harshman in the late 1980s, was originally applied to text retrieval tasks. The aim was to overcome the 'vocabulary mismatch' issue in conventional Boolean retrieval systems due to synonymy and polysemy. With Latent Semantic Indexing, it has been possible to reduce the impact of these linguistic phenomena, thus, enhancing information retrieval accuracy.
+
+<KEY IDEAS>
+The primary concept behind LSI involves transforming the raw term-document matrix into a lower-dimensional space using Singular Value Decomposition (SVD). This matrix describes the frequency of terms that occur in each document, while the SVD is a way to break down the term-document matrix into simpler parts. The resulting Latent Semantic Space is then typically much smaller than the original space and represents semantically interconnected themes. In this lower-dimensional space, the closeness between terms and documents are interpreted as their semantic similarity.
+
+<USES/APPLICATIONS>
+LSI has found extensive applications in information retrieval tasks such as document categorization, document clustering, and relevance feedback. It is often used in search engines where it helps in interpreting user queries and fetching documents that have a conceptual similarity with the query, even though the exact words might not be present. It's also applied in text mining, where it supports the identification and labeling of topics across large text corpora.
+
+<VARIATIONS>
+In the realm of information retrieval and text mining, Variants of LSI include Probabilistic LSI (pLSI) and Latent Dirichlet Allocation (LDA). pLSI  builds upon LSI but incorporates a probabilistic framework which offers a more solid statistical foundation. In contrast, LDA is a generative model which allows sets of observations to be explained by unobserved groups. Similarly, Non-negative Matrix Factorization (NMF) is another method used for understanding term-document associations. These methods illustrate LSI's foundational role in advancing semantic analysis methods in both academia and industry.

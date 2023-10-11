@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Information Extraction (IE) is a key subset of Natural Language Processing (NLP) and mainly focuses on extracting accurate and structured information from unstructured data sources. IE holds the potential to transform the raw data into valuable, accessible, and machine-readable information. It is frequently used in tasks such as summarization, entity recognition, relation and event extraction, and sentiment analysis, with the intent to capture substantive details and realize the potential usefulness embedded in data.
+
+<HISTORY>
+The early stages of Information Extraction can be traced back to the 1970s when it was pioneered as a means to transform the unstructured data into structured data. Initially, it was designed to meet the needs of the Message Understanding Conferences (MUCs), designed by DARPA in the late 80s and early 90s, to address the need for automatic and efficient data interpretation. The method has evolved significantly to adapt to the rapidly growing technology and data sizes.
+
+<KEY IDEAS>
+Information Extraction primarily involves a set of techniques that enable the extraction of structured information from unstructured data. It often includes several sub-tasks such as Named Entity Recognition (NER), which identifies entities like names, places, etc.; Relationship Extraction, which identifies the relationships between these named entities; and Event Extraction, understanding the actions concerning these entities. Additionally, concepts like co-reference resolution (linking mentions of the same entity) and ascertainment (determining the certainty of extracted information) are also key aspects of modern IE systems.
+
+<USES/APPLICATIONS>
+IE plays a crucial role in various tasks. It's used widely in search engines for improving query results through better understanding of the user query and webpage content. Other applications include news understanding and summarization, competitive intelligence, surveillance and monitoring, semantic web population, and in healthcare for medical record analysis. Moreover, IE techniques are also employed in document classification, cluster analysis, and data mining.
+
+<VARIATIONS>
+There are several ways to perform Information Extraction based on the complexity and requirement of the task. Techniques range from rule-based and supervised learning methods to semi-supervised and unsupervised learning methods. Some approaches are focused on certain domains (domain-specific IE) while others are designed to be more general-purpose. With the advent of deep learning, there's been a significant shift towards using neural network-based models for IE such as recurrent neural networks (RNNs) and transformers. Each variation has its strengths and weaknesses and is typically chosen based on the specific use-case.

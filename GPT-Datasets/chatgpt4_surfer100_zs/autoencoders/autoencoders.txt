@@ -1,0 +1,19 @@
+**Introduction**
+
+Autoencoders are artificial neural networks used for learning efficient codings of input data, typically for the purpose of dimensionality reduction. They operate by encoding the input data, compressing it into a latent-space representation, and then reconstructing the output, attempting to match the original input. Unsupervised in nature, these networks are ideal for extracting valuable information from unlabelled datasets and are widely used in various fields such as image recognition, anomaly detection, and denoising data.
+
+**History**
+
+The concept of Autoencoders came into existence with the advent of Neural Networks in the 1980s. However, their use wasn't widespread initially due to the limitations of computational power and the absence of large datasets. It was during the 2000's with the boom in deep learning and availability of massive data, autoencoders began to gain popularity. Autoencoders were primarily used as a method for pre-training neural networks, however, as deep learning advanced, they found applications in several new areas.
+
+**Key Ideas**
+
+The primary idea behind Autoencoders is to train a network to replicate the input to the output. This apparently simple idea becomes powerful when constraints are put on the network, such as limiting the number of nodes, which forces the model to learn meaningful representations of the data. The typical structure comprises of an encoder function, which maps the input data into a latent space, and a decoder function to reconstruct the input from the latent representation. The aim is to minimize the reconstruction error.
+
+**Variations**
+
+Over the years, several variants of autoencoders have been developed to cater to different needs. Sparse autoencoders impose a sparsity constraint on the hidden layers by incorporating a penalty term to the loss function. Denoising autoencoders add a certain amount of noise to the input data and try to reconstruct the original input. Variational autoencoders, another significant variation, model the latent space as a probability distribution, enhancing their capability to generate new data similar to the input.
+
+**Applications**
+
+Autoencoders, due to their simplicity and flexibility, are used across a broad range of applications. They have primarily been used in feature learning, dimensionality reduction, and anomaly detection. In recent times, autoencoders have found promising applications in generative models like Variational Autoencoders (VAEs) that are extensively used in generating realistic images, text, and sounds. Additionally, autoencoders are used to remove noise from images and in several other fields like drug discovery and fraud detection.

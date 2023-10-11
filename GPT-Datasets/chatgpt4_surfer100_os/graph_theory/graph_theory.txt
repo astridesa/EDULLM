@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Graph theory, a robust branch of discrete mathematics, examines the relationships between pairs of objects. Centered around the study of graphs (structures comprised of nodes and connecting edges), graph theory investigates the properties and applications of these unique mathematical representations. Graph theory is the fundamental tool for understanding networks, from social media connections to transportation systems, and represents a significant aspect of modern mathematics and computer science due to its wide range of applications.
+
+<HISTORY>
+The inception of graph theory dates back to 1736 when mathematician Leonhard Euler devised the solution to the Konigsberg Bridge problem. He introduced the concept of a graph to solve the dilemma, making it the first theorem of graph theory and Eulerian graph. Over time, renowned mathematicians like Gustav Kirchhoff, Arthur Cayley, and Frank Harary have contributed extensively to the development of graph theory, widening its applicability in various fields like computer science, operational research, chemistry, and more.
+
+<KEY IDEAS>
+The essential elements of graph theory include vertices (or nodes) and edges that connect these nodes. Two primary categories of graphs exist: directed and undirected. In the former, edges have directions, while they are directionless in the latter. Graph theory explores numerous key concepts, such as Graph Connectivity, Planar Graphs, Hamiltonian & Eulerian graphs, Graph Coloring, and Graph Traversal Algorithms such as Depth First Search and Breadth First Search.
+
+<VARIATIONS>
+Graph theory variations include weighted graphs (where each edge has a certain amount of weight or cost), connected graphs (with a path from any point to any other point), disconnected graphs, cyclic and acyclic graphs. Tree, a special kind of graph, forms a hierarchy and contains no cycles. Another form, hypergraphs, allows edges to connect any number of vertices. Bipartite graphs feature two sets of vertices, with edges only running between sets and not within.
+
+<APPLICATIONS>
+The utility of graph theory is evident in various fields. In computer science, it helps in managing networks of communication and displaying data organization. In biology, it is used to model and study genetic structures and neural networks. In social sciences, social networks are analyzed using graph theory. Graph Path algorithms like Dijkstra's or Bellman-Ford's are widely employed in GPS technologies. Furthermore, graph theory also assists in studying molecules in chemistry, designing electrical circuits, and plenty of other scientific and practical applications.

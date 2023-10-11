@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Semisupervised learning is a machine learning paradigm that deals with high-dimensional data, where vast portions of it are unlabeled. As a member of the broader machine learning field, it stands between unsupervised learning (with no labeled training data) and supervised learning (with fully labeled training data). The objective is to use unlabeled data, in conjunction with a small amount of labeled data, to improve learning accuracy. Semisupervised learning is crucial in situations where manually labeling data is expensive or impractical, such as object recognition, speech recognition, and bioinformatics.
+
+<HISTORY>
+The concept of semisupervised learning was introduced in research from the early 2000s, although the term itself was coined around 1998. As vast amounts of unlabeled data began to emerge, researchers were grappling with ways to use this data effectively. Semisupervised learning offered a solution to this by tackling scenarios where labeled data was costly or time-consuming to produce, while unlabeled data was abundant.
+
+<KEY IDEAS>
+The core concepts of semisupervised learning revolve around using a combination of labeled and unlabeled data to enhance the learning model's effectiveness. Two fundamental approaches are generally seen: self-training and multi-view training. Self-training involves training an initial model with the labeled data, making predictions on unlabeled data, and then re-training the model with confidently predicted unlabeled data. Multi-view training, on the other hand, utilizes multiple independent views of an input to make educated predictions on inclusive classification. 
+
+<USES/APPLICATIONS>
+Semisupervised learning is vitally important for areas where collecting and labeling large volumes of data is problematic, such as in the medical field for patient diagnosis and disease detection, in speech recognition, natural language processing, and in the recognition and classification tasks in the field of computer vision. The approach is highly beneficial where large amounts of data can be gathered easily, but it is difficult or expensive to label, making it particularly useful in today's data-abundant world.
+
+<VARIATIONS>
+Variations of semisupervised learning techniques have been developed over time, including transductive learning, active learning, and multi-instance learning. Transductive learning focuses on improving the performance on specific, seen inputs, while active learning interacts with the environment to label new instances strategically. Multi-instance learning, on the other hand, deals with cases where each example is a bag of instances and a label is associated with each bag. These models illuminate the broader picture of semisupervised learning's importance in understanding and utilizing unlabeled data effectively.

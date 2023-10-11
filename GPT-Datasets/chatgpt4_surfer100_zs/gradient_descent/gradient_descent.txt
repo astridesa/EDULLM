@@ -1,0 +1,16 @@
+Title: An Overview of Gradient Descent
+
+**1. Introduction**
+Gradient Descent is a vital optimization algorithm often used in machine learning and artificial intelligence for training models. The algorithm's role is to minimize a function. It achieves this by iteratively adjusting its parameters and heading in the direction of steepest descent, i.e., the negative of the gradient. These steps are taken incrementally, leading to a gradual 'descent' down the cost function, converging with an optimal solution.
+
+**2. History**
+The concept of Gradient Descent traces its origin back to the 19th century with Augustin-Louis Cauchy's method of steepest descent, a mathematical optimization technique. While it was sporadically used in statistical estimation throughout the 20th century, its prevalence significantly increased with the explosion of machine learning and deep neural networks in high dimensions.
+
+**3. Key Ideas**
+The key idea of Gradient Descent is to iteratively minimize the objective function. Given a cost (or loss) function that measures how well a machine learning model fits given data, the gradient descent method starts with an initial point, computes the gradient (direction of steepest ascent), and takes a step in the opposite direction. This process iterates until reaching a local minimum where the gradient is zero, by this implying the least possible loss.
+
+**4. Variations**
+Depending on how much data we use to compute the gradient of the objective function, there are three main variants of gradient descent: Batch Gradient Descent, Stochastic Gradient Descent, and Mini-Batch Gradient Descent. The Batch variant uses the whole data at every step, while the Stochastic variant uses only one instance at each step, and Mini-batch uses a compromise, a mini-batch of n instances at each step.
+
+**5. Applications**
+Gradient Descent has widespread applications across various fields such as finance, for portfolio optimization; healthcare, for predicting disease progression; and notably, artificial intelligence, for training deep learning models. In the burgeoning field of machine learning, it's extensively used in training a variety of models including linear regression, logistic regression, and neural networks, wherein it helps to minimize error and improve the model's accuracy.

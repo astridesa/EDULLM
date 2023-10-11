@@ -1,0 +1,19 @@
+**Introduction**
+
+Dialogue State Tracking (DST) is a core component of spoken dialogue systems (SDS), tasked with determining the current context or "state" based on the dialogue history. DST models interpret the user's utterances, updating the dialogue's state, and leading to more meaningful interaction in real-time settings. Essentially, DST captures the user's goal(s) and follow-up information exchanges, serving as the basis for generating the next system responses.
+
+**History**
+
+The concept of Dialogue State Tracking evolved in the last few decades alongside greater efforts toward automating conversational systems. Early models, heavily based on manual rule-based systems, gradually gave way to machine learning approaches toward the end of the 20th century. In 2013, the Dialogue State Tracking Challenge (DSTC) series commenced, providing an international platform for evaluating DST methods and stimulating advancements in this field. Continuous improvements in machine learning and natural language processing have since fueled remarkable developments in DST.
+
+**Key Ideas**
+
+In DST, dialogues are typically categorized into several domains, and each domain is assigned a state that captures specific details. An essential DST idea is "belief tracking," which weighs the user's likely intent based on the history of dialogue turns. "System action prediction" is another key idea where the system predicts appropriate responses based on the state. Newer models use context-attentive methods, leveraging the potential of deep learning to encode the contextual information with more nuances.
+
+**Variations**
+
+Variations of DST differ mainly in their architectures and strategies for state representation. Rule-based trackers primarily employ handcrafted features and if-then rules. Partially Observable Markov Decision Process (POMDP)-based trackers view dialogues as a sequence of actions. Recent DST models like neural belief trackers (NBT), and models using transformers and reinforcement learning approaches have showcased the benefits modern AI models can bring to DST.
+
+**Applications**
+
+Implementations of DST span a wide range of sectors. In customer service, DST aids in automating dialogue processes, enhancing operational efficiency. Intelligent virtual assistants like Google Assistant, Amazon's Alexa, and Apple's Siri employ DST to grasp user’s conversational context and deliver personalized responses. In e-commerce, DST powers chatbots to provide customers with relevant products or services. DST also has potential applications in healthcare, where it could guide patients through complex information gathering dialogues. In gaming, DST aids in creating intelligent virtual characters that can engage in intricate dialogues.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Vision Transformers (ViT) are a recent development in the field of computer vision, applying transformer-based models to visual data for tasks such as image classification. Traditionally, convolutional neural networks (CNN) dominated this field, but the advent of ViT has started to shift this paradigm due to its excellent performance. While CNNs leverage spatial locality, ViTs view the image as a sequence of pixels or patches, transforming the computer vision problem into a sequence problem, akin to processing a sentence in natural language processing. 
+
+<HISTORY>
+ViTs are a relatively new concept, inspired by the success of transformer models in natural language processing. The pioneering Vision Transformer model came from Google Research, Brain Team, and was introduced in a paper titled "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" in 2020. With their research, they demonstrated for the first time that Transformers could outperform CNNs on image recognition tasks when trained on sufficiently large datasets. 
+
+<KEY IDEAS>
+Vision Transformers discard the standard notion of exploiting locality in images, prevalent in Convolutional Neural Networks (CNN). Instead, they treat an image as a sequence of patches and apply a standard transformer model to it. Each image is divided into fixed-size patches, which are then linearly embedded, followed by positional encoding. The sequence of patch embeddings is then input to a standard transformer encoder. The output of the transformer is used to make final predictions. This approach allows ViT to process global, long-range dependencies within the image.
+
+<VARIATIONS>
+Several adaptations and variations of the original Vision Transformer have been proposed, including DeiT (Data-efficient image Transformers), Swin Transformers and LeViT (a light-weight vision Transformer). DeiT, in particular, focuses on training the transformer model on smaller datasets, addressing one of the major constraints of the original ViT. Each of these models introduce modifications to the original architecture aimed at improving the model's performance on a variety of vision tasks. 
+
+<APPLICATIONS>
+Vision Transformers have broad applications across a range of computer vision tasks, including image classification, object detection, and semantic segmentation. They have shown impressive results on benchmarks such as ImageNet for image classification. Other applications include medical image analysis, autonomous driving, and satellite image processing, indicating the widespread potential of this architecture across different domains. Given their ability to capture long-range, global dependencies, they could be particularly effective in tasks that require understanding of the broader context within an image.

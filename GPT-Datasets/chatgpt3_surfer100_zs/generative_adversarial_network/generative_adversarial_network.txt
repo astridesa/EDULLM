@@ -1,0 +1,17 @@
+
+Survey: Generative Adversarial Networks (GANs)
+
+Introduction
+Thank you for participating in this survey on Generative Adversarial Networks (GANs). GANs are a fascinating subset of artificial intelligence that have gained immense popularity for their ability to generate realistic and high-quality data. In this survey, we aim to gauge your understanding of GANs, their history, key ideas, variations, and applications. Your responses will help us gain valuable insights into the awareness and knowledge of this cutting-edge technology.
+
+History
+The concept of GANs was introduced by Ian Goodfellow and his colleagues in 2014. Their seminal paper outlined a novel framework in which two neural networks, the generator and the discriminator, compete against each other. The generator attempts to create synthetic data to deceive the discriminator, which, in turn, strives to distinguish between real and generated data. Over the years, GANs have undergone significant improvements, leading to groundbreaking applications in various domains.
+
+Key Ideas
+GANs operate on the principle of adversarial training, where two neural networks are pitted against each other. The generator learns to map random noise to create realistic data samples, while the discriminator learns to differentiate between real and fake samples. Through this iterative process, the generator improves its ability to produce data that becomes increasingly indistinguishable from real-world examples. The delicate interplay between these networks leads to the generation of highly realistic and diverse outputs.
+
+Variations
+Since their inception, researchers have proposed numerous variations of GANs to address different challenges and extend their capabilities. Some notable variations include Conditional GANs (cGANs), which allow the generated output to be conditioned on specific input; Wasserstein GANs (WGANs), which use Wasserstein distance for improved stability; and CycleGANs, which enable unpaired image-to-image translation. Each variation brings unique advantages and has found applications in various domains.
+
+Applications
+The applications of GANs span across a wide range of fields. In the realm of computer vision, GANs are used for image synthesis, super-resolution, and style transfer. In natural language processing, GANs aid in generating text, improving language translation, and creating realistic dialogue systems. Additionally, GANs have found applications in drug discovery, art generation, video game design, and more. Their ability to produce data that resembles real-world samples has opened up new possibilities in multiple industries.

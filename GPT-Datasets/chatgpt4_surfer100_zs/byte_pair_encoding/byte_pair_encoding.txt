@@ -1,0 +1,16 @@
+Title: Byte Pair Encoding: Its History, Key Ideas, Variations and Applications 
+
+Introduction:
+Byte Pair Encoding (BPE) is a data compression technique that replaces the most frequent pair of bytes with a byte that does not occur within that data. BPE selects the most common pair of adjacent bytes in data, assigns a new byte to represent this pair, then compresses the data. An effective technique, it's capable of compressing data into shorter forms, reducing storage size and transmission time.
+
+History:
+Byte Pair Encoding was first proposed by Philip Gage in a 1994 article named "A New Algorithm for Data Compression". Originally, it was created to compress English text files. However, the success of BPE in this domain meant that the technique soon found wider recognition and use in various computing sectors including software, hardware and artificial intelligence.
+
+Key Ideas:
+The primary concept behind BPE is to iteratively replace the most frequent pair of bytes unique to the data. It begins with a given dataset and constructs a variable-length code by merging frequent pairs of symbols. In this iterative process, BPE creates a better compression rate with larger forms, enhancing data storage and transmission effectiveness. It also deals with new data better by adapting to data changes more dynamically than fixed-length code methods.
+
+Variations:
+Over time, various forms of BPE have been proposed to cater for different requirements. Some variations attempt to optimize the encoding process using large training datasets or machine learning techniques. Another significant variation is SentencePiece, a relative of BPE. It treats the input as a raw input sequence, meaning it does not need space for tokenization, making it more useful for languages without clear word boundaries
+
+Applications:
+BPE's overall effectiveness means that it has numerous applications. Its primary use is in data compression, often used in storing English text files. Besides, it’s widely used in Natural Language Processing (NLP), especially in machine translation and language generation. It's utilised in tokenization, where larger datasets get transformed into more handleable encoded forms. Additionally, BPE is also used in the compression of genetic data, demonstrating its versatility.

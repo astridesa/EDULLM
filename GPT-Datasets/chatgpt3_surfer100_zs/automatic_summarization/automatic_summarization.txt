@@ -1,0 +1,19 @@
+Introduction:
+
+Automatic summarization is the process of generating concise and coherent summaries from larger pieces of text, such as articles, documents, or web pages. By condensing the main ideas and information, automatic summarization enables users to quickly understand the content and determine its relevance to their needs. This article explores the history, key ideas, variations, and applications of automatic summarization techniques.
+
+History:
+
+Automatic summarization has roots in text summarization research, which began in the 1950s. Early approaches involved extracting important sentences based on statistics or linguistic features. As technology advanced, researchers explored methods like sentence compression and employing natural language processing algorithms. With the rise of deep learning, neural network models have also contributed to the development of automatic summarization algorithms.
+
+Key Ideas:
+
+One of the key ideas in automatic summarization is identifying the salient parts of a document, article, or web page. This involves finding important sentences or phrases that best capture the essence of the original content. Various approaches, such as extractive and abstractive summarization, have been developed to achieve this. Extractive summarization selects and combines existing sentences, while abstractive summarization generates new phrases and sentences that capture the main ideas.
+
+Variations:
+
+Automatic summarization techniques can be classified into different variations depending on their approach and purpose. Some common variations include single-document summarization, multi-document summarization, and query-focused summarization. Single-document summarization focuses on condensing the content of a single document, while multi-document summarization aims to generate summaries from multiple sources. Query-focused summarization generates summaries that are relevant to a specific query or topic of interest.
+
+Applications:
+
+Automatic summarization finds applications in various domains. In news and media, it helps users quickly grasp the key points of news articles or reports. In research, summarization aids scientists in reviewing large volumes of publications efficiently. Summarization techniques are also employed in chatbots, virtual assistants, and customer support systems to provide concise responses. Additionally, automatic summarization has potential applications in legal and e-discovery fields, where large quantities of text need to be summarized for analysis purposes.

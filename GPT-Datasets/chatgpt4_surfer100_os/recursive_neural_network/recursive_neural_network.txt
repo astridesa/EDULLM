@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Recursive Neural Networks (RvNNs) are a type of artificial neural network designed to process structured data with hierarchical relationships. Unlike traditional neural networks that have a fixed-size input, RvNNs allow varying sizes of input data, making them particularly useful for processing language syntax, document summaries, and images. RvNNs operate on a constitutive approach, wherein data is processed hierarchically in a tree-like structure, revealing recursive patterns in the data.
+
+<HISTORY>
+The inception of Recursive Neural Networks can be traced back to the 1990s when it was proposed to address the limitations of feedforward and recurrent neural networks. Initial applications were largely focused on natural language processing, speech recognition, and grammar parsing. The RvNNs evolution continued into the 2000s, with notable advancements in the network structure and learning algorithms, ultimately leading to the enhancement in the performance of RvNNs in various applications.
+
+<KEY IDEAS>
+The principal idea behind RvNNs lies in their recursive structure that mirrors the hierarchical structure of the data. Given an input, the network recursively structures data in a tree-like fashion, allowing solutions to be computed hierarchically from simpler inputs to complex ones. This recursive manner of constructing the tree-structure reflects both the compositional and hierarchical nature of many data types. Each node in the tree is a representation of the information contained in the sub-tree below it, thereby allowing the network to process data of varying length and structure.
+
+<VARIATIONS>
+Several variations of Recursive Neural Networks have emerged over time, including Recursive Auto-associative Memory (RAAM), Structurally constrained Recursive Neural Network (SCRN), and Recurrent Neural Network Grammar (RNNG). These variations primarily focus on improving aspects such as training efficiency, feature representation, and handling of different types of structured data. For instance, the RAAM model works to represent structured data as fixed-size vectors, whereas SCRN focuses on handling sequences with temporal dependencies, and the RNNG model extends RvNNs capabilities to parseable sequences.
+
+<APPLICATIONS>
+The unique ability of RvNNs to handle structured data and recognize patterns makes them widely applicable in areas such as natural language processing, image recognition, and bioinformatics. In natural language processing, RvNNs have been employed for parsing natural language sentences, sentiment analysis, and machine translation. In the field of computer vision, they're used for scene understanding and object recognition. In the domain of bioinformatics, they've been used for protein secondary structure prediction, and the hierarchical processing of genetic data.

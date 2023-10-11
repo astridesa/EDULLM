@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Adagrad(Adaptive Gradient) is an optimization algorithm introduced by Duchi et al. in 2011 designed to perform implicit learning rate adaptation - a crucial aspect of deep learning. It is a stochastic gradient descent method that takes into account the history of gradients to adapt the learning rate and expedite the learning process. Adagrad efficiently applies different learning rates for different parameters, considering the sparsity of data dimensions. 
+
+<HISTORY>
+Adagrad was firstly proposed by John Duchi, Elad Hazan and Yoram Singer in a paper titled "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization" in 2011. The algorithm was introduced due to the need for an optimization method that could adjust its learning rate per-parameter. Prior to Adagrad's emergence, tuning the learning rates was a cumbersome process, especially in situations dealing with large-scale data and non-convex optimization objects. 
+
+<KEY IDEAS>
+The central concept behind Adagrad revolves around adapting the learning rate to the parameters, performing larger updates for infrequent and smaller updates for frequently occurring ones. Its mechanism begins by initializing the weights, followed by iterative steps to modify these weights, considering the accumulated square of the gradient. Additionally, it performs an element-wise division of the gradient vector by a square root of the accumulation of squared gradients, plus a smoothing term, to prevent division by zero. 
+
+<VARIATIONS>
+While the Adagrad approach provides intrinsic per-parameter learning rate adjustments to cater to sparse data, it has a considerable shortcoming; its continuously accumulating square gradients in the denominator can cause its effective learning rate to shrink and become infinitesimally small. This led to the development of modifications like Adadelta and RMSprop that seek to resolve the diminishing learning rates. Adam, another widely used optimizer, also includes modifications to Adagrad. 
+
+<APPLICATIONS>
+Adagrad has found extensive application in the world of machine and deep learning. It is effectively utilised in large-scale and sparse datasets due to its implicit feature selection capability. This makes it a go-to choice in natural language processing and recommendation system domains. It is also deployed in training deep neural networks where reducing the learning rate for parameters associated with frequently occurring features can prevent overfitting. The algorithm is part of various deep learning libraries which include TensorFlow, PyTorch, and Keras.

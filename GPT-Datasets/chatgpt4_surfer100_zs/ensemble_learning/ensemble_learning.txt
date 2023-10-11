@@ -1,0 +1,16 @@
+Survey Topic: Ensemble Learning
+
+1. Introduction:
+Ensemble Learning, a machine learning paradigm, refers to the method where multiple models are trained to solve the same problem and combined to get better results. It typically involves building several models (often referred to as "base learners") and then combining them in a way that allows the strengths of each to shine and the weaknesses to be mitigated.
+
+2. History:
+The idea of Ensemble Learning is not new; it was first introduced to the Machine Learning community in the early 90s. The premise is rooted in the concept of 'wisdom of the crowd.' Michael Kearns and Leslie Valiant presented the first theoretical analysis of the potential power of ensembles. Since then, several prominent ensemble methods like Bagging, Boosting, and Stacking have been developed.
+
+3. Key Ideas:
+Ensemble methods rely on the idea that a group of weak learners can come together to form a strong learner. In particular, ensemble methods are beneficial when dealing with high-dimensional data or when the decision boundary is complicated. Key constituents of Ensemble learning are diversity among the models, correct strategy to combine individual predictions, and the number of models included in the ensemble.
+
+4. Variations:
+There are several variations of Ensemble Learning techniques, such as Bagging, Boosting, Stacking, and Bayesian model averaging. Each method varies in the way it creates and combines the individual models. Bagging tries to implement similar learners on small sample populations and takes a mean of all predictions. Boosting is an iterative technique that adjusts the weight of an observation based on the last classification, and Stacking combines two different types of models.
+
+5. Applications:
+Ensemble Learning techniques are extensively used in various sectors. They are popular in Predictive Analytics where Bagging methods can be used to reduce overfitting, and Boosting methods can increase accuracy with marginal overfitting. They have found extensive applications in fields like finance for credit scoring, medical diagnostics, image recognition, and even in the field of bioinformatics.

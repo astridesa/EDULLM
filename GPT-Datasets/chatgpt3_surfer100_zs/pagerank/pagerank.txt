@@ -1,0 +1,18 @@
+Title: An Overview of Pagerank: A Survey
+
+Introduction:
+Pagerank is a ranking algorithm developed by Google which determines the importance and relevance of web pages. This survey article aims to provide a comprehensive understanding of Pagerank and its significance in the field of web search and information retrieval.
+
+History:
+Pagerank was conceived in the late 1990s by Larry Page and Sergey Brin, the co-founders of Google, during their research at Stanford University. Initially, it was designed to assess the importance of scholarly papers but evolved to play a pivotal role in Google's search engine ranking system.
+
+Key Ideas:
+The core idea behind Pagerank lies in the concept of link analysis. Web pages are ranked based on the number and quality of incoming links they receive from other web pages. The more prominent and trusted the linking pages, the higher the Pagerank score of a web page.
+
+Variations:
+Over time, several variations and improvements to Pagerank have emerged. These variations account for factors such as the relevance of links, recency of content, user behavior, and personalization. Some notable variations include TrustRank, Topic-Sensitive Pagerank, and Personalized Pagerank.
+
+Applications:
+The impact of Pagerank extends beyond web search rankings. It has found applications in various fields, including social network analysis, recommendation systems, and fraud detection. Pagerank also serves as a foundation for many other algorithms like HITS and SALSA.
+
+In conclusion, Pagerank has become a fundamental tool in web search and information retrieval, revolutionizing the way search engines rank web pages. This survey sheds light on the historical context, key ideas, variations, and diverse applications of Pagerank, emphasizing its continued relevance in the digital age.

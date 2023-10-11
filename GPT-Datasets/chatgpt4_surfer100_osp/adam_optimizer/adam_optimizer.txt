@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Adam (Adaptive Moment Estimation) optimizer is a gradient descent-based optimization algorithm widely used in the field of machine learning and deep learning for training neural networks. Developed by Diederik P. Kingma and Jimmy Ba, it integrates the advantages of two other extensions of stochastic gradient descent - AdaGrad and RMSProp. With lesser computational complexity and calibrated adaptive learning rates, Adam is exceptionally efficient and applicable in large-scale data and parameter scenarios or in problems with a large amount of noise.
+
+<HISTORY>
+Adam optimizer was introduced by researchers at the University of Toronto, Diederik P. Kingma and Jimmy Ba, in 2015. The algorithm is designed to optimize the communications capabilities of deep learning models, tackling the challenges of large-scale data and parameter scenarios usually associated with deep learning. Adam emerged as a solution to the drawbacks of other gradient descent optimization algorithms and integrated the merits of AdaGrad and RMSProp.
+
+<KEY IDEAS>
+In essence, Adam is computed by updating biased first and second moment estimates. It uses square gradients to scale the learning rate akin to RMSProp and takes into account the moving average of the gradients similar to momentum. The Adam optimizer works by first calculating the exponential moving averages of the gradient and the squared gradient, and then bias-correcting these averages to provide estimations of the first and second moment of the gradient. The parameter update rule used by Adam is straightforward and efficient.
+
+<USES/APPLICATIONS>
+Adam Optimizer is practically efficient for problems that are large in terms of data/parameters or problems with a great deal of noise. It is commonly employed in various deep learning tasks for training and optimizing deep neural networks. These tasks could include computer vision problems, natural language processing tasks, reinforcement learning, and many more. It can also be used in training GANs (Generative Adversarial Networks), where it exhibits good performance.
+
+<VARIATIONS>
+Several variations of the Adam optimizer exist, each incorporating some improvements over the original methodology. Some of these include AdaMax, Nadam (Adam RMSprop with Nesterov momentum), and AdamW (Adam with weight decay). Despite its efficiency, Adam optimizer has been criticized for lack of robustness, leading to ongoing research in developing more reliable and efficient optimizers in machine learning. Among these, algorithms like AMSGrad have emerged as an effective alternative to Adam, with an added boost of stability.

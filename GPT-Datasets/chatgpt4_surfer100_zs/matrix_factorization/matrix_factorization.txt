@@ -1,0 +1,16 @@
+**Article: Matrix Factorization**
+
+**Introduction**
+Matrix factorization is a widely-used method in numerical analysis and data decompression. Essentially, it is the breaking down or decomposition of a matrix into the product of several matrices, each serving a different purpose. Its main advantage is the reduction of complex problems or large datasets into simpler or smaller ones, thereby making it an indispensable tool in computing large datasets such as in machine learning, data mining, and recommender systems, among others.
+
+**History**
+Matrix factorization has its roots in pure mathematics, tracing back to the initial development of matrix theory in the mid-19th century, but it gained significant traction during the mid-20th century. In the 1970s, the QR algorithm became popular in spectral analysis and soon after, Singular Value Decomposition (SVD) became the backbone of many scientific calculations. Recent advancements are mainly driven by the vast amount of digital data available, pushing the boundaries of matrix factorization in the realm of technology.
+
+**Key Ideas**
+The central idea behind matrix factorization involves decomposing a given matrix into multiple matrices to effectively manage large and complex datasets. The original matrix can be reconstructed using these simpler factors. Two common methods are LU Decomposition and Singular Value Decomposition (SVD). In LU Decomposition, any matrix is decomposed into a Lower triangular matrix and an Upper triangular matrix. SVD, on the other hand, divides a matrix into three separate matrices, each carrying different types of information, revealing the inherent structure of the original matrix.
+
+**Variations**
+There are several different ways to factorize a matrix, chiefly depending upon the characteristics of the original matrix and the exact requirements of the problem at hand. Apart from LU and SVD, other variations include QR decomposition, Cholesky decomposition, and Eigendecomposition. Additionally, Non-Negative Matrix Factorization restricts all matrix entries to be non-negative, beneficial in areas like image processing and text mining where negative entities make no sense.
+
+**Applications**
+Matrix Factorization is used in various scientific, engineering and data analysis fields. It's commonly applied in machine learning, where it's used for dimensionality reduction or latent factor discovery. In computer vision, it is used to solve problems like object recognition. In recommender systems, like Netflix or Amazon, matrix factorization models help to predict user preferences based on past activity. Furthermore, it's employed in text mining for topic extraction and sentiment analysis, and in medical imaging for feature extraction, making it a powerful tool spanning various applications.

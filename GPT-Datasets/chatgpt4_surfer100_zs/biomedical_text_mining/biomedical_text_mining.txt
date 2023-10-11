@@ -1,0 +1,16 @@
+Title: Biomedical Text Mining: History, Key Ideas, Variations, and Applications
+
+Introduction:
+Biomedical Text Mining (BioTM) is a multidisciplinary field at the intersection of data science, natural language processing, and biomedical sciences. The escalating volume of unstructured biomedical texts, such as electronic health records, genomic studies, biomedical literature, etc., drive the demand for BioTM. The main goal of BioTM is to translate this massive pile of textual data into clinically beneficial knowledge. It aids in the detection of patterns, trends, and relationships that might be nearly impossible to discern through traditional reading.
+
+History:
+BioTM has its roots in the late 1980s and 1990s with the establishment of digital libraries of scientific literature. However, the real pivot was the sequencing of the human genome project in the 2000s. As the quantity of biomedical data exploded, the inherent demand for efficient tools to analyze, classify, and summarize this overwhelming textual information emerged. Over time, methods and techniques in BioTM have evolved, integrating machine learning and deep learning techniques for sophisticated data mining.
+
+Key Ideas:
+BioTM principally involves text classification, information extraction, and information retrieval. While text classification categorizes biomedical text based on predefined categories, information extraction tries to extract structured information from unstructured texts. Information retrieval, on the other hand, helps to find and retrieve relevant texts from a large corpus. Machine learning and natural language processing tools are used to dissect biomedical jargon, identify biomedical entities (genes, proteins, diseases), and relationships (interactions, side effects).
+
+Variations:
+There are numerous methods applied in BioTM. Named Entity Recognition (NER) aids in identifying terms of interest from the data. Relationship extraction identifies associations or interactions between entities. Text classification, clustering, and topic modelling employ supervised and unsupervised approaches for exploration and categorization. Furthermore, recent trends extend to deep learning approaches, including Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) for more complex tasks requiring context consideration.
+
+Applications:
+Biomedical Text Mining has a wide array of applications. Its tools can streamline search and retrieval of biomedical literature, hasten the drug discovery process, provide insights into disease mechanisms, and aid in genetic research for the hunt of disease-causing mutations. In the clinical field, BioTM tools can extract useful information from Electronic Health Records (EHRs) for illness prediction and assist in personalized treatment planning. Today, with a surge in biomedical data, the applications of BioTM are becoming limitless.

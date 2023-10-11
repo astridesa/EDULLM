@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Biomedical Text Mining, also known as BioNLP, is a significant field of study that involves the usage of natural language processing (NLP), data mining, and machine learning approaches to extract, analyze, and interpret hidden knowledge within biomedical literature. It significantly facilitates the interpretation of massive unstructured biomedical text data, aiding in the advancement of medicine and biology. BioNLP aids in making sense of the wealth of biological and medical knowledge found in journals, databases, and literature by extracting valuable insights and relationships.
+
+<HISTORY>
+The use of text mining in the biomedical field traces back to the late 20th century, but it became more prolific as access to digital literature expanded in the early 21st century. Initially, simple keyword-based strategies were used to extract information from textual data. With the advent of machine learning and NLP techniques, the efficiency and quality of information extraction have significantly improved. Now, complex relationships like protein-protein interaction, gene-diseases association, and drug effects are commonly extracted using advanced text mining methods. 
+
+<KEY IDEAS>
+Biomedical Text Mining primarily relies on various NLP and machine learning strategies. Key ideas involve linguistic text processing, keyword extraction, named entity recognition (NER), relationship extraction, and document clustering. It seeks to identify and annotate biomedical entities like genes, proteins, and diseases, and reveal relationships and interactions between them. Advanced approaches like deep learning and machine learning algorithms have been employed in recent years, offering higher precision and recall rates.
+
+<VARIATIONS>
+Various approaches have been used in Biomedical Text Mining, with each catering to different requirements. Some prefer dictionary-based methods for NER, while machine learning and rule-based methods have also been used. As for the extraction of relationships, co-occurrence approaches are often leveraged. However, the rise of deep learning techniques offers semantic-based text mining, enabling a more contextualized understanding of biomedical literature. Nowadays, hybrid models combining traditional and advanced methods have also gained popularity.
+
+<APPLICATIONS>
+Biomedical Text Mining is pivotal in numerous applications such as drug discovery, disease detection, and advanced biological research. It brings out hidden relationships between genes and diseases, aiding in the identification of potential therapeutic targets. Similarly, drug-adverse event relationships revealed by text mining help improve drug safety surveillance. Furthermore, it supports systematic reviews, meta-analysis, and the construction of biomedical databases, thereby accelerating research and development in the biomedical domain.

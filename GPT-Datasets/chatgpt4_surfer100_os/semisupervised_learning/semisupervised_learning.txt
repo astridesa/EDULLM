@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Semisupervised learning is a type of machine learning that uses both labeled and unlabeled data during training. It sits between supervised learning (where the model learns from fully labelled data) and unsupervised learning (where the model learns from totally unlabeled data). Semisupervised learning takes advantage of a large amount of unlabeled data, combined with a smaller amount of labeled data, to improve learning accuracy. It is particularly beneficial in scenarios where labeled data are scarce or expensive to obtain.
+
+<HISTORY>
+The idea of semisupervised learning has roots back to the 1960s and 70s, with the work of Blum, Chawla, and others. However, it became significantly recognized in the 2000s, largely due to the explosion of big data. The advent of complex algorithms and increased computational power allowed practitioners to successfully implement semisupervised learning methods on large and diverse data sets. The concept has since gained popularity in various fields, from computer vision to natural language processing.
+
+<KEY IDEAS>
+The main idea of semisupervised learning is to use unlabeled data to enhance the learning accuracy of models trained with labeled data. Two key concepts in semisupervised learning are self-training and multi-view training. Self-training involves creating a model with the labeled data, which then predicts labels for the unlabeled data. The model is then retrained on the entirety of the data. Multi-view training uses multiple models, or 'views', which are trained separately then combined to make collective decisions. This reduces the risk of error propagation and provides a consensus-based approach to classification. 
+
+<USES/APPLICATIONS>
+Semisupervised learning has wide-ranging applications. It is utilized in text classification and computer vision, where annotated data are usually hard to come by. It is also significant in bioinformatics, for predicting protein functions or detecting biomarkers. Other applications include voice recognition, web content mining, and social network analysis. The low requirement for labeled data makes semisupervised learning a suitable and beneficial approach in these scenarios. 
+
+<VARIATIONS>
+There are different approaches to semisupervised learning, which adapt to specific data and task requirements. Some popular methods include self-training, multi-view training, and semi-supervised support vector machines. These techniques vary on how they deal with labeled and unlabeled data. Other variations include graph-based methods, where data entities are nodes and their interactions form edges, and generative methods, which use probabilistic models to anticipate the data distribution. These various approaches broaden the applicability of semisupervised learning across diverse tasks and scenarios.

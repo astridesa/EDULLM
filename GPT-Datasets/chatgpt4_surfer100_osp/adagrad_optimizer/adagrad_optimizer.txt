@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Adagrad (Adaptive Gradient) is an algorithm for optimizing stochastic objective functions that combines two essential features: per-coordinate learning rates and a local, implicit counter diagonal rescaling. It belongs to the field of machine learning and computer science, particularly in the subfield of optimization algorithms. Adagrad's main motivation is to modify the general learning rate uniquely for each parameter to perform smaller updates for frequent features and larger ones for infrequent features, hence it's particularly useful when dealing with sparse data. 
+
+<HISTORY>
+Adagrad optimizer was introduced by John Duchi, Elad Hazan, and Yoram Singer in 2011, in a paper titled "Adaptive Subgradient Methods for Online Learning and Stochastic Optimization". They proposed a non-smooth stochastic optimization method that dynamically incorporates knowledge of the geometry of the data observed in earlier iterations and can deliver convergence rates much faster than other fixed learning rate methods. 
+
+<KEY IDEAS>
+At the core of Adagrad is the concept of adapting the learning rates according to the parameters. It adjusts the learning rate adaptively for each coefficient instead of maintaining a single global learning rate. The main mechanism behind Adagrad is how it uses a different learning rate for every parameter θ at a given time step based on the past gradients that have been computed for that parameter. Essentially, parameters associated with frequently occurring features have their learning rates reduced, while parameters associated with infrequent features have their learning rates increased. 
+
+<USES/APPLICATIONS>
+Adagrad is applied in various machine learning algorithms for optimizing parameters. These include regression algorithms, neural networks, and support vector machines among others. This optimizer is particularly beneficial in situations of sparse data as it helps to amplify the learning rates for rarely updated features, thus boosting their importance in the learning process. Furthermore, Adagrad can be used in both batch learning and online learning applications.
+
+<VARIATIONS>
+Variations of Adagrad include different adaptive learning rate methods such as Adadelta, RMSprop, and Adam. Each of these improves upon the original Adagrad optimizer in distinctive ways. For example, Adadelta and RMSprop both address the decreasing learning rate issue in Adagrad by introducing a decay factor to limit the window of gradient accumulation. Adam, on the other hand, additionally keeps an exponentially decaying average of past gradients, similar to a momentum.

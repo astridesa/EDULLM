@@ -1,0 +1,14 @@
+<INTRODUCTION>
+The Gaussian Mixture Model (GMM) is a probabilistic model commonly used for clustering, anomaly detection, and creating generative models of data. It is part of the statistical and machine learning fields and is designed to identify and distinguish different groups (or gaussians, which represent mixtures of normal distribution) present in complex data. The main motivation behind GMMs is to create an unsupervised learning tool that uses the properties of the Gaussian distribution to model data that cannot be effectively described by a single normal distribution.
+
+<HISTORY>
+The Gaussian Mixture Model is a development of the simple Gaussian Model. Its exact creation date is difficult to ascertain, as its concept emerges naturally from a need to model complex data with non-normal distribution. Yet, it was the advent of computational technology that propelled the use of GMMs as it made it possible to iteratively calculate the parameters for multiple Gaussian distributions simultaneously. This task was practically infeasible by hand due to the complex equations involved.
+
+<KEY IDEAS>
+At the heart of the Gaussian Mixture Model lies the principle of Expectation-Maximization (EM). GMMs approximate a complex distribution as the weighted sum of different Gaussian distributions. Each Gaussian distribution (or component) in the mixture is defined by its mean and variance. The GMM then estimates the parameters of these Gaussians and their weights in a two-step iterative procedure, known as the E-M algorithm. The E-step estimates the probabilities of the data points belonging to the different Gaussian components, and the M-step updates the parameters of these components based on these probabilities.
+
+<USES/APPLICATIONS>
+The Gaussian Mixture Model has broad applications in the field of machine learning, data mining, and computer vision. They’re used for tasks involving unlabelled data, such as clustering or density estimation, as well as for the anomaly detection, where data that doesn't fit into any of the Gaussian components can be flagged as an outlier. Additionally, in computer vision, GMMs are used to model and remove backgrounds in video footage. 
+
+<VARIATIONS>
+Several variants of Gaussian Mixture Models exist to address various limitations. One major limitation of GMM is its assumption of a Gaussian distribution for each group, which might not always hold. This has led to the introduction of the Mixture Model, a broad category including GMM that can incorporate not just Gaussian distributions but also other distributions. Bayesian Gaussian Mixture Models are another variant that incorporates prior expectations about the data into the model. GMMs also form part of the broader category of Expectation-Maximization algorithms, which covers a range of statistical models beyond just mixtures of Gaussians.

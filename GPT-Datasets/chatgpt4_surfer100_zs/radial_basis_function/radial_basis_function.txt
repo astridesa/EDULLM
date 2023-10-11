@@ -1,0 +1,16 @@
+**Title: Radial Basis Function: An Overview**
+
+**1. Introduction**
+Radial Basis Function (RBF) is a real-valued function whose output varies depending on the distance from the origin or some other point. RBFs are employed widely in various fields including machine learning and approximation theory. They serve as a powerful tool for interpolation of multidimensional scattered data sets. The principal advantage of RBFs is the production of easily adjustable smooth surfaces over high-dimensional space.
+
+**2. History**
+The concept of Radial Basis Functions originated in the field of mathematical approximation theory during the 1960s, introduced by Roland Schaback and Zong Min Wu. The mid-1980s marked an expansion in its use, penetrating areas like neural networks and machine learning, largely due to efficient algorithms developed for their computation. Their general usefulness was constituted by their unique ability to approximate multidimensional functions.
+
+**3. Key Ideas**
+An RBF relies on radial distance as its principal determinant and forms its output value based on the Euclidean distance from the center. These functions exhibit the unique property of rotation-invariance, implying that the output is only dependent on the distance from the origin, not the direction. In the context of machine learning, these functions are extensively used in RBF networks, a type of artificial neural network that uses RBF as activation functions.
+
+**4. Variations**
+Various types of RBFs are used in practice, with differing forms of mathematical representation. Some well-known classes of RBFs include Gaussian, Multiquadric, Inverse Multiquadric, Thin Plate Spline, and so on. The selection of RBF type and parameters often significantly impacts the efficacy of the model built, and depends largely on the specific computational problem at hand.
+
+**5. Applications**
+RBFs find a vast array of applications in different fields. In machine learning, RBF networks are highly efficient in pattern recognition tasks like classification and regression problems. In geostatistics, RBFs are used for spatial interpolation in methods like Kriging. They are also used in Radial Basis Function Networks (RBFN) for time series prediction, object tracking, and other applications in computer vision. Further, RBFs play a predominant role in Meshless Methods, which find wide-ranging usage in physics and engineering for numerical solutions of Partial Differential Equations.

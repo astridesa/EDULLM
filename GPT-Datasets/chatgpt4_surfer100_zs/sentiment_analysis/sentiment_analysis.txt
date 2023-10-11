@@ -1,0 +1,18 @@
+Title: Sentiment Analysis: An Interdisciplinary Survey
+
+**1. Introduction**
+Sentiment Analysis, commonly known as emotion AI, opinion mining, or emotion detection, encompasses the use of natural language processing, computational linguistics, and text analysis to identify, extract, quantify, and study affective states and subjective information within source materials. In relevance to modern psychology, linguistics, machine learning, and artificial intelligence, sentiment analysis aims at determining the attitudes, opinions and emotions of a speaker or writer with respect to the subject matter.
+
+**2. History**
+The origins of sentiment analysis can be traced back to the late 20th century when researchers sought to adapt linguistic, psychological and communicative theories towards computational applications. However, the field gained notable momentum in the early 21st century with the rise of social media allowing individuals to express views instantaneously. The year 2003 marked a significant point with the introduction of opinion mining. Since then, further advancements have been achieved, with machine learning and AI algorithms being predominantly used for this purpose.
+
+**3. Key Ideas**
+The key premise behind sentiment analysis is interpreting and classifying emotions in text data. Primarily, it consists of two main components: Natural Language Processing (NLP) and Machine Learning (ML). NLP employs computational linguistics to decode semantic and contextual meanings, while ML uses algorithms to discern patterns in collected data. The sentiment is typically categorized into positive, negative, or neutral. Moreover, word arrangements, power of expression, and subjectivity-objectivity spectrum are considered to provide richer and nuanced sentiment understanding.
+
+**4. Variations**
+A myriad of techniques exist in sentiment analysis, which range from rule-based and lexicon-based methods to more complex machine learning-based methods. The rule-based approach utilizes manually crafted rules, while the lexicon-based approach capitalizes on pre-defined sentiment-related word dictionaries. Advanced techniques incorporate ML algorithms and deep learning models such as Support Vector Machines (SVM), Decision trees, Naïve Bayes, and Neural Networks. Each method varies in functionality and accuracy, yielding different pros and cons based on the complexity and context of the data.
+
+**5. Applications**
+The plethora of sentiments conveyed through text data has endowed sentiment analysis with wide-ranging applications. Businesses use it for brand monitoring, market research, customer feedback and social media analytics. In politics, public opinion can be gaessed through sentiment analysis of political discourse. Additionally, it also aids in predicting market trends in finance, personalized recommendations in ecommerce and improving user experience in Human-Computer Interaction (HCI). The versatility of sentiment analysis equips it with the potential to transform social, economic, and technological landscapes.
+
+

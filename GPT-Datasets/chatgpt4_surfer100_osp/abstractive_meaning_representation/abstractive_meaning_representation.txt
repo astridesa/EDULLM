@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Abstractive Meaning Representation (AMR) is a language generation task that aims to capture the meaning of text snippets through a simplified, normalized graph structure. It's firmly grounded in the fields of Natural Language Processing (NLP) and Computational Linguistics. AMR reduces linguistic intricacies into core propositions, entities, and relations, making a text’s meaning digestible for machine interpretation and manipulation. The motivation is to create a system capable of processing text at a higher, abstract level of understanding, which has diverse applications such as machine translation, text summarization, and semantic role labeling.
+
+<HISTORY>
+The concept of AMR emerged at the Information Sciences Institute of the University of Southern California in 2013. It addressed the challenge of representing meaning suitable for semantic parsing and text generation. Earlier approaches, such as dependency parsing and thematic roles, proved to be inadequate for capturing abstract, propositional meaning across various linguistic expressions, leading to the development of AMR.
+
+<KEY IDEAS>
+AMR uses a graph-based representation where nodes represent concepts and edges represent relations. This minimizes linguistic idiosyncrasies and reveals uniformity in the underlying meaning. The model consists of three main elements: concepts, relations, and constants. Concepts refer to a simplified list of English words or the beginnings of English words, relations explain dependencies and include basic grammatical relationships such as “is,” “has,” “do,” and constants include names and quantities. All in all, it's a more holistic approach to understanding the meaning of a sentence.
+
+<USES/APPLICATIONS>
+AMR has been widely used in several fields, primarily machine translation and Natural Language Understanding (NLU). With the ability to capture meaning in a language-independent structure, AMR can assist in converting one language to another with little loss in meaning. Moreover, generating text from AMR can help create improved, intelligent summarization tools. It's also used to train better semantic parsers and question-answering systems, by focusing on the actual meaning of text rather than surface-level interpretation.
+
+<VARIATIONS>
+There are different ways to approach text representation in NLP. AMR stands as one of several frameworks—others include semantic role labeling and phrase structure grammars. Conceptually, AMR shares goals with other attempts at creating human-like understanding, like the Universal Conceptual Cognitive Annotation (UCCA) which offers a multi-layered annotation scheme. AMR forms part of a larger ongoing quest to develop accurate and fully automated semantic representations for natural language.

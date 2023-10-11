@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Root Mean Square Propagation (RMSprop) is an optimization algorithm that’s part of the stochastic gradient descent family, designed for training deep learning models. In machine learning and data science, optimization algorithms like RMSprop are key in model training, controlling how quickly models learn and converge to the smallest error. As to why it is vital? Existing methods faced problems of a suitable learning rate resulting in too slow or unstable training; RMSprop addresses this by employing an adaptive learning rate.
+
+<HISTORY>
+RMSprop was first proposed by Geoffrey Hinton, a pioneer in the field of deep learning. The algorithm was introduced by Hinton in his Coursera class as a solution to tackle the issue of choosing an adequate learning rate for the algorithms like Adagrad, which were found to decrease the learning rate too aggressively, slowing down the learning process significantly after a few hours.
+
+<KEY IDEAS>
+At its core, RMSprop works by maintaining a moving, decaying average of the square of gradients. The concept is to adaptively adjust the learning rate for each parameter in the function that needs optimization. By performing element-wise operations, RMSprop adapts the learning rate to the parameters, employing a larger update for infrequent and smaller parameters for frequent ones. RMSprop does this by using the magnitude of the recent gradient descents to normalize the gradient.
+
+<USES/APPLICATIONS>
+RMSprop optimizer is used in training deep learning models across various machine learning tasks. It has practical applications in speech recognition, natural language processing, computer vision, and more where it helps enhance the training process of neural networks. By adjusting the learning rate adaptively for each weight, RMSprop allows models to train efficiently, resolving issues of slow convergence, vanishing gradients or exploding values in various model training scenarios.
+
+<VARIATIONS>
+Several variations and similar models to RMSprop exist. For instance, Adam (Adaptive Moment Estimation), another well-known optimizer, is essentially RMSprop with momentum. Adam incorporates the benefits of both AdaGrad and RMSprop, overcoming the discrepancies in the learning rate by storing an exponentially decaying average of past squared gradients like RMSprop and also storing an exponentially decaying average of past gradients like AdaGrad. RMSprop forms a fundamental part of the underlying mechanism in the Adam optimizer, thus playing a significant role in the grand scheme of optimization algorithms in machine learning.

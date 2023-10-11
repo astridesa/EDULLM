@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Dropout is a regularization technique used in designing neural networks. It belongs to the category of deep learning, a subfield of machine learning, and helps combat the problem of overfitting during the model training process. It was introduced by Geoffrey Hinton et al., with the principal idea being to randomly drop units (along with their connections) from the neural network during training. Dropout provides a way of approximating the process of training a large number of neural networks with different architectures in parallel (known as model ensemble) but with substantially less computational resources. 
+
+<HISTORY>
+Dropout as a concept was introduced in 2014 by Geoffrey Hinton, Nitish Srivastava, Alex Krizhevsky, Ilya Sutskever, and Ruslan Salakhutdinov. It was born from the quest to improve neural networks' performance by addressing the overfitting problem. Overfitting occurs when a neural network model learns the data’s noise, affecting its performance on unseen data. Traditional methods could not solve the overfitting problem satisfactorily, which birthed the dropout technique.
+
+<KEY IDEAS>
+The core of the dropout technique is the intentional 'dropping out' of a random set of units in a network layer for a single gradient update during training. Each unit is dropped out with a certain probability (usually between 0.2 and 0.5), offering a form of regularization that mitigates the overfitting problem. This helps to prevent complex co-adaptations, as a dropped-out unit cannot rely on the presence of other units. Dropout can be treated as a form of ensemble learning, where we train a number of sub-networks and aggregate their predictions. This is considered similar to training many neural networks with different structures.
+
+<USES/APPLICATIONS>
+Dropout is commonly used as a regularization technique in various deep learning applications, especially in convolutional neural networks (CNNs) and recurrent neural networks (RNNs). It plays a significant role in preventing overfitting, making the neural networks more robust while also improving their performance. In image processing, speech recognition, natural language processing, and several other tasks requiring deep learning, dropout has been integral in obtaining the desired results.
+
+<VARIATIONS>
+While dropout has been a game changer in neural networks, variations and extensions have also been developed. There's "DropConnect" which randomly drops and reconnects different parts of the hidden layers within a network. Another is "SpatialDropout" which is more suited for convolutional neural networks. One other related technique is "BatchNormalization," initially developed to reduce internal covariate shift, but it also provides some regularization, similar to dropout. The evolution of dropout techniques shows the continued development and refinement of deep learning regularization techniques.

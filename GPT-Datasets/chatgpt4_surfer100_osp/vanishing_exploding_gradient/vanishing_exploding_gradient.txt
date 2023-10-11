@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Vanishing and Exploding Gradients are difficulties faced during the training of deep neural networks. They belong to the field of artificial intelligence and machine learning. These phenomena affect the algorithm's ability to learn from data by propagating error terms through the network. This impacts several applications, including image recognition, natural language processing, and vehicle navigation systems. Motivated by the need to improve learning efficiency and model predictive accuracy, various mechanisms have been devised to address these challenges.
+
+<HISTORY>
+Vanishing and Exploding Gradients were acknowledged as challenges in the mid-1990s when researchers started exploring deep architectures. These issues became more evident as researchers attempted to train deep neural networks or recurrent neural networks. The problem is connected to the chain rule used in the backpropagation algorithm, and how gradient values are often squashed into tiny values or inflated into very large ones.
+
+<KEY IDEAS>
+The problem of vanishing gradients occurs when the backpropagated gradients become so small that they effectively become zero. Meaning, the weights won't update and learning ceases to happen. On the other hand, Exploding gradients result from the reverse issue. Here, the gradient becomes so large that it causes an overflow (NaN) error. These extremes curtail the training process and eventually undermine the performance of the AI model. In both cases, layers closer to the input layer are affected the most.
+
+<USES/APPLICATIONS>
+The necessity to overcome the issues posed by vanishing and exploding gradients is significant in many applications. Optimizing deep learning models for image and language recognition requires effective handling of these problems. In speech recognition systems, for example, exploding or vanishing gradients can lead to a poorly trained model, creating inaccuracies in speech-to-text conversion. Similarly, in image classification tasks, addressing these gradient problems significantly improves model accuracy.
+
+<VARIATIONS>
+Several solutions have been proposed to mitigate the problems caused by vanishing and exploding gradients. These include techniques like weight initialization strategies (Xavier and He initialization), optimization algorithms (Adagrad, RMSprop, Adam), alternatives for activation functions (ReLU, Leaky ReLU, Parametric ReLU, ELU), and regularization techniques (dropout, early stopping). Moreover, architectural modifications like batch normalization and residual connections also contribute to resolving these issues, reinforcing the foundational promise and potential of neural networks for transforming AI applications.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Principal Component Analysis (PCA) is a statistical procedure that linearly transforms original variables into a smaller number of uncorrelated variables called principal components. These new components present the same information in a more compact way. This assists in understanding the structure of high-dimensional data, reducing dimensionality, or simplifying data for later analysis. Developed by Karl Pearson in 1901, PCA is widely used in fields like psychology, finance, computer vision, and machine learning.
+
+<HISTORY>
+PCA was developed by Karl Pearson in the early 1900s as a method for transforming correlated variables into a set of uncorrelated variables. The technique was originally used in the field of psychology for personality research, with the goal of reducing complex personality traits into a smaller set of 'principal components'. Over the years, PCA has become an integral part of data analysis and interpretation in various fields of study, providing a method to highlight significant trends and patterns in complex datasets.
+
+<KEY IDEAS>
+In PCA, the original data is transformed into a new coordinate system in which the first axis corresponds to the first principal component that captures the most variance in the data. The second axis corresponds to the second principal component which captures the next highest variance, and so on. The principal components are orthogonal, meaning they're uncorrelated with each other. It's important to note that PCA is heavily influenced by scale, therefore, data normalization is crucial for this technique. The number of principal components is less than or equal to the number of original variables. 
+
+<VARIATIONS>
+There are variations and improvements to the standard PCA. One of these is Kernel PCA, which applies a kernel function to the data before executing PCA, allowing for the mapping of non-linear relations in the data. Another is Sparse PCA, where some components are forced to be zero to increase interpretability and enable identification of important variables. Incremental PCA is used when the dataset is too large to fit in memory, effectively processing the input data piece by piece.
+
+<APPLICATIONS>
+PCA is extensively used in various applications. In image processing and computer vision, PCA can be used for feature extraction, image recognition and compression, like Eigenfaces for face recognition. In genetics, it is applied to detect population stratification. Also, it can be used in finance for portfolio diversification. In machine learning, it is often used for exploratory data analysis, feature extraction, and data visualization. In essence, whenever high-dimensional data needs to be simplified while retaining its core traits, PCA is a powerful tool.

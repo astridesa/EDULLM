@@ -1,0 +1,18 @@
+Title: A Comprehensive Survey on Normal Distribution
+
+Introduction:
+Normal distribution, also known as the Gaussian distribution, is a fundamental concept in statistics. It provides a framework for understanding the behavior of a wide range of phenomena in various fields. This survey article aims to provide a concise overview of normal distribution, its history, key ideas, variations, and applications.
+
+History:
+The study of normal distribution dates back to the early 19th century when mathematicians such as Carl Friedrich Gauss and Pierre-Simon Laplace made significant contributions. Gauss, in particular, introduced the concept of the bell-shaped curve and developed the probability density function for normal distribution. Since then, normal distribution has become a cornerstone of statistical theory and practice.
+
+Key Ideas:
+Normal distribution is characterized by the shape of its probability density function, which forms a symmetric bell curve. It is fully defined by two parameters: the mean (μ) and the standard deviation (σ). The mean determines the center of the distribution, while the standard deviation controls the spread of the data. The central limit theorem is a vital concept related to normal distribution, stating that the sum or average of independent and identically distributed random variables tend to be normally distributed.
+
+Variations:
+While the standard normal distribution has a mean of 0 and a standard deviation of 1, normal distributions can vary by adjusting these parameters. The shape and behavior of the distribution change accordingly. Variations include the truncated normal distribution, where the values outside a specific range are truncated, and the multivariate normal distribution, which deals with multiple correlated variables.
+
+Applications:
+Normal distribution finds applications in numerous fields, including finance, physics, social sciences, engineering, and quality control. It serves as a foundation for statistical inference, allowing researchers to make predictions, perform hypothesis testing, and estimate confidence intervals. In finance, it is used to model asset returns, while in quality control, it helps analyze manufacturing processes.
+
+In summary, normal distribution is a fundamental concept in statistics, offering a precise framework for studying probability and analyzing data. Understanding its history, key ideas, variations, and applications is essential for researchers and practitioners dealing with statistical analysis and inference in various disciplines.

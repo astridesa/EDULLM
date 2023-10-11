@@ -1,0 +1,17 @@
+Title: Generative Adversarial Network: A Comprehensive Survey
+
+Introduction:
+Generative Adversarial Network (GAN) is a sea-changing innovation in the field of machine learning, particularly for generative models. This principle involves training two neural networks in a 'zero-sum game' framework; a generator, whose job is to emulate data instances, and a discriminator, which examines these created instances and distinguishes them from the authentic data. This paves the way for the generation of breathtakingly realistic data instances that can often be almost indistinguishable from the original.
+
+History:
+GANs were first introduced by Ian Goodfellow and his team in 2014, marking a substantial advancement in unsupervised machine learning. Their ground-breaking invention has transformed and influenced numerous sectors, such as the arts, where GANs are used to create visually stunning graphics, or in healthcare, where their potential capabilities are being explored for drug discovery and medical imaging.
+
+Key Ideas:
+The genius behind GAN lies in the concept of the adversarial relationship. The generator network produces artificial data samples while attempting to maximize the probability of the discriminator committing an error in identifying the fake data. This interaction helps the generator improve its production of faux data. On the other hand, the discriminator keeps improving its detection skills. Thus, the goal of the GAN setup is a moving target, resulting with more refined generative models.
+
+Variations:
+Since 2014, an influx of GAN variations have been introduced, catering to different usages and upgrading the original GAN in dealing with its limitations. Some of these include the Conditional GAN, which introduces supplemental information to direct data generation; the CycleGAN, designed to capture special characteristics for image-to-image translations; and the Wasserstein GAN, which amends the way loss is computed to create more stable training situations.
+
+Applications:
+GANs have found a wide range of applications due to their unique data generation capabilities. In image processing, they are used for tasks like image-to-image translation or image super-resolution. In healthcare, they contribute to synthetic data generation, drug discovery and medical imaging. The entertainment industry also leverage GANs for video game design or generating novel art. Furthermore, researchers explore the uses of GAN in generating synthetic datasets to train other machine learning models.
+

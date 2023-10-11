@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Normal Distribution, also known as Gaussian distribution, is a common pattern of data distribution in the field of statistics. Often illustrated as a 'bell curve', it signifies that data near the mean are more frequent in occurrence than data far from the mean. Normal distribution is a key concept in both natural and social sciences as it's found in various natural phenomena like heights, blood pressure, measurement errors, and IQ scores.
+
+<HISTORY>
+The normal distribution was introduced in the early 19th century by mathematician and physicist Carl Friedrich Gauss, which is why it is also called 'Gaussian Distribution'. It was developed as a method for reducing errors in astronomical observations. Gauss proposed that even random errors followed a normal distribution, showcasing that this distribution can minimize error impacts.
+
+<KEY IDEAS>
+Central to the idea of normal distribution is its bell-shaped curve which is characterized by two parameters - mean (average) and standard deviation (measure of data dispersion). When data follows a normal distribution, about 68% of the data falls within one standard deviation of the mean, about 95% falls within two standard deviations, and about 99.7% lands in three standard deviations. This is known as the empirical rule or the 68-95-99.7 rule.
+
+<USES/APPLICATIONS>
+Normal distribution has a broad array of applications across fields. In quality control, it helps determine product quality and manage process variables. In finance, it's used to model and forecast asset prices and returns. In medicine, it's utilized in clinical trials and to understand biostatistics. In psychological research, it assists in understanding and interpreting data like test scores, intelligence quotients, and other data sets related to human behavior.
+
+<VARIATIONS>
+Many other distributions extend or relate to the normal distribution, including log-normal, chi-squared, and student's t-distribution. Each of these has particular characteristics that make them suitable for specific situations, often where data do not meet the assumptions of the normal distribution. Variations like binomial and Poisson distributions can approximate to Normal when their respective parameters are large. Understanding these related distributions helps to place normal distribution in a wider context and shows the basis for its widespread usage.

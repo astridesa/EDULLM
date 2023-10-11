@@ -1,0 +1,16 @@
+Title: Named Entity Recognition: An Overview 
+
+Introduction:
+Named Entity Recognition (NER) is a subtask of information extraction that focuses on identifying and classifying named entities in text. These named entities typically consist of specific names, locations, organizations, and any other explicitly named items. NER is crucial to many natural language processing (NLP) tasks, such as machine translation, question answering, and automatic summarization.
+
+History:
+The initial concept of NER can be traced back to the 7th Message Understanding Conference (MUC-7) held in 1998. This conference was a defining moment for NER as it brought researchers together to tackle the challenge of effectively deriving structured insights from unstructured text data. Moreover, the launch of the Conference on Natural Language Learning (CoNLL) further popularized the task of entity recognition in the subsequent years.
+
+Key Ideas:
+At its core, NER involves two essential steps: entity boundary detection and entity type classification. The former is about locating and segmenting words which form potential entities, while the latter involves classifying these entities into pre-defined categories. Traditional approaches, such as rule-based models and machine learning models like Support Vector Machines were quite popular. More recently, deep learning approaches involving Recurrent Neural Networks (RNNs) and Transformer models have gained prominence.
+
+Variations:
+NER varies mainly in context and the types of entities identified. Coarse-grained NER identifies general entities such as people, organizations or locations, whereas fine-grained NER goes beyond and distinguishes between more specific sub-categories, like identifying a university name as a specific kind of organization. Moreover, multilingual NER, a more complex variant, aims at identifying entities in multiple languages. 
+
+Applications:
+Recognizing named entities has diverse applications across various domains. In healthcare, it aids in extracting critical medical data from patient records. It plays a significant role in information retrieval, helping search engines provide more accurate results. In the business world, NER assists in extracting key details from financial reports. Additionally, it is widely used in automated chatbots, voice recognition software, and various other NLP applications.

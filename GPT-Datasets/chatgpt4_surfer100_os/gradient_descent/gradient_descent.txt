@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Gradient Descent is a crucial optimization algorithm in machine learning and deep learning designed to minimize a defined function. The central concept is iterative optimization: you start from a point and iteratively move towards the minimum of the function by descending along the function's gradient. In machine learning, this function is often a loss function estimating the error of the model's predictions. Overall, Gradient Descent is a critical component in training learning models by improving their performance step by step.
+
+<HISTORY>
+The concept of Gradient Descent traces back to the 19th century through the work of Augustin-Louis Cauchy. He curated gradient descent as a method for solving multi-variable systems. However, gradient descent gained real prominence with the advent of machine learning, where large datasets demand efficient algorithms. Today, it is the go-to optimization technique being used to traverse the complex, multidimensional error landscape of artificial neural networks.
+
+<KEY IDEAS>
+Gradient Descent is inherently simple, hinging on the idea that a function decreases fastest if you go from the current point in the direction of the negative gradient. In a machine learning context, it's used to minimize the error function by iteratively adjusting the model's parameters. First, the initial parameters are chosen at random. Then the gradient of the error function with respect to these parameters is computed. Based on this, updated parameters are calculated. The process repeats untill the solution slowly converges to a minimal error.
+
+<VARIATIONS>
+The outright Gradient Descent algorithm, also known as Batch Gradient Descent, computes the gradient using the complete dataset, which can be computationally heavy for large datasets. To overcome this, Stochastic Gradient Descent (SGD) was developed which computes the gradient using a single sample. Another efficient variant is Mini-Batch Gradient Descent that strikes a balance by computing the gradient using small batches of data. Moreover, variants like Momentum, Adagrad, RMSProp, and Adam were introduced to improve convergence speed and stability.
+
+<APPLICATIONS>
+Gradient descent finds multiple applications, especially in the fields of machine learning and deep learning. It is commonly used in linear regression, logistic regression, and neural networks. Furthermore, it underpins the training of most types of neural networks, including Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs). It is also widely used in developing artificial intelligence by enabling machines with the ability to 'learn’ from data iteratively and improve their performance.

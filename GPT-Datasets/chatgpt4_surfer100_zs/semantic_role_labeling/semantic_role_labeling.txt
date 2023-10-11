@@ -1,0 +1,16 @@
+Title: Semantic Role Labeling: An Overview
+
+Introduction:
+Semantic Role Labeling (SRL) is a task in natural language processing (NPL) which involves assigning roles to words or phrases in a sentence based on their semantic relationship. The roles describe the action or state described by the sentence and can include entities such as agents, goals, or instruments. SRL is essential as it aids in understanding the thematic relations that connect the action referred to by the verb to associated entities and can greatly improve the performance of other natural language understanding tasks.
+
+History:
+The concept of SRL originated in the linguistic theory of case grammar in the 1960s. It emerged as a distinct task in the computational field during the 1990s with the advent of more sophisticated language processing technologies. The PropBank project, which began in 2002, and FrameNet project, initiated in the late-1990s, provided annotated corpora for SRL. Over time, machine learning techniques have been employed to automate the SRL process, with deep learning models like recurrent neural networks providing significant advancements in recent years.
+
+Key Ideas:
+In SRL, sentences are processed on the predicate-argument structure where predicates are usually verbs, and arguments are noun phrases associated with these verbs. Key roles often include "Agent" (doer of action), "Patient" (receiver of action), and "Instrument" (by means of which action is done). Machine learning approaches are used to identify the semantic roles of words or phrases in the argument structure. Supervised learning models trained on annotated corpora are the most common models used for SRL.
+
+Variations:
+There are several variations of the SRL task adapted for different languages and domains. Frame-Semantic Parsing is a variation that extends beyond verb arguments to include other types of predicates like nouns and adjectives. Another variation is VerbNet-style function labelling, where roles are defined based on verb-specific thematic roles. There are also different annotation schemes such as PropBank-style and FrameNet-style labeling which have different focuses.
+
+Applications:
+SRL finds application in various NLP tasks which require understanding a sentence's deeper meaning. This includes machine translation, information extraction, question answering, and text summarization. For instance, in question answering, SRL can help identify the required information in the question and match it to the correct response. With its ability to extract and organize information based on semantic relationships, SRL has great potential to enhance the capabilities of many language processing applications.

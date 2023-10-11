@@ -1,0 +1,16 @@
+Title: Coreference Resolution: An Overview
+
+**1. Introduction**
+Coreference Resolution (CR) stands as a critical research area in the field of Natural Language Processing (NLP), acting as the linchpin in understanding natural language. CR aims at identifying occurrences in a text, where diverse expressions point towards the same entity in the world. It is essential for comprehending the complete meaning of a sentence by linking pronouns, nouns, and other referring expressions to their corresponding referents.
+
+**2. History**
+The birth of CR can be traced back to the early 60s, when linguists started exploring anaphoric relationships, and has seen considerable evolvement since. Initially, historical techniques prioritized syntax-based rules, though these proved incapable of solving complex coreferences. The advent of machine learning-based solutions during the late 90s kicked-off a new era in the CR field, providing a systematic and more effective approach to tackle the problem.
+
+**3. Key Ideas**
+The nucleus of CR surrounds two main ideas: Anaphora Resolution and Cataphora Resolution. Anaphora Resolution deals with cases where the referential expression arises after its referent, such as, "Mike told John that he was tired." Here, 'he' refers to Mike. Meanwhile, Cataphora Resolution addresses the opposite: where the referential phrase precedes its referent. Most CR systems incorporate machine learning algorithms, semantic and syntactical rules, to churn the richness of language.
+
+**4. Variations**
+The CR techniques can be broadly classified into four categories: Rule-based, Machine learning-based, Hybrid approaches and Deep learning approaches. Rule-based approaches use linguistic rules for resolving coreferences. Meanwhile, Machine learning-based techniques employ classification algorithms to tackle this task. Hybrid methods are a combination of rule-based and ML approaches, intending to extract the best from both worlds. The most recent addition, deep learning approaches, capitalizes on neural network architectures for coreference resolution.
+
+**5. Applications**
+Coreference resolution serves as a backbone in a wide array of applications within the NLP domain such as information extraction, text summarization, question answering, and machine translation. It plays a pivotal role in ensuring that the resulting translation or summary is semantically consistent. Moreover, in information extraction systems, it aids in distinguishing between entities, thereby improving the overall system performance. Its importance intensifies with the increasing need for machines to comprehend language nuances akin to humans.

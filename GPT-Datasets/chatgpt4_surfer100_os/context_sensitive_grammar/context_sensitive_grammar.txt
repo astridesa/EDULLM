@@ -1,0 +1,14 @@
+<INTRODUCTION>
+A Context Sensitive Grammar (CSG) is a type of formal grammar in the Chomsky hierarchy that addresses complexities in languages beyond the capabilities of context-free grammars. A context-sensitive language generates words that depend both on the symbol being replaced and its surrounding symbols or context. Thanks to its inclusion of context, CSG is capable of describing a more extensive range of language features.
+
+<HISTORY>
+The concept of Context Sensitive Grammar was first introduced by Noam Chomsky in 1956 as a part of his theoretical framework for syntax descriptions in his transformational-generative grammar theory. This was during his work on describing the natural languages syntactically. Chomsky’s hierarchy was designed to categorize different grammars based on their structural complexity, with CSG adding the context dimension to the formulation.
+
+<KEY IDEAS>
+The key idea behind Context Sensitive Grammar lies in the fact that production rules rely on the context of a specific symbol. It applies transformation rules that express how strings of words can be transformed into new strings, where the transformation applies to a word depending on its context. In technical terms, a context-sensitive production rule is α -> β, wherein both α and β are strings of nonterminal and possibly terminal symbols, with the restriction that the length of α should be less than or equal to β.
+
+<APPLICATIONS>
+Context Sensitive Grammar plays an important role in defining the syntactic structure of programming languages, particularly in the design of computer language compilers and interpreters. It makes these languages more intelligible to both the programmer and the machine. The powerful expression of CSG also provides crucial applications in the field of natural language processing, formal language theory, and computational linguistics, where complex structure and hierarchical dependencies are often encountered.
+
+<VARIATIONS>
+There are variations of Context Sensitive Grammar such as linear context-sensitive grammars and noncontracting grammars. Linear CSGs have at most one nonterminal in each production's right-hand side, while Noncontracting grammars have the additional restriction that no production rule's right side is shorter than its left side. These variations adjust complexity and offer greater flexibility in defining language structures.

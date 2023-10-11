@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Meta-learning, also known as "learning to learn", is a set of machine learning techniques that aim to design models that can learn new skills or adapt to changing environments rapidly with a few training examples. It falls under the wider field of machine learning and artificial intelligence, with applications ranging from natural language processing to computer vision tasks. Attuned to mimic the human ability to adapt quickly to new tasks based on existing knowledge, meta-learning is a stride towards achieving more versatile and intelligent systems. 
+
+<HISTORY>
+The concept of meta-learning was introduced in the late 1980s and early 1990s by researchers like Jürgen Schmidhuber, who pioneered methods for learning architectures. This was largely in response to the challenge of creating systems that could adapt quickly to new tasks without vast amounts of data. Early meta-learning concepts focused on specific areas, such as learning rate alteration. Today, meta-learning encompasses a range of techniques including memory augmented neural networks, metric learning, and learning to optimize.
+
+<KEY IDEAS>
+Meta-learning can be divided into three main components: the meta-learner, the task distribution, and the learning algorithm. The task might vary - classification, regression - but are always sampled from the same distribution. For each task, a learning algorithm aims to gain experience and adapt to perform better. Then, the meta-learner extracts common knowledge or insights from these tasks, applying them to perform well on new tasks. Meta-learning algorithms can be model-based, metric-based, or optimization-based depending on their usage in the model.
+
+<USES/APPLICATIONS>
+Meta-learning has a wide spectrum of applications. Aside from its notable use in deep learning where neural networks are used, it's also used in reinforcement learning. These tasks include but aren't limited to, robotic control, game playing, and autonomous navigation. Additionally, meta-learning can be used for rapid adaptation in natural language processing and, in particular, natural language understanding. Several companies use meta-learning algorithms for designing personalized recommendations and adaptive chatbots.
+
+<VARIATIONS>
+Several variations of the meta-learning method exist, each with its characteristics and differences. Prominent examples include Memory Augmented Neural Networks (MANN), which incorporate an external memory matrix, and Metric Learning, which leverages a distance function to separate classes. Other types include multi-task learning, transfer learning, and lifelong learning. These learning concepts sit within the bigger picture of the drive towards enabling machines to use their experiences to navigate new, unseen tasks, thus creating a more versatile AI ecosystem.

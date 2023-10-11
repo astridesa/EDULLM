@@ -1,0 +1,19 @@
+**Introduction**
+
+Word Sense Disambiguation (WSD) is a significant part of Natural Language Processing (NLP) that deals with determining the meaning of words based on their context in a sentence or a phrase. This task is critical because text and speech in every language contain words that have multiple meanings, and the correct interpretation of these words relies upon their surrounding context. For a computer to fully understand natural language, like a human does, it must be capable of performing WSD effectively. The aim of WSD is to enable computers to mimic human-like understanding and interpretation of language.
+
+**History**
+
+The importance of Word Sense Disambiguation was first recognized in the 1950s, alongside early efforts in machine translation. Since then, various methods to perform WSD have been proposed. Early methods adopted manually created rules and lexical resources. However, these methods were significantly limited by the immense effort required in rule formulation and resource creation. With advancements in computational power and machine learning in the late 20th and early 21st centuries, statistical and supervised learning methods gained prominence.
+
+**Key Ideas**
+
+There are three key ideas behind Word Sense Disambiguation: supervised, unsupervised, and knowledge-based techniques. Supervised methods are based on learning the sense from labelled examples. Unsupervised techniques, on the other hand, do not require pre-labelled data. They rely on the hypothesis that words in the same context will likely carry the same sense. Lastly, knowledge-based techniques use a database or a semantic network (like WordNet) to determine word sense based on semantic consistency. Most current methods are hybrid approaches that combine these techniques to leverage their strengths and mitigate their weaknesses.
+
+**Variations**
+
+WSD can be classified into two variations: All-words WSD and Lexical sample WSD. All-words WSD involves discerning the senses of all words in a text, making it more challenging due to the high complexity of text data. Lexical sample WSD, on the contrary, focuses on disambiguating a specific set of target words, in a given sample of instances. While it's not as complex as All-words WSD, both methods are integral in understanding and interpreting contextual language.
+
+**Applications**
+
+Many applications of Natural Language Processing depend on WSD to function effectively. These include Machine Translation, where WSD can significantly improve the quality of translation by choosing the correct translations based on their contexts. Information Retrieval (IR) systems and Search Engines also benefit from WSD by returning more precise search results. Furthermore, Word Sense Disambiguation also plays an important role in Text Mining, Text Summarization, Semantic Parsing, and various other NLP applications.

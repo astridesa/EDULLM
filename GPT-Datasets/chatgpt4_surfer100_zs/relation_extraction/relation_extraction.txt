@@ -1,0 +1,18 @@
+Title: Relation Extraction: A Survey
+
+1. Introduction
+Relation extraction (RE) pertains to the procedure of obtaining structured information from unstructured text. It involves identifying relationships between entities like people, objects, places, and institutions, acting as a key element in Natural Language Processing. RE offers valuable insights by linking discrete facts or resolving ambiguities within text data, contributing immensely to knowledge-based systems and databases.
+
+2. History
+The concept of Relation Extraction gained prominence during the message understanding conferences (MUC) in the 1990s. It primarily focused on entity recognition in those early days. However, with the arrival of machine learning approaches around early 2000s, RE matured significantly. The introduction of deep learning further revolutionized this field around 2010s, with various models being crafted to improve the precision and recall of relation extraction.
+
+3. Key Ideas
+Core concepts in RE primarily involve entity recognition, relationship identification, and classification. From Named Entity Recognition (NER) that finds entities within a text, RE advances to identifying relationships between those entities. This is accomplished through pattern-based, rule-based, or machine learning techniques. RE models can either be supervised, semi-supervised, or unsupervised, each class offering distinct benefits and suited to different types of datasets.
+
+4. Variations
+Different variations in RE correspond to the relation specification and the complexity of the task. Binary relations represent a straightforward two-entity relationship, while n-ary relations deal with a more complex relationship involving n entities. Some extraction models focus on distant supervised learning, employing indirect supervision through existing structured databases. There are also variants based on deep learning methods like Recurrent Neural Networks (RNN), Convolutional Neural Networks (CNN), and more recently, Transformer models.
+
+5. Applications
+RE is widely deployed in diverse domains including information extraction, knowledge graph population, semantic querying, and text summarization. It has significant applications in business intelligence and biomedical research where it's utilized to extract relationships between drugs and diseases or gene interactions. Additionally, RE aids in other areas like geopolitical analysis, legal knowledge extraction, and social media analysis, making it a pivotal solution in today's data-driven world.
+
+

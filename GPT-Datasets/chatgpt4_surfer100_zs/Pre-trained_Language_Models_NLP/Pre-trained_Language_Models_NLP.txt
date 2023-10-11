@@ -1,0 +1,16 @@
+Title: Pre-Trained Language Models in Natural Language Processing: An Overview
+
+Introduction:
+Pre-Trained Language Models (PTLMs) in Natural Language Processing (NLP) are a crucial component in tackling complex linguistic problems. These models, trained on massive text corpora, have the ability to grasp the subtleties of language and deliver remarkable performance across several NLP tasks. This article attempts to understand their history, key ideas, variations, and practical applications. 
+
+History:
+The concept of PTLMs was not prevalent in the NLP realm until recently. However, with advances in computing technology and enhanced accessibility to vast data resources, the potentials of PTLMs were explored. The release of Unsupervised Sentiment Neuron, one of the earliest models in 2017, gave a good start. Later, researchers developed sophisticated models such as OpenAI’s GPT, Google's BERT and Transformer models, marking significant milestones in this area.
+
+Key Ideas:
+PTLMs function by learning representations from a large corpus of text data without supervised training. By capturing the statistical properties of the language, these models form an understanding of grammar, semantics, and pragmatic aspects of language. They leverage machine learning algorithms that enable them to predict the next word in a sentence, which fundamentally aids in tasks like answering questions or generating text.
+
+Variations:
+There are various types of PTLMs, each holding unique characteristics. The BERT model leverages a transformer-based architecture focusing on the context on both sides of a word. GPT, on the other hand, uses transformer-based architecture, emphasizing unidirectional context. ELMo uses LSTM-based architecture that dynamically changes word representations based on the context. Each variant serves different computational and linguistic needs.
+
+Applications:
+PTLMs find wide applications across many NLP tasks. They have been pivotal in improving the performance of sentiment analysis, text generation, machine translation, question answering, named entity recognition, and other linguistic tasks. They are also extensively used in large-scale AI systems which require deep language understanding, in fields like healthcare, financial technology, and customer service.

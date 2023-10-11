@@ -1,0 +1,16 @@
+Title: Information Extraction - A Comprehensive Survey
+
+Section 1: Introduction
+Information Extraction (IE) is a subfield of artificial intelligence and natural language processing that focuses on deriving structured data from unstructured text sources. The primary objective of IE is to automate the process of discovering, classifying and arranging data from written documents. IE is a crucial aspect of knowledge discovery, enabling machines to read, comprehend, and extract useful information from various forms of raw text data.
+
+Section 2: History 
+The concept of Information Extraction started to gain prominence in the late 1970s when text retrieval studies were carried out. Throughout the 80s and 90s, research in IE increased rapidly, culminating in the advent of Message Understanding Conferences (MUC). The creation of these conferences initiated several shared tasks designed to promote and measure the progress of IE. The early-2000s saw the evolution of concurrent technologies like machine learning, paving the way for advanced IE systems.
+
+Section 3: Key Ideas
+The chief principles of Information Extraction involve identifying and categorizing specific pieces of information present in textual data. Key concepts include Named Entity Recognition (NER), which identifies specific entities in text, Relation Extraction, determining relationships between several entities, and Event Extraction which discovers occurrences of related actions. These tasks may involve keyword spotting, lexical affinities, and complex linguistic algorithms to understand and extract relevant data.
+
+Section 4: Variations
+Issues with language ambiguity and domain variability led to the advent of various Information Extraction techniques. Open IE, for instance, attempts to identify relations in any possible domain. Domain-specific IE, on the other hand, focuses on a predefined domain, using specialized algorithms for that specific area. Multilingual IE extracts information from text written in different languages, expanding the scope of data collected.
+
+Section 5: Applications
+Information Extraction finds numerous applications across industries. In healthcare, it can assist in interpreting patient records for assessing treatments or predicting diseases. In business, it could help to analyze consumer sentiments, trends, or competitors’ strategies. In journalism, IE might aid in automating news generation by extracting event-specific data. As unstructured textual data continues to grow exponentially, the relevance and applications of IE are likely to increase accordingly.

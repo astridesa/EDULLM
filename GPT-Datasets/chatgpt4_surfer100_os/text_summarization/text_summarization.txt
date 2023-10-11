@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Text summarization is an important task in Natural Language Processing (NLP) that involves condensing a larger body of text into a brief summary. This process carries out without losing the original context and main points of the source text. Also, it helps in filtering out unnecessary information while keeping the essence intact. Text summarization has a significant impact on information retrieval, reading comprehension, and in generating concise summaries for long documents or articles.
+
+<HISTORY>
+The concept of automatic text summarization began during the 1950s where the primary focus was on generating extractive summaries, i.e., selecting important sentences from the original text to create a summary. The 1990s observed a boost in its research mainly due to the growth of the internet. In recent years, developments in deep learning and artificial intelligence techniques have advanced this field further, leading to the creation of abstractive summaries that can generate new sentences.
+
+<KEY IDEAS>
+Text Summarization generally falls into two main categories: Extractive and Abstractive. Extractive summarization works by selecting key phrases or sentences from the source text to form the summary. This approach is similar to how a human would manually create a summary by highlighting important points. Meanwhile, Abstractive summarization aims to generate novel sentences to form a summary, which requires a more profound understanding of the text and involves complex language generation techniques. It can use techniques like sentence compression and paraphrasing.
+
+<VARIATIONS>
+Variations of text summarization techniques include Supervised Learning, where a model is trained using a large dataset of source documents and their corresponding summaries. Alternatively, Unsupervised Learning methods, which do not require a pre-labeled dataset, use techniques like heuristic-based scoring for sentence ranking, or clustering for grouping similar sentences. Semi-supervised methods try to utilize the benefits of both approaches. 
+
+<APPLICATIONS>
+Text Summarization has wide applications in various fields including news industries where brief summarizations of articles are often desired. In academic research, it aids in the review of literatures by providing concise descriptions. Similarly, in the healthcare sector, it helps in extracting important points from medical reports or patient records. Additionally, enterprises use text summarization to condense long business reports or for sentiment analysis in social media monitoring. It is also an essential component of recommendation systems and assistants like Google Assistant and Siri to generate brief and informative responses.

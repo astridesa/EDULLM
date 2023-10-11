@@ -1,0 +1,18 @@
+Title: A Comprehensive Survey on Gradient Boosted Decision Trees
+
+Introduction:
+Gradient Boosted Decision Trees (GBDT) are a powerful machine learning ensemble technique that combines multiple decision trees to make accurate predictions. This article provides an overview of GBDT, highlighting its advantages and applications in various domains.
+
+History:
+GBDT was first introduced by Jerome H. Friedman in 1999. It built upon the concept of boosting, which was proposed by Robert E. Schapire and Yoav Freund in 1996. Over the years, GBDT has gained popularity and evolved, with various optimizations and enhancements.
+
+Key Ideas:
+The central idea behind GBDT is to iteratively train decision trees to correct the mistakes made by previous models in the ensemble. Each subsequent tree is built to minimize the residual errors of the previous models. This boosting process gradually improves the overall predictive power and robustness of the ensemble.
+
+Variations:
+Several variations of GBDT have emerged, such as XGBoost, LightGBM, and CatBoost. XGBoost incorporates regularization techniques to prevent overfitting, while LightGBM focuses on efficient tree construction. CatBoost, on the other hand, introduces categorical variable handling and further optimizations.
+
+Applications:
+GBDT has found applications in various fields, including finance, healthcare, e-commerce, and recommendation systems. It has been proven effective in credit risk modeling, disease diagnosis, click-through rate prediction, and personalized recommendation, to name a few. The interpretability of decision trees also makes GBDT a popular choice in domains where explainability is essential.
+
+In conclusion, Gradient Boosted Decision Trees have become a widely employed machine learning technique due to their high predictive accuracy and versatility in handling complex datasets. As GBDT continues to evolve, it is expected to further revolutionize the field of machine learning.

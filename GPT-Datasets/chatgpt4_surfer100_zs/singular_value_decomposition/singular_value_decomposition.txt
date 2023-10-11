@@ -1,0 +1,14 @@
+**Introduction**
+Singular Value Decomposition (SVD) is considered one of the most powerful statistical methods applied in a variety of complex scientific and engineering tasks. The complex algorithm deals with breaking a matrix into its constituent parts, which has broad implications for dimensionality reduction, noise reduction and image compression among other applications. The robustness and versatility of the SVD make it an essential tool in numerous fields.
+
+**History**
+SVD dates back to the late 19th century with its earliest roots found in the work of Augustin-Louis Cauchy's findings about characteristic vectors. The technique was formulated in its modern form as it is used today by Erhard Schmidt in 1907 and independently by Henri Lebesgue, both of whom initially used it specifically for square matrices. Its application to arbitrary matrices only became widely attributed to Gene H. Golub and Christian Reinsch in the 1970s.
+
+**Key Ideas**
+At its core, SVD is a decomposing process for matrices. Given a matrix, SVD segregates it into three different matrices, namely a left singular matrix, a singular value matrix, and a right singular matrix. This decomposition offers a range of insightful perspectives into the original matrix. It is even applicable to non-square matrices. In simpler terms, SVD turns a complex or difficult problem into a simpler one for processing and understanding.
+
+**Variations**
+Variations of SVD centre around its computation, helping to make the process more effortless and efficient. Modified versions, such as randomized Singular Value Decomposition and truncated Singular Value Decomposition, exist to reduce computational complexity and time. These variations often make some approximations, providing an optimal solution according to the resources constraints, while retaining the majority of the significant information.
+
+**Applications**
+The applications of SVD are widespread, cutting across multiple disciplines, including computer graphics, data compression, information retrieval, natural language processing, and machine learning. Its use in signal processing helps filter out noise in signals. In data compression, SVD helps eliminate redundancy in data, reducing storage space. SVD's applications in machine learning, particularly in recommendation systems, are greatly notable. Its dimensionality reduction feature is also sought after for visualizing high-dimensional data.

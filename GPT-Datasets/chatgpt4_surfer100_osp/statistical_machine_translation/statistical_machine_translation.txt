@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Statistical Machine Translation (SMT) is an approach to machine translation which employs statistical models based on bilingual text corpora. It falls under the broad umbrella of Natural Language Processing (NLP) and Machine Learning fields. The motivation behind SMT is to train a model that can automatically map between languages, promoting fluency and preserving semantics. The applications range from simple translations for individual end-users to professional tools for creating multilingual content.
+
+<HISTORY>
+The development of Statistical Machine Translation can be traced back to the late 1980s and early 1990s, a shift away from the rule-based machine translation systems of the era. Warren Weaver, in 1949, proposed the concept of machine translation which later led to the development of SMT. Early work in SMT context focused on solving severe distortion and reordering problems present in source-target language translations.
+
+<KEY IDEAS>
+The cornerstone of SMT is the use of statistical models that learn to translate by analyzing large amounts of bilingual text data. These models are typically trained on parallel corpora, composed of documents in two languages. The training process involves alignment learning, translation modeling, and decoder construction. The popular models include Phrase-Based Statistical Translation, Tree-Based Translation, and t-based models. The statistical application helps manage linguistic discrepancies, enabling more accurate translations.
+
+<USES/APPLICATIONS>
+SMT models have contributed significantly in the field of machine translation, aiding international communication and content localization. In web-based translation services like Google Translate, SMT has played a significant role. It's also used in the translation of multilingual documents in international organizations, e-commerce websites, and in systems aiding multilingual social media text analysis.
+
+<VARIATIONS>
+Beyond standard SMT models, there have been evolutions and variations aimed at improving translation quality. Some methods focus on integrating linguistic rules into SMT models while others centre on novel applications of deep learning techniques, such as Neural Machine Translation (NMT). NMT offers end-to-end translation, encoding the entire input sentence and decoding the translated output, addressing many of SMT's limitations and improving translation quality. Despite these advancements, SMT remains relevant due to its transparency, interpretability, and low computational requirements compared to NMT.

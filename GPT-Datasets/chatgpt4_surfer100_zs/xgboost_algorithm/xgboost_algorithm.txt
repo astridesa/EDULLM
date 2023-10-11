@@ -1,0 +1,21 @@
+**Article Title: XgBoost Algorithm: An Exhaustive Overview**
+
+**1. Introduction**
+
+The XGBoost Algorithm, an acronym for Extreme Gradient Boosting, is recognized for its superior speed and performance. It is a decision-tree-based ensemble advanced Machine Learning algorithm that uses the principle of gradient boosting. The main attraction is its utilization across various applications due to its ability to solve complex computational and model performance challenges, providing impressive practical efficiency and facilitating high predictive accuracy.
+
+**2. History**
+
+XGBoost, first publicly released in 2014, was evolved from the research on Gradient Boosting by Friedman. Created by Tianqi Chen, a PhD graduate from the University of Washington, it was fashioned as an antidote to traditional models' limitations, which lacked speed and performance. The algorithm stepped into the limelight when it was used in winning several Kaggle competitions, setting it as a key player in the machine learning world.
+
+**3. Key Ideas**
+
+The strength of XGBoost lies in its scalability in all scenarios. The algorithm employs the methodology of gradient boosting (boosting trees model) and applies a better objective function encompassing training loss, regularization, and a well-defined model complexity. It extends beyond gradient boosting by employing second-order Taylor approximation and achieving parallel computations involving multiple CPUs.
+
+**4. Variations**
+
+While the core XGBoost model is extensively employed, modifications have been created to better fulfill niche requirements. Some key variations include: regularized gradient boosting, stochastic gradient boosting, and gradient boosting with random linear prediction functions. These variations provide a different twist on the basic concept, adding more layers of complexity and capability.
+
+**5. Applications**
+
+XGBoost's primary use is in supervised learning environments where predictive accuracy is key. Its applications span across several sectors, most notably in financial industries for credit scoring and fraud detection; healthcare for disease detection; and e-commerce for customer churn prediction. Its superior performance and speed make it a preferred algorithm for solving a broad spectrum of complex computational tasks in predictive analytics.

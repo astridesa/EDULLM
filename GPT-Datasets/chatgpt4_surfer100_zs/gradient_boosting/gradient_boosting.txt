@@ -1,0 +1,17 @@
+Title: A Survey on Gradient Boosting 
+
+Introduction
+Gradient boosting is an advanced machine learning technique that combines multiple predictive models to optimise overall performance. It aims to construct new models that accurately complement the shortcomings of existing models. It thrives on the principle that a collective ensemble of weak learning models can create a solid and more precise model, thereby reducing bias and variance in predictions. It is widely applied in various fields, including web search ranking and ecology, due to its ability to handle different types of data and robustness against overfitting.
+
+History
+The concept of boosting came into light when Robert Schapire in 1990 presented the idea that, theoretically, a sequence of weak learners could be combined to produce a powerful committee. The gradient boosting algorithm is an iterative refinement of this concept, proposed by Friedman in 1998. Inspired by functional gradient descent perspective, it uses the gradient of the loss function to guide the generation process of new models. Since its inception, Gradient Boosting has grown to become an essential method within the fields of data science and machine learning.
+
+Key Ideas
+Gradient boosting starts by defining an initial model, usually a simple one such as a constant predictor. Then, iterative steps are taken to refine this model by identifying weaknesses, typically the residuals between the predictions and true values. These residuals are used to train new models that aim to predict accurately and are then added to the ensemble. The final prediction is a weighted sum of predictions of individual models. It employs a gradient descent algorithm, and hence, adjusts the model's parameters to minimize the loss function.
+
+Variations
+Several variations of gradient boosting have emerged since its inception. XGBoost (eXtreme Gradient Boosting) comes in handy to deliver more computational power and speed. LightGBM, proposed by Microsoft, allows for additional optimization of memory and speed while ensuring accuracy. CatBoost, especially designed to better handle categorical features, is another example. These variants introduced important improvements like regularization, uniqueness, and randomization, adding to the effectiveness of the original algorithm. 
+
+Applications 
+Given the robust nature of gradient boosting, it is widely applicable in diverse fields. It is used in anomaly detection in credit card transaction systems, where it helps detect unusual patterns. It's widely used in biology for the prediction of biological properties of different elements, and in personalization technology like recommender systems. It's also prevalent in search engines for ranking applications where the results must be ordered and the relevancy factor plays a major role.
+

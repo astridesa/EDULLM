@@ -1,0 +1,21 @@
+Title: Gradient Boosted Decision Trees: A Comprehensive Overview 
+
+**Introduction**
+
+Gradient Boosted Decision Trees (GBDT) is an impactful and popular machine learning algorithm known for its efficiency and predictive power. It's a model that leverages an ensemble of decision trees, providing noteworthy results in predictive tasks like regression and classification. The primary idea driving GBDT is the concept of boost, a combination of multiple weak models to form a strong, comprehensive one.
+
+**History**
+
+The history of GBDT evolves from the concept of boosting introduced by Freund and Schapire in 1996. By sequentially adding weak decision trees and focusing on difficult instances, they started to add more depth to this field. In the early 2000s, notable advancements were made by Jerome Friedman, who proposed a gradient boosting machine with critical features and adjustments to regularization which later twisted to form the modern GBDT methodology. 
+
+**Key Ideas**
+
+In GBDT, weak learners (typically decision trees) are trained in sequences, each learning from the previous model's errors. This process of boosting continually optimizes the predictive performance. The "Gradient" in GBDT ties to the use of gradient descent optimization, which further increases prediction accuracy by reducing the loss function, the difference between the predicted and actual result. 
+
+**Variations**
+
+There are various modified versions and implementations of GBDT, each offering unique advantages depending on the application. For example, XGBoost, an optimized version, provides superior speed and performance. LightGBM, developed by Microsoft, allows for the handling of large datasets with lower memory usage. CatBoost, developed by Yandex, provides superior handling of categorical features. Each of these versions brings its distinctive characteristics, further escalating the utility and flexibility of the GBDT algorithm.
+
+**Applications**
+
+GBDT finds extensive application across numerous industries due to its accuracy and flexibility. It has been used in the field of Bioinformatics for gene selection. In finance, it assists in credit scoring and fraud detection. In Media and Advertising, it's used for ad ranking and click-through rate prediction. Also, GBDT has significant usage in web search ranking where search engines prioritize the display of search results based on relevancy. Its predictive power and versatility have solidified its role in these industries and more, as the prime go-to machine learning algorithm.

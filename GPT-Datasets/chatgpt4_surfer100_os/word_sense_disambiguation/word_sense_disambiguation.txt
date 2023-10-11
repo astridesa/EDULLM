@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Word Sense Disambiguation (WSD) is a significant aspect of computational linguistics involving the determination of which meaning of a word is being used in context, especially when the word has multiple meanings. For instance, 'bat' could refer to a flying mammal or a sports equipment depending on usage. WSD is an essential step in several natural language processing (NLP) tasks like machine translation, text summarization, information retrieval, and semantic analysis. 
+
+<HISTORY>
+The study of Word Sense Disambiguation has been a subject of research in computational linguistics for over six decades. Initially, it focused on linguistic philosophy, with pioneers like Margaret Masterman in the 1950s laying down initial ideas and models. In the 1980s, Lesk's algorithm was a considerable development in this field, using dictionary definitions for sense predictions. Recent advances include the application of machine learning techniques and resources such as WordNet.
+
+<KEY IDEAS>
+Key concepts in WSD encompass the usage of contextual clues and machine learning. Contextual information could be local, such as nearby words, or global, considering the entire text. The bag of words and n-grams are common techniques to achieve this. Supervised machine learning approaches use labeled datasets, with algorithms like decision trees and support vector machines being popular. More recently, unsupervised methods using clustering techniques or knowledge-based methods utilizing lexical databases like WordNet have gained favor.
+
+<VARIATIONS>
+Variations in WSD approach come mainly from different machine learning techniques. Supervised learning requires large annotated corpora, while unsupervised learning leverages statistical properties of the text. Semi-supervised approaches attempt to blend the benefits of these two. Another variation is in the usage of lexical resources, with WordNet being prevalent, but others like BabelNet also find application. Lastly, deep learning approaches using neural networks and word embeddings are becoming increasingly popular.
+
+<APPLICATIONS>
+WSD finds broad applications in numerous areas of Natural Language Processing (NLP) and information retrieval systems. These include Machine Translation, where the correct sense of a word can be critical in translating text from one language to another. In Information Retrieval, WSD helps improve search accuracy by considering the correct sense of query words. Other applications include Sentiment Analysis, Speech Recognition, Text Summarization, and Content Analysis. In the bigger picture, WSD plays a pivotal role in making interactions with machine systems more natural and human-like.

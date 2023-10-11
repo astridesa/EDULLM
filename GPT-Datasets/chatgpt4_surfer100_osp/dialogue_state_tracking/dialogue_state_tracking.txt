@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Dialogue State Tracking (DST) is a fundamental task in the field of Conversational AI. It refers to the practice of maintaining a representation or 'state' of a user's goals and intentions throughout a conversation with an AI system. DST plays a crucial role in understanding and responding to user inputs logically, enabling dialogue systems to carry out complex tasks. It finds applications in various areas, such as virtual personal assistants, customer service solutions, and more.
+
+<HISTORY>
+Dialogue State Tracking emerged as a critical area in Dialogue Systems Research significantly post the advent of conversational bots. The problem it sought to address was the comprehension and accurate representation of the user's intentions throughout a dialogue. The dialog state tracking challenge (DSTC), an annual competition focused on novel DST models, further propelled its understanding and advancement. DST's emphasis has grown with the rise of sophisticated personal assistants and customer service solutions.
+
+<KEY IDEAS>
+The primary idea behind DST is to keep a summary of user goals during a conversation, often represented as 'slots' and 'values'. The dialogue state is updated with every user utterance, thereby maintaining the context and consistency of the interaction. Different models are employed for these tasks, from rule-based and statistical methods to more contemporary neural network-based models. These models scrutinize the discourse's semantics to draw out relevant information and update the dialogue state accordingly.
+
+<USES/APPLICATIONS>
+Dialogue State Tracking is mainly employed in Conversational AI systems, like virtual agents and chatbots. It's particularly useful in applications that require multi-turn dialogues such as customer support chatbots, personal assistants like Alexa, Google Assistant, and Siri. DST helps these applications maintain context over the full of the conversation to provide insightful responses. It's also been used in customer service solutions, helping bots understand and address customer issues more effectively.
+
+<VARIATIONS>
+There exist various approaches to DST, with advancements in techniques reflecting the evolution of conversational AI. Traditional rule-based models and statistical methods such as Hidden Markov Models gave way to more neural network-based models like Recurrent Neural Networks. Today, methodologies such as Deep Reinforcement Learning (DRL) are being used for DST. More variations exist in the form of Joint goal and Dialogue State Tracking, where many steps in dialogue systems are carried out simultaneously. DST fits within the broader picture of Dialogue Management and contributes significantly to advancing Conversational AI.

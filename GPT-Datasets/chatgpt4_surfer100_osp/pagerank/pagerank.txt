@@ -1,0 +1,14 @@
+<INTRODUCTION>
+PageRank is a popular algorithm developed by Google's founders, Larry Page and Sergey Brin, at Stanford University, which assigns a rank or score of importance to each web page. Hailing from the field of cybernetics, the algorithm approximates the likelihood that an individual will randomly land on any particular page while surfing the web. Based on these ranks, Google's search engines refine the multitude of results fetched by any search query, leading to efficient and accurate information retrieval. The motivation behind PageRank was to develop a system that analyzed the quality and quantity of links to a web page to determine a rough estimate of how important the website is.
+
+<HISTORY>
+Invented by Larry Page and Sergey Brin in 1996 as part of a research project about a new kind of search engine, PageRank transformed the landscape of web search. Originally named "BackRub," the algorithm assessed the backbone structure of the World Wide Web, paving way for Google's dominance in search engine technology. The primary problem addressed by PageRank was the ranking of search engine results, making it easier for users to find relevant information amid the vast expanse of the internet.
+
+<KEY IDEAS>
+The key idea behind PageRank is that importance of a web page can be judged by the number of pages linking to it. In essence, a link from a page A to a page B is seen as a vote, by page A, for page B. However, PageRank considers not just the volume of votes a page receives, but also the importance of the page casting the votes. Thus, a page is judged important if it is linked from other important pages. The rank value signifies both the importance and relevance of the pages, providing a base for indexing them in search engine results based on user queries.
+
+<USES/APPLICATIONS>
+The primary application of PageRank is in Google's search engine where it is used to determine which web pages are more significant or relevant for a specific search query. Apart from search engines, PageRank is employed in various other areas like social networks, citation and link analysis, research paper recommendations, etc. The algorithm aids in assessing the importance of nodes in a network, thereby streamlining the classification, filtering, and prioritization of information across different fields.
+
+<VARIATIONS>
+Several variations and alterations to PageRank have been proposed to deal with specific tasks or improve upon the original model. One such variant is the Weighted PageRank algorithm that takes into account the importance of both the inbound and outbound links of the pages. Another noteworthy variant is the TrustRank algorithm which minimizes the impact of spam by segregating trusted, high-quality content from low-quality content. Despite the diverse evolution of the algorithm, PageRank continues to remain a significant foundation in the broader picture of web page ranking and information retrieval.

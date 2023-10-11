@@ -1,0 +1,21 @@
+## Markov Decision Processes: An Overview
+
+**1. Introduction**
+
+Markov Decision Processes (MDPs) form the mathematical backbone of many important fields in discipline such as operations research, computer science, and artificial intelligence, particularly in decision making under uncertainty. Essentially, an MDP provides a model for decision-making where outcomes are partly due to chance and partly under the control of a decision-maker. It uses the principles of Markov chains - systems that transition from one state to another, guided by a set of probabilities.
+
+**2. History**
+
+The concept of MDPs traces its roots back to the work of Russian mathematician, Andrey Markov. Although Markov initiated the principle in the early 20th century, the term 'Markov Decision Process' was only coined in the 1950s by Richard Bellman, while he was working on dynamic programming. It was built on the foundation of 'Markov Chains', honing in on the aspect of decision-making within probabilistic systems.
+
+**3. Key Ideas**
+
+The principal components of an MDP include states, actions, recompense functions, and transition probabilities. These elements help formulate a decision-making framework that is both robust and flexible. Decisions are made based on the current state and chosen action, with an associated reward. The key idea is the 'Markov property', stipulating that the future state depends only on the present state and action, not on any past states or actions, simplifying the decision-making process.
+
+**4. Variations**
+
+Many variations of MDPs exist to suit different problem contexts. Some common examples include Partially Observable Markov Decision Processes (POMDPs), where the decision maker does not always know the current state, and Semi-Markov Decision Processes, in which the state transitions aren't necessarily immediate. Infinite and continuous time Markov Decision Processes expand the framework for situations with timeline connotations.
+
+**5. Applications**
+
+MDPs find use in various real-world applications. In artificial intelligence, they're used to relate actions to outcomes for increased decision-making efficiency in robotics, game playing and control systems. Several optimization problems in operations research are modeled and solved using MDPs. In the domain of computer networking, MDPs help in structuring routing algorithms. In finance, they model risk and reward for investment decisions. They're even used in environmental decision-making scenarios, like natural resource management.

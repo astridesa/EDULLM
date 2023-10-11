@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Gradient Boosted Decision Trees (GBDT) is a well-established machine learning algorithm in the field of supervised learning. As a combination of gradient boosting and decision trees, it operates by constructing multiple decision tree models and combining their outputs to produce a final prediction. Gradient boosting focuses on minimizing residuals, which results in each subsequent tree being built to correct errors made by the previous ones. The GBDT model is widely employed in fields such as web search ranking, ecology, and healthcare due to its excellent predictive power.
+
+<HISTORY>
+Gradient boosting as a concept was introduced in the field of machine learning by Leo Breiman in 1997, while Jerome Friedman made a significant contribution by introducing stochastic gradient boosting in 1999 in order to accommodate for high-variance and overfitting. The amalgamation of decision trees within this method came into being with the advent of further computational advancements, and the approach started to gain prominence due to its effectiveness in predictive tasks. 
+
+<KEY IDEAS>
+The main idea behind the GBDT method involves combining 'weak learners' (simple models like decision trees) into a 'strong learner' (like a GBDT) to enhance their predictive capabilities. This is achieved by using the method of gradient boosting, which takes the residuals from the previous model and fits the next model to these residuals to reduce the error incrementally, allowing the algorithm to learn from its mistakes. A series of trees is created, each improving upon the residuals of the previous one, thereby improving the overall model's predictive power. 
+
+<USES/APPLICATIONS>
+GBDT finds wide applications in predictive data analytics due to its robustness and power. Some common uses include web search ranking, where GBDT is used to rank websites based on various relevance scores in search engine results. It is also utilized extensively in computer vision tasks for object recognition and disease diagnosis in healthcare, where it helps prediction metastasis and patient risk levels based on medical records. In addition, GBDT is used in ecology for predicting species distributions based on environmental conditions.
+
+<VARIATIONS>
+The general framework of forming a more robust predictive model by combining simple models is the foundation of many ensemble methods, of which GBDT is a notable instance. Other variations include Random Forests, which also use decision trees as base learners but use bagging instead of boosting. Another variation is XGBoost, a scalable end-to-end tree boosting system which is efficient in terms of both computational speed and model performance. It has gained immense popularity in machine learning competitions due to its flexibility and accuracy. GBDT forms a significant part of this bigger picture of ensemble learners used in modern machine learning tasks.

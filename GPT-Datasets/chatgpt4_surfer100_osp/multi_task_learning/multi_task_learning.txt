@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Multi Task Learning (MTL) is a method within the field of machine learning. It is designed to improve the learning efficiency of a model by learning tasks simultaneously. The underlying idea of Multi Task Learning is that by learning multiple related tasks concurrently, the model can leverage the commonality and differences among the tasks to learn more efficiently. It has applications within various fields such as Natural Language Processing, Human Action Recognition, Computer Vision, Speech Recognition, and more. 
+
+<HISTORY> 
+MTL was first introduced in Machine Learning in the late 1990s by Rich Caruana, who aimed to use related tasks as additional information sources when learning a primary task. The goal was to address the problem of data scarcity and to improve generalization performance. By promoting shared representations or learning shared structures, MTL allows models to generalize better from limited data.
+
+<KEY IDEAS>
+The Mathematically, MTL can be understood as optimizing a problem where the total loss function is the combined loss across all tasks. Ideally, each task should share some high-level features with other tasks, and should also have their own specific features. By enforcing this kind of structure, MTL can lead to good performance on all tasks. Two key ideas in MTL are ‘hard parameter sharing’ and ‘soft parameter sharing’. Hard sharing enforces all tasks to have exactly the same architecture while allowing for task-specific parameters. Soft sharing, on the other hand, encourages tasks to learn similar parameters, but does not strictly enforce them.
+
+<USES/APPLICATIONS>
+MTL has a broad range of applications. In computer vision, it can be used to learn multiple objects, classes, or attributes simultaneously. In natural language processing, MTL can be used to improve performance in tasks like machine translation, sentiment analysis, and named entity recognition, among others. MTL can also be applied to improve drug discovery processes in bioinformatics, object localization in robot navigation, and energy prediction models in smart grids.
+
+<VARIATIONS>
+There are several variations of MTL that try to make learning tasks with different types of relatedness possible. Some variations include Cross-stitch Networks, Sluice Networks, and Multi-Task Attention Networks. MTL also fits in a broader picture of transfer learning, where the model uses knowledge gained in one task to solve another related task. In a sense, MTL can be seen as a specific case of transfer learning, where multiple tasks are learned simultaneously, and each task benefits from the learning of the others.

@@ -1,0 +1,22 @@
+Title: Support Vector Machines: A Comprehensive Survey
+
+Introduction:
+Support Vector Machines (SVM) are a versatile and powerful machine learning algorithm used for classification and regression tasks. They excel in handling high-dimensional and complex datasets. This survey article aims to provide a comprehensive overview of SVM, including its history, key ideas, variations, and applications.
+
+History:
+SVM was first introduced by Vladimir Vapnik and Alexey Chervonenkis in the 1960s. Initially designed to address binary classification problems, SVM gained popularity due to its ability to handle non-linearly separable data. Over the years, SVM has evolved to address various limitations while maintaining its robustness and effectiveness.
+
+Key Ideas:
+At the core of SVM lies the concept of margin maximization. SVM seeks to find a hyperplane that maximizes the margin, which is the distance between the hyperplane and the nearest data points of different classes. By maximizing the margin, SVM improves generalization and reduces overfitting.
+
+Variations:
+Several variations and extensions of SVM have been proposed to enhance its performance. Some notable ones include:
+
+1. Kernel SVM: By employing kernel functions, SVM can handle non-linearly separable data by mapping them into higher dimensional feature spaces.
+2. Support Vector Regression (SVR): SVR extends SVM to regression tasks, enabling the prediction of continuous target variables.
+3. Multi-class SVM: Originally designed for binary classification, SVM can be extended to handle multi-class problems by using techniques such as one-vs-one or one-vs-rest approaches.
+
+Applications:
+SVM finds extensive applications across various domains. It has proven to be successful in text classification, image recognition, spam detection, sentiment analysis, protein structure prediction, and much more. Its versatility and robustness make SVM a popular choice in both research and industry.
+
+In conclusion, this survey article provided a concise yet comprehensive overview of Support Vector Machines. Understanding SVM's history, key ideas, variations, and applications will assist researchers and practitioners in utilizing this machine learning algorithm effectively in their respective fields.

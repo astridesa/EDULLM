@@ -1,0 +1,18 @@
+Title: Recursive Neural Network: A Survey
+
+Introduction:
+Recursive Neural Networks (RNNs) are a class of artificial neural networks designed to process structured hierarchical data. Unlike standard feedforward neural networks, RNNs capture the contextual dependencies present in recursive structures such as trees or graphs. This survey delves into the key ideas, historical development, variations, and applications of Recursive Neural Networks.
+
+History:
+The first exploration of recursive models can be traced back to the early 1990s when Michael J. Collins introduced the use of recursive structures for natural language processing tasks. Since then, various researchers have contributed to the development of RNNs, leveraging advancements in the broader field of deep learning.
+
+Key Ideas:
+The fundamental idea behind RNNs is the ability to construct representations for hierarchical structures by recursively applying a neural network at each level. By extending the recurrent architecture, RNNs allow for the capture of contextual information within nested structures, leading to more expressive models for handling complex data.
+
+Variations:
+Over the years, researchers have proposed different variations of RNNs to address specific challenges. Some popular variations include the Recursive Autoencoder, Tree-LSTM, and Recursive Neural Tensor Network. Each variant introduces novel architectural designs and training techniques, adapting RNNs to different domains and tasks.
+
+Applications:
+Recursive Neural Networks find application in various fields such as natural language processing, computer vision, bioinformatics, and social network analysis. In natural language processing, RNNs are employed for sentiment analysis, parsing, machine translation, and more. They have proved efficient in capturing the structural information inherent in language and visual data, leading to improved performance in many tasks.
+
+In conclusion, Recursive Neural Networks have presented a promising approach to modeling structured hierarchical data. Advancements in architecture and training methods, along with successful applications, have contributed to their growing popularity in numerous domains. This survey has highlighted the key ideas, historical development, variations, and applications of RNNs, providing a comprehensive overview of this exciting field.

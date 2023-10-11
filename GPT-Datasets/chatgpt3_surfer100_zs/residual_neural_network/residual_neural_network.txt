@@ -1,0 +1,16 @@
+Survey: Residual Neural Network
+
+Introduction:
+Please provide your insights on Residual Neural Networks (ResNets). ResNets are a type of deep learning architecture that aim to address the vanishing gradient problem in training deep neural networks. Your responses will help us understand your knowledge and opinions about ResNets.
+
+History:
+In this section, please share your knowledge about the historical background of Residual Neural Networks. ResNets were first introduced by He et al. in 2015, building upon the idea of residual learning. The concept of residual learning emerged as a solution to enable training of extremely deep neural networks by incorporating skip connections.
+
+Key Ideas:
+This section explores the key ideas behind Residual Neural Networks. ResNets leverage skip connections or shortcuts to create identity mapping paths, allowing the network to learn residuals or changes in the input data. This mechanism helps in maintaining and propagating the gradients, enabling more effective training of deep networks by mitigating the vanishing gradient problem.
+
+Variations:
+Here, we would like to hear your thoughts on the variations or modifications of Residual Neural Networks. Researchers have proposed various adaptations and extensions to ResNets, such as pre-activation ResNets, wide ResNets, and pyramid ResNets, among others. These variations aim to improve the performance or efficiency of ResNets in different tasks and scenarios.
+
+Applications:
+In this final section, kindly share your insights on the practical applications of Residual Neural Networks. ResNets have demonstrated excellent performance across a wide range of computer vision tasks, including image classification, object detection, image segmentation, and facial recognition. Additionally, ResNets have also found applications in other domains such as natural language processing and speech recognition.

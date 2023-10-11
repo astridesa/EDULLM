@@ -1,0 +1,16 @@
+Survey on Gaussian Mixture Model 
+
+INTRODUCTION:
+Gaussian Mixture Models (GMMs) are a type of probabilistic model used for clustering and classification in machine learning and statistics. GMMs are often employed when the data is assumed to be generated from several different Gaussian distributions. Please rate your familiarity with Gaussian Mixture Models on a scale of 1 (not familiar) to 5 (very familiar)?
+
+HISTORY:
+Gaussian Mixture Models have a distinct history in the field of statistical modeling, originating from the concept of mixture models and evolving as a tool in machine learning. What key events or individuals do you believe played significant roles in the development and evolution of GMMs?
+
+KEY IDEAS:
+The basic idea of GMMs is to represent the data as a mixture of several Gaussian distributions, each identified by parameters like mean, variance etc. GMM uses the Expectation-Maximization technique to estimate these parameters. Could you elaborate on other principal concepts and ideas that underline the use and construction of GMMs?
+
+VARIATIONS:
+While GMM is generally formulated to handle spherical data clustering problems, there are variations like Tied Covariance GMMs, Full Covariance GMMs, Diagonal Covariance GMMs each having their unique advantages and scenarios of use. Can you identify and provide detailed inputs about further variations?
+
+APPLICATIONS:
+GMMs have been quite effective in a variety of domains such as image segmentation, pattern recognition, bioinformatics etc. Can you elaborate on some specific areas or projects where you have seen or think GMMs could be innovatively applied?

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Meta Learning, also known as "learning to learn", is a key area of Machine Learning. In contrast to traditional machine learning, where algorithms need to be retrained for each problem, Meta Learning focuses on improving the learning efficiency by developing models that can learn quickly when presented with new tasks. This complex layered form of machine learning enables the development of systems that can adapt to new circumstances without extensive reprogramming, thus widely applicable in various areas such as robotics, computer vision, and natural language processing.
+
+<HISTORY>
+Meta Learning has its roots in the late 1980s, stemming from the research on "learning to learn" by Thrun and Pratt. The concept was primarily aimed at creating systems that could improve their learning capabilities over time. Its significance in modern machine learning was recognized when the concept was realized by machine learning models that can quickly adapt to perform well on new tasks, a concept known as Model-Agnostic Meta-Learning (MAML), which was introduced by Chelsea Finn in 2017.
+
+<KEY IDEAS>
+Meta Learning focuses on design principles and strategies that make learning algorithms more adaptive to new tasks. A key idea is the training of a meta-learner, which deduces patterns from base learners and then applies these learnings to new tasks. One core concept used in meta-learning is called "few-shot learning" where the aim is to design machine learning models that can understand new concepts with a very few examples. Another crucial idea is transfer learning where learned knowledge from one task is applied to another related task.
+
+<VARIATIONS>
+Numerous variations of meta-learning algorithms exist, with the core difference lying in the way they generalize from one task to another. Some popular varieties include Model-Agnostic Meta-Learning (MAML), where models are trained to quickly adapt to new tasks with minimal fine-tuning, and Metric-based Meta Learning, where distances between samples drive the learning process. Reptile and Proximal Policy Optimization algorithms serve as other examples demonstrating algorithm-based variations.
+
+<APPLICATIONS>
+The applications of Meta Learning are vast and varied. It’s particularly impactful in fields where data is scarce, including medical diagnosis, drug discovery, and natural language processing. Meta Learning is also being used in computer vision to enhance facial recognition systems. Furthermore, it has shown its potential in reinforcement learning tasks and is wildly recognized for its utility in creating robust and versatile artificial intelligence systems in dynamic, real-world environments.

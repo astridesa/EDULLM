@@ -1,0 +1,16 @@
+Title: An Overview of t-Distributed Stochastic Neighbor Embedding (t-SNE)
+
+I. Introduction (92 words)
+The t-distributed Stochastic Neighbor Embedding (t-SNE) is a revolutionary machine learning algorithm utilized for visualization of high-dimensional data sets. Conceived by Geoffrey Hinton and Laurens van der Maaten in 2008, t-SNE reduces dimensions while preserving the relationships or similarity between the datapoints. It has transformed data visualization by providing an intuitive approach by which humans can perceive complex, highly-dimensional data in a way that preservers similarity in simple two-dimensional scatter plots.
+
+II. History (77 words)
+In 2002, Geoffrey Hinton and Sam Roweis originally developed Stochastic Neighbor Embedding (SNE). However, in 2008, Laurens van der Maaten and Hinton drew improvements on the SNE, giving birth to the superior t-SNE. The aim was to solve the problems of the original SNE, including the “crowding problem” where dimensional reduction from high to lower ones could lead to overlapping datapoints. The t-SNE proved to be a significant upgrade over the traditional SNE.
+
+III. Key Ideas (131 words)
+The t-SNE method works by converting the high-dimensional Euclidean distances between datapoints into conditional probabilities, mimicking a Gaussian distribution. These probabilities quantify pairwise similiarities of the input objects. For the low-dimensional counterparts, a t-distribution is used instead. To settle the final positions of the data points, t-SNE minimizes the divergence between the two distributions with gradient descent. Its major innovation is the utilization of a Student's t-distribution instead of a Gaussian function to compute the similarity between two points in the lower dimensional space. This results in a more effective model for distant points and mitigates the crowding problem, consequently, ensuring a more representative, high-quality visualization of high-dimensional data.
+
+IV. Variations (86 words)
+Various enhancements on t-SNE are proposed, including: (1) the Barnes-Hut algorithm to accelerate t-SNE making it scalable to larger datasets; (2) parametric t-SNE in which a neural network is trained to approximate the t-SNE mapping, permitting quicker processing of new datapoints; and (3) largeVis, another variant, which yields similar results as t-SNE but is more suitable for extremely large datasets. 
+
+V. Applications (73 words)
+t-SNE has significant applications across multiple disciplines. It's widely used in data analysis to visually inspect high-dimensional data in fields like machine learning, bioinformatics for gene expression analyses and single-cell sequencing, and image processing. Additionally, in the neuroscience field, it has been employed for data-driven behavioral analyses. t-SNE's capabilities to simplify, analyze, and represent high-dimensional data make it an invaluable tool in our data abundant world.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Beam Search is an optimization model used extensively in various fields including machine learning and Natural Language Processing (NLP). It is part of the advanced breadth-first search algorithm, designed to reduce its time complexity by limiting the width of the search. This heuristic strategy significantly improves efficiency in parsing, machine translation, and various other computational tasks that demand quick decision-making over extensive possibilities. The beam search model achieves this by keeping track of only the most promising possibilities, instead of evaluating all possibilities.
+
+<HISTORY>
+Beam Search was proposed as an alternative to solve problems in an efficient and effective manner when compared to other exhaustive search methods. It was born out of the need to improve upon the typical breadth-first search and depth-first search algorithms, both of which can be exceedingly time-consuming and inefficient when the search space is vast or unlimited. The origin is tied to the progress in Natural Language Processing and related computing tasks where searching for potential solutions exponentially expands with increasing complexity.
+
+<KEY IDEAS>
+The key idea behind Beam Search is limiting the search space. It uses a heuristic function, acting as a guiding light, to estimate the cost of the quickest path to the target. At each step, it examines multiple successors of the current state and selects the most promising ones. The main component here is the 'beam', a subset of the current generation nodes. The beam size determines the number of possibilities kept in consideration. Thus, predictions are sped up but at the cost of potentially missing the optimal solution.
+
+<USES/APPLICATIONS>
+Beam Search is frequently used in tasks that require making sequential decisions with a large search space, especially within Natural Language Processing. It plays a vital role in machine translation, speech recognition, part-of-speech tagging, and parsing. One notable utilization has been in seq2seq (sequence-to-sequence learning), machine learning models designed for translating sequences from one domain to another strengthening areas like chatbot design and multilingual translations.
+
+<VARIATIONS>
+Despite its immense utility, the potential loss of the optimal solution while using the standard Beam Search is a drawback. To address this, researchers have proposed variations like Stochastic Beam Search, which introduces randomness into the search for diversifying the set of explored solutions. Alongside, Length Normalized Beam Search iteratively accounts for sequence length to produce more coherent solutions. Beam Search can be mentioned in the wider context of search algorithms and optimization techniques, providing a performance-efficient, if not perfect, approach to problem-solving.

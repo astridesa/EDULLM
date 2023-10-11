@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Cky Parsing, short for Cocke-Kasami-Younger Parsing, is a parsing algorithm for context-free grammars. It falls under the umbrella of formal language theory within theoretical computer science. The concept of parsing, or syntactic analysis, is fundamental to many areas such as natural language processing and programming language compilation. The motivation behind Cky Parsing is to check the membership of a string in a language and produce a parse tree for any grammatical sentence in polynomial time, employing a bottom-up parsing algorithm.
+
+<HISTORY>
+Cky Parsing was introduced by its namesakes, John Cocke, Tadao Kasami, and Daniel H. Younger. The algorithm was first proposed by Daniel H. Younger in 1967, when it was mainly used in programming language compilers to check the correctness of syntax employed by programmers. Later, it found its application in natural language processing, notably in the construction of syntactic tree structures of sentences.
+
+<KEY IDEAS>
+Cky Parsing is a bottom-up, dynamic programming algorithm ideal for parsing context-free languages in CNF (Chomsky Normal Form), where each production rule is either A -> BC or A -> a. Cky Parsing makes use of a parse table and follows a tabular method to find the parse tree. The algorithm fills in a triangular matrix from the diagonal upward, with non-terminal symbols able to generate corresponding substrings. The time complexity of Cky Parsing is considered to be quite good at O(n^3), making it efficient for practical uses.
+
+<USES/APPLICATIONS>
+Cky Parsing has diverse applications, particularly evident in natural language processing where it can be used to generate parse trees of grammatical sentences. These parse trees provide syntactic structure to sentences, aiding in tasks such as sentence translation, semantic roles labeling, information extraction, and sentiment analysis. Cky Parsing has been employed in speech recognition systems and machine translation software as well, along with its use in compiler design to check grammatical correctness of programming languages.
+
+<VARIATIONS>
+While Cky Parsing itself is a key algorithm, it has inspired and given way to other parsing methods. Earley parsing, for example, is another dynamic programming algorithm that is applicable to all context-free languages. GLR (Generalized Left-to-right Rightmost derivation) parsers extend upon Cky Parsing by handling a larger set of grammar known as LR grammars. Chart parsing, a general concept which includes Cky and Earley parsing, can handle patterns of words and grammatical categories within natural languages. It's important to note that parsing is a central task with links to many related techniques within computational linguistics.

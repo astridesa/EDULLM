@@ -1,0 +1,16 @@
+Title: Manifold Learning: An Overview
+
+Introduction:
+Manifold Learning is a popular field in Machine Learning which seeks to uncover the inherent structure within high-dimensional data. It assumes that high-dimensional data lies on a low-dimensional manifold, facilitating effortless data analysis and machine learning tasks. Dealing with fewer dimensions without losing significant data enables simpler, faster, and highly efficient machine learning models.
+
+History:
+Mathematical concepts of differential geometry and topology underpin Manifold Learning. These concepts found their use in machine learning and data mining around the late 20th century where they were fundamentally used to unwind complex, high-dimensional data structures. Notable developments of manifold learning algorithms took place in the early 2000s, with key contributions in the form of Isomap, Locally Linear Embedding and Laplacian Eigenmaps.
+
+Key Ideas:
+A crucial idea behind Manifold Learning is the assumption that high-dimensional data lies on a low-dimensional manifold. This assumption allows for effective data reduction. Algorithms under Manifold Learning like Isomap, LLE, and t-SNE work on such principles, where they aim to map complex, tangled structures onto simpler, more comprehensible low-dimensional spaces, maintaining their original relationships.
+
+Variations:
+Several variations and enhancements have been made to initial Manifold Learning methods. For instance, semi-supervised Manifold Learning leverages labelled and unlabelled data to improve data mapping. Non-linear dimensionality reduction techniques are also employed to retain complex data properties during mapping. Some popular variants include Hessian LLE, Local Tangent Space Alignment and Diffusion Map.
+
+Applications:
+Manifold Learning has extensive applications across various fields. It's commonly used in computer vision for face recognition, image compression, and object detection, rendering high dimensional image data manageable. Other applications include speech recognition, where it aids in understanding complex audio data, and bioinformatics for visualizing high-dimensional biological data. Overall, Manifold Learning offers dynamic solutions to handle high-dimensional datasets in an efficient and effective manner.

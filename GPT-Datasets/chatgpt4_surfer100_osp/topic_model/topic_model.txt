@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Topic Modeling is a method used in text mining to discover the abstract "topics" that occur in a collection of documents. It belongs to the subfield of unsupervised machine learning and is mainly used in Natural Language Processing (NLP). The motivation behind Topic Models is to organize and understand large text corpora. LDA (Latent Dirichlet Allocation) and NMF (Non-negative Matrix Factorization) are well-known techniques of Topic Modeling. Topic Models are applicable in document classification, document summarization, and information retrieval systems.
+
+<HISTORY>
+Topic Modeling was introduced in the late 1990s. The first basic model was Probabilistic Latent Semantic Analysis (PLSA), proposed by Thomas Hofmann in 1999. PLSA provides a probabilistic framework for Latent Semantic Analysis. However, PLSA has shortcomings such as overfitting, which led to the development of Latent Dirichlet Allocation (LDA) by David Blei, Andrew Ng, and Michael Jordan in 2003. These models aim to address the problem of automatically organizing, understanding, searching, and summarizing large electronic archives.
+
+<KEY IDEAS>
+Topic Modeling relies on the concept that a document consists of a mixture of topics and each topic consists of a mixture of words. LDA, a generative probabilistic model of a corpus, is the most common technique used. In LDA, every document is represented as a distribution of topics and every topic is represented as a distribution of words. This allows for documents to share topics with each topic being a distribution over a fixed vocabulary. The number of topics is a parameter that has to be set before running the algorithm.
+
+<USES/APPLICATIONS>
+Topic Models are widely implemented in information retrieval systems, document classification, and summarization. For instance, an information retrieval system can use topic modeling to index documents based on topics. Users can find relevant documents by searching for a specific topic. Moreover, automatic document classification can be achieved where groups of related documents are classified based on their dominant topic. Topic models are also useful in summarizing large and complex documents by extracting the most relevant topics.
+
+<VARIATIONS>
+Several extensions and variations of the original topic modeling techniques have been developed to cater to the evolving text data analytics needs over the years. Examples include the Dynamic Topic Model (DTM) which models change in topics over time and the Correlated Topic Model (CTM) which captures correlations between different topics. These variations offer more refined representations of the distributional properties of words in the documents and fit into a broader scope of text mining applications.

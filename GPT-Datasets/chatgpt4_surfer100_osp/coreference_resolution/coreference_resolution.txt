@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Coreference Resolution falls under the subfield of information extraction in Natural Language Processing (NLP). It refers to the task of determining when two or more expressions in a text refer to the same entity, which is an essential step in understanding linguistic context. For instance, identifying that "The cat" and "She" refer to the same entity in "The cat climbed the tree. She was very agile". Applications of coreference resolution extend to various areas of NLP, such as dialogue systems, information retrieval, and text summarization, to name but a few.
+
+<HISTORY>
+The history of Coreference Resolution dates back to the 1960s with the Hobbs algorithm. Initially, this task was tackled from a linguistic perspective, and it was primarily used to resolve pronouns. It wasn't until the 1970s that researchers started looking into using more rule-based methods and algorithms to solve coreference. However, due to the complex nature of language, these early methods often struggled with the task. The introduction of machine learning and statistical approaches in the 1990s transformed the field, enabling more effective and efficient handling of coreference resolution tasks.
+
+<KEY IDEAS>
+The underpinning concept behind Coreference Resolution is identifying and linking linguistic expressions that refer to the same entity within a text. This involves two tasks: mention detection (discovering expressions that potentially refer to something) and coreference link prediction (deciding which of these expressions refer to the same entity). Solutions to these tasks rely on cues such as grammatical relationships, semantic compatibility, and discourse connectivity. Traditionally this task has been addressed using rule-based models, while modern approaches often involve supervised machine learning techniques.
+
+<USES/APPLICATIONS>
+Coreference resolution plays a crucial role in a host of NLP applications. In information extraction, it helps in deriving and linking data from unstructured text. In machine translation and automatic summarization tasks, it aids in preserving the continuity of entities throughout the text. It's a fundamental component in building dialogue systems and chatbots, as it enables them to maintain context across turns. Coreference is also integral to narrative understanding, assisting in tracking characters and events through long spans of text.
+
+<VARIATIONS>
+Variations of Coreference Resolution can be seen in different tasks like Anaphora Resolution, which is a subset focusing on resolving pronouns, and Bridging Reference, where an implicit link between two mentions is identified. Entity Resolution, a similar task in databases, aims to ascertain when different records refer to the same underlying entity. In recent years, there has been a drive towards end-to-end coreference resolution, which combines the separate aspects of mention detection and coreference prediction into a single model.

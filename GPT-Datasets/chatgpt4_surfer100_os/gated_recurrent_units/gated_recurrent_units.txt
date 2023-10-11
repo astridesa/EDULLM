@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Gated Recurrent Units (GRUs) are a type of recurrent neural network that use gating mechanisms to manage the flow of information throughout the computation process. GRU can handle sequential data of varying lengths and are commonly employed in tasks such as language modeling, speech recognition, and machine translation. The primary feature of GRUs is the use of update and reset gates to control the magnitude of forgetting and retaining past information, making it a more sophisticated model than traditional RNNs.
+
+<HISTORY>
+GRUs were first introduced by Kyunghyun Cho in 2014 as a simpler alternative to Long Short-Term Memory (LSTM) units, yet GRUs maintain comparable performance. Prior to the introduction of GRUs, recurrent neural networks had notable limitations, struggling with gradient vanishing and exploding problems. While LSTMs tackled these issues, they are computationally intensive. GRUs offer a more efficient solution, effectively managing long-term dependencies while using fewer resources.
+
+<KEY IDEAS>
+The main ideas behind GRU are the update and reset gates. These gates allow the model to adaptively control the flow of information between cells. The update gate helps the model to determine the amount of past information to carry forward, whereas the reset gate enables the model to decide how much past information to discard. These two gates work together to alleviate the gradient vanishing problem inherent in regular RNNs while reducing the complexity of the model when compared to LSTMs.
+
+<VARIATIONS>
+GRUs have several variations to address different issues. One such variation is the Minimal Gated Unit (MGU), a simplified version of the original GRU with reduced computational complexity. The Bidirectional GRU (BiGRU) is another variant that processes data in both forward and backward directions, thereby capturing both past and future context. Layer Normalized Gated Recurrent Unit (LN-GRU) applies layer normalization technique to cope with unstable gradients, allowing for faster and more stable training.
+
+<APPLICATIONS>
+GRUs have been applied to a variety of tasks involving sequential data. In natural language processing, GRUs are used for language modeling, machine translation, sentiment analysis, and text generation. In automatic speech recognition, they handle sequential input data effectively. GRUs can also be found in music generation and modeling biological sequences. They have been used in modeling time-series data such as stock prices, proving effective where chronological order is significant.

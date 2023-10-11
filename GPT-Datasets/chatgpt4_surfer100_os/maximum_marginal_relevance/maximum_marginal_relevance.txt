@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Maximum Marginal Relevance (MMR) is an effective technique utilized in Information Retrieval (IR) and Natural Language Processing (NLP) that addresses the challenge of redundancy while retrieving relevant documents. The key principle behind MMR is to maximize relevance while minimizing the similarities of dynamically assembled retrieval sets. Rather than just consider the relevance of each individual document, MMR considers the relevance in the scope of the entire document retrieval set.
+
+<HISTORY>
+The concept of Maximum Marginal Relevance was first introduced by Jaime Carbonell and Jade Goldstein of Carnegie Mellon University in the late 1990s during their research work related to information retrieval. The traditional relevancy algorithms used to revolve around the ideology of tf-idf, which often led to redundancy. To break away from the norm and prevent redundancy, MMR came into existence with the incentive of boosting diversity in document retrieval.
+
+<KEY IDEAS>
+The primary idea of MMR is to increase relevance while minimizing duplication in the results by means of measure and comparison. It features an MMR criterion which is essentially a method to score and rank documents using a linear combination of the novelty (dissimilarity) and relevance of documents. The scoring function is usually based on cosine similarity, which makes it versatile for use in various domains. The main advantage of MMR is its ability to provide a diversified list of results, reducing repetition and increasing user satisfaction.
+
+<VARIATIONS>
+While MMR provides a distinct approach to reduce redundancy in document retrieval, several variations have been proposed over the years to optimize it further. These include concepts such as Implicit Aspect Indicator (IAI) to handle polysemy and homonymy in text retrieval, Subtopic Retrieval-based MMR for more targeted search results, and various modifications like diversification metrics and objective functions optimizations. These variations have given way to more adaptability of MMR in different information retrieval applications.
+
+<APPLICATIONS>
+Maximum Marginal Relevance has found a variety of applications in various fields. In information retrieval, it's heavily used to present diverse search results, thereby reducing redundancy. In machine learning and data mining, it is applied for summarization and feature selection. MMR is also used in text mining, where its ability to sort out relevant documents in large text datasets can be invaluable. The scope of MMR is extending to different areas including news aggregation, legal research, and even healthcare where it’s used to retrieve diverse relevant literature.

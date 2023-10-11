@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Question Answering (QA) Natural Language Processing (NLP) is a subfield in the broad realm of Artificial Intelligence. Its purpose is to model computer systems to answer questions posed by humans in a natural language. Predominantly, the motivation behind this idea is to enable humans to interact with machines in a more natural and intuitive manner. This is conducted either by directly asking questions, as in a conversation, or by generating annotations for context-specific datasets.
+
+<HISTORY>
+The concept of QA-NLP was introduced back in the 1960s in AI research, with the advent of the ELIZA program, which set the stage for machine-based question answering. However, it wasn't until the mid-2000s that significant progress began to be made. The main challenge is to enable machines to understand, interpret and generate a meaningful response from human language—an ongoing problem in Natural Language Processing.
+
+<KEY IDEAS>
+QA-NLP revolves around two essential processes: identifying the question type and retrieving precise answers from a knowledge base. Question Identification uses Part of Speech tagging, Named Entity Recognition and Dependency Parsing to understand the nature of the question—be it fact-based, explanatory, etc. Answer retrieval, however, requires efficient searching, scoring and validating of potential answers. Various techniques for both processes are employed including, Information Extraction techniques, Named Entity recognizers, co-reference resolution methods, etc.
+
+<USES/APPLICATIONS>
+Applications of QA-NLP are vast in scope, ranging from enterprise to consumer use-cases. For instance, organizations use QA-NLP for knowledge management, extracting information from documents and reports to address specific queries from employees. On the consumer end, QA-NLP powers virtual assistants like Alexa, Siri and Google Assistant to answer users' queries in near real-time. It's also utilized in social network services, online QA sites like Quora, and customer service bots for businesses.
+
+<VARIATIONS>
+There are numerous variations and subtasks of QA-NLP, such as Factoid QA (direct answers to direct questions), Non-Factoid QA (understanding sentiments and aspects of opinions), List QA (question expects multiple answers), and Contextual QA (answers depend on context or scenario). Also, there are more complex variations of QA like Visual QA, where the model answers questions about visual input, or Interactive QA, where models interact with environments to answer questions. QA-NLP represents a whole universe of NLP tasks directed towards making conversations with artificial entities more intuitive and meaningful.

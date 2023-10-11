@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Beam Search is a heuristic search algorithm widely used in various areas of computer science such as optimization and artificial intelligence. It is often utilized for numerous applications in natural language processing, speech recognition, and beyond. As part of the breadth-first search family, Beam Search relies on breadth-first search semantics but with a crucial modification: its "beam width" capacity constraint, meaning it only keeps a pre-specified number of best successor nodes at each level, hence significantly reducing the search space.
+
+<HISTORY>
+Beam Search was first introduced in the field of Artificial Intelligence as an optimized variant of the Breadth-First Search (BFS) algorithm. Its development sought to address the computational and memory challenges associated with vanilla BFS and Depth-First Search (DFS) when dealing with large graphs or tree structures typical in many AI applications. The term "beam" refers to the number of nodes it maintains and explores at each level of search, hence the name Beam Search.
+
+<KEY IDEAS>
+The fundamental idea of Beam Search is to limit the width of the breadth-first search, i.e., limit the number of nodes at each level that it explores. This is done through a priority-driven selection process, where nodes with higher heuristic values get selected for expansion. This results in a more focused search direction, leading towards potential solutions more quickly and saving computational resources. However, owing to this intensity, Beam Search may often converge prematurely into suboptimal solutions, a trade-off for using this approach.
+
+<VARIATIONS>
+Significant variations of Beam Search have been proposed to tackle its limitation, like the risk of finding suboptimal solutions. Stochastic Beam Search incorporates random elements in the selection process to avoid deterministic pitfalls. Anytime Beam Search allows the beam width to dynamically change during the search, potentially striking a better balance between solution quality and computational efficiency. Another variant, Beam Stack Search, combines a depth-first search with beam search to reduce memory usage further.
+
+<APPLICATIONS>
+Beam Search is instrumental in many critical applications, primarily in Natural Language Processing tasks like machine translation, speech recognition, and text summarization where it is used to generate most likely sequences of words. It is also applied in bioinformatics, for instance, in protein folding prediction and DNA sequence alignment. Furthermore, it is used in optimization tasks in operations research, scheduling problems, and resource allocation scenarios due to its efficiency and effectiveness. Beam Search serves as a foundation for more complex, domain-specific heuristic algorithms.

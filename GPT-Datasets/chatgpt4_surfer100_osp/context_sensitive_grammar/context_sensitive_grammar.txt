@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Context Sensitive Grammar (CSG) is a type of formal grammar in the field of theoretical computer science and linguistics. As part of Chomsky's classification of formal grammars, it holds a significant spot in automata theory and language translations. Such a grammar is used to describe context-sensitive languages, a set of languages considered more complex than context-free languages but less complex than recursively enumerable languages. CSG plays an essential role in designing compilers, interpreters, and translation tools for computer language processing.
+
+<HISTORY>
+Context Sensitive Grammar was introduced by Noam Chomsky in 1956 as a part of his hierarchy of formal grammars. He defined four levels - Type 0: Unrestricted grammars, Type 1: Context-sensitive grammars, Type 2: Context-free grammars, and Type 3: Regular grammars. Context Sensitive Grammar belongs to Type 1 and is best known for its role in language parsing, especially languages with complex syntactic structure. It was formulated to address the dependence of certain language structures on specific contexts, a problem not adequately addressed by context-free or regular grammars.
+
+<KEY IDEAS>
+The key concept of a context sensitive grammar is to change a string into another per the production rules. It consists of a set of production rules where the length of the string on the left side of the rule must be less than or equal to the length of the string on the right side. This restriction ensures that the parsing of the resulting language can be completed in linear time. The use of the context in grammar rules means that context-sensitive languages can express more complexity than context-free languages.
+
+<USES/APPLICATIONS>
+Context Sensitive Grammar is used to design language translation software, compilers, and interpreters, particularly for computer languages that have complex syntactical structures. CSG is capable of generating such complex families of strings, which fits well for intricate programming languages and their constructs. Furthermore, in linguistics, CSG is an effective tool to understand and define various natural language phenomena that require contextual understanding, becoming massively helpful in language parsing tasks.
+
+<VARIATIONS>
+While Context Sensitive Grammar is a powerful tool, there exist variations that tackle different levels of complexity: Regular grammars (Type 3) which are used to express regular languages, and Context-free grammars (Type 2) used to express context-free languages. Furthermore, at a higher complexity level beyond CSG, we have Unrestricted grammar (Type 0) that defines recursively enumerable languages. Each of these grammars is used to represent languages of varying complexity levels, with CSG sitting in the mid-range. These grammars effectively encompass the field of formal language theory and compiler design.

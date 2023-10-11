@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Long Short-Term Memory Network, commonly referred to as LSTM, is a type of recurrent neural network (RNN) used in the field of deep learning. Unlike traditional RNNs, an LSTM has a unique ability to forget irrelevant parts of the sequence, hence its importance in sequence prediction tasks. It falls under deep learning's subfield, which deals with time-series and sequence data. Applications include language modeling, speech recognition, and machine translation, among others.
+
+<HISTORY>
+LSTM was introduced by Sepp Hochreiter and Jürgen Schmidhuber in 1997. They came up with this model as they saw the need to address the problem of vanishing and exploding gradients during back-propagation in traditional RNNs. This issue posed a significant challenge when dealing with long sequences, hence negatively impacting RNNs' performance in tasks such as language translation and speech recognition. LSTMs were designed to overcome this problem, hence contributing tremendously to the optimisation of RNNs.
+
+<KEY IDEAS>
+The LSTM network is unique due to its memory cell structure that includes a cell state and three gates: the input, output, and forget gates. These components interact complexly, enabling LSTMs to regulate the flow of information in and out, thereby maintaining long dependencies in sequence data. The cell state carries information throughout the sequence chain, while the gates control the information flow into the cell state based on the inputs. This mechanism is fundamental to the LSTM's memory-preserving characteristic.
+
+<USES/APPLICATIONS>
+LSTMs have gained widespread acceptance in various fields that require sequence prediction tasks due to their efficiency in long-term dependencies. They are used extensively in Natural Language Processing for tasks such as machine translation, part-of-speech tagging, and named entity recognition. Furthermore, LSTMs have shown impressive results in speech recognition and predictive typing, among others. They are also popular in the field of finance, where they handle time-series data for predicting stock prices.
+
+<VARIATIONS>
+Variations of LSTM include Gated Recurrent Unit (GRU), Peephole LSTM, and Convolutional LSTM among others. GRUs are a simplified version of LSTMs that combine the forget and input gates into a single "update gate" and merge the cell state and hidden state. Peephole LSTM allows the gates to ‘peep’ at the cell state, while Convolutional LSTM, designed for visual tasks, adds convolution operations to all input-to-state and state-to-state transitions. These variations underscore LSTM's importance and its multiple modification capabilities to suit various tasks efficiently.

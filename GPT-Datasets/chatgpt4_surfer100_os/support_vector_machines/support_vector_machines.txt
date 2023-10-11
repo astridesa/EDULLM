@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Support Vector Machines (SVMs) are a set of powerful supervised learning algorithms used for classification and regression tasks. These machine learning models work by drawing decision boundaries for classification problems, or predicting values in regression problems, using a concept called hyperplanes. Being highly reliable, flexible, and capable of handling both linear and non-linear data, SVMs are widely employed in several areas, ranging from image recognition to bioinformatics.
+
+<HISTORY>
+Introduced in the 1960s by Vladimir Vapnik and Alexey Chervonenkis while working at the Soviet Union’s Institute of Control Sciences, Support Vector Machines initially suffered from limitations for large scale and non-linear problems. However, in 1992, they achieved significant advancements through the introduction of the concept of soft margins and the use of kernel functions. This made SVMs capable of solving complex, large-scale, nonlinear problems, significantly broadening their application area.
+
+<KEY IDEAS>
+A fundamental idea in Support Vector Machines is the use of hyperplanes to separate different classes in multidimensional space. SVMs find an optimal hyperplane that separates data points of different classes with the maximum possible margin. When data cannot be separated linearly, SVMs use kernel functions to map data into higher-dimensional spaces where a suitable decision boundary can be found. By doing this, SVMs can handle both linear and non-linear classification problems effectively.
+
+<VARIATIONS>
+The original SVM algorithm is used for binary classification. However, variations have evolved to solve multiclass classification and regression problems accurately. One of the basic variants is called Nu-SVM which uses a parameter to control the number of support vectors and margin errors. Another popular version is called SVM regression (SVR), which inverts the purpose from classifying to predicting a continuous outcome. Also, there are different types of kernel functions like polynomial, radial basis function (RBF), and sigmoid used according to the problem requirements.
+
+<APPLICATIONS>
+Support Vector Machines find a wide range of applications in various fields. They have been used in text categorization, image classification, hand-written digit recognition and also in the biological sciences for protein classification and cancer classification. SVMs have also been applied in financial markets for time series forecasting. In bioinformatics, it is used for gene expression data classification. The success of SVMs in these diverse applications can be attributed to their ability to find complex boundaries and their effectiveness in higher dimensional spaces.

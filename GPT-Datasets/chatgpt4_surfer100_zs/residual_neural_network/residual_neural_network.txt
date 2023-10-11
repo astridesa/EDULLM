@@ -1,0 +1,17 @@
+Title: Residual Neural Network: A Comprehensive Survey
+
+Introduction:
+Residual Neural Networks (ResNets) represent a profound advancement in the field of deep learning. Deep learning models traditionally suffer from issues such as vanishing or exploding gradients, which hinder their ability to seamlessly learn from data. ResNets, by offering a framework to solve this problem, have opened many doors to deep learning applications. As we dive into ResNets, we look into the principal concepts, its evolution, core variations, and real-world applications.
+
+History:
+ResNets were introduced by Kaiming He et al. in their paper 'Deep Residual Learning for Image Recognition', presented at the 2015 Conference on Computer Vision and Pattern Recognition (CVPR). The network structure was particularly innovative because it effectively resolved vanishing gradient problems, which had previously limited the depth of manageable networks. Since then, ResNets have been a backbone model in various challenging computer vision tasks.
+
+Key Ideas:
+ResNets introduced the valuable concept of 'identity shortcuts' —connections that skip one or more layers in the network— that mitigates the vanishing gradient problem. This addition allows the network to learn residual functions with reference to the layer inputs, facilitating the training of much deeper networks, and significantly improving accuracy. Fundamentally, the structure enables a form of forward and backward communication through network layers, making it easier for the model to learn identity functions.
+
+Variations:
+ResNets have been widely adopted and diverse variations exist. Notably, there is the pre-activation ResNet that modifies the order of batch normalization and rectifiers. There’s also the wide ResNet, which maintains depth but increases the width of the networks, amounting to a similar number of parameters. The ResNeXt architecture introduces parallel paths to extension of the original structure, providing more routes for information through network layers.
+
+Applications:
+ResNets have been widely applied in multiple areas. In image recognition tasks, they outperformed many existing models in various ImageNet challenges. In Natural Language Processing, deeper ResNets have been successful in machine translation and sentiment analysis. Furthermore, they're being used in medical imaging for diagnosis and prognosis due to their proficiency in handling high-dimensional data. As more robust models are developed, the applications of ResNets continue to diversify and expand.
+

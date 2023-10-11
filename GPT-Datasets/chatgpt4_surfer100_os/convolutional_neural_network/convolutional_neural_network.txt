@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Convolutional Neural Networks (CNNs) are a class of deep learning networks widely used in visual object recognition tasks. They borrow their architecture from the structure of the human brain, particularly from the visual system, designed to automatically and adaptively learn spatial hierarchies of features. CNNs have been successful in identifying faces, objects, and traffic signs apart from powering vision in robots and self-driving cars.
+
+<HISTORY>
+The concept of CNNs is inspired by the research of Hubel and Wiesel conducted in the 1960s and 1970s revealing that the brain contains specialized neurons responsive to small and receptive regions of the visual field. This led to the development of the Neocognitron by Fukushima in 1980, the precursor to CNNs where local feature extraction and weighted voting were key ideas. However, CNNs as we know it today started to take shape in the late 1990s and early 2000s, with Yann LeCun’s LeNet-5 model, which significantly improved handwriting and character recognition.
+
+<KEY IDEAS>
+CNNs are designed to process pixel data and can take in the image input in its raw form. So, they retain the spatial information about an image, unlike other machine learning algorithms. Each neural network layer in a CNN applies different feature detectors like edge detection, blur detection, color contrast, etc., across an entire image, building a complex map of the image’s features. The network’s structure includes alternating convolutional layers and pooling layers, followed by fully connected layers that classify the image.
+
+<VARIATIONS>
+There have been many successful variations to the CNN, including the AlexNet introduced in 2012 which was the first large-scale CNN to achieve notable performance in the ImageNet competition. The VGG network, or VGGNet, followed by Google's breakthrough Inception/GoogLeNet, and the residual-learning framework based network, ResNet, also pushed the boundaries of what CNNs could achieve. These variations largely deal with increasing the depth of the network and the introduction of new structures such as the inception module or skip connections.
+
+<APPLICATIONS>
+Applications of CNNs extend beyond image recognition. They have been applied for video analysis tasks, natural language understanding, and recommender systems. In healthcare, they support disease detection and diagnosis. CNNs are used in autonomous vehicles for detecting objects and pedestrians. In the field of entertainment, they are used for generating large, high-resolution images. They also support the classification of documents and other forms of data for pattern recognition. Their wide application across industries can be attributed to their ability to process multidimensional data while preserving spatial relationships.

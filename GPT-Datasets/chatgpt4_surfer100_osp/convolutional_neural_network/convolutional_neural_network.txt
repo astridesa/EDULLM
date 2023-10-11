@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Convolutional Neural Networks (CNN) are a category of Neural Networks that have gained significant success in areas such as image recognition and classification. As part of deep learning, a type of Artificial Intelligence (AI), they are responsible for paving the way for cutting-edge technologies, such as self-driving cars, face recognition applications, and healthcare advancements. CNNs are primarily inspired by the organization of the animal visual cortex and are designed to replicate the way the human brain processes visual information.
+
+<HISTORY>
+The Convolutional Neural Network was first popularized in the late 1990s by Dr. Yann LeCun, a computer science professor at New York University. He introduced LeNet-5, a pioneering 7-level convolutional network built to classify digits for zip codes in the postal service. This was instrumental in dealing with the problem of recognizing characters in a versatile setup, such as different handwriting styles.
+
+<KEY IDEAS>
+A standard CNN has multiple layers, such as convolutional layers, pooling layers, and fully connected layers. The convolutional layer applies a set of learnable filters to the input, resulting in feature maps that reveal different aspects of the image. The pooling layer, also known as subsampling or downsampling, reduces dimensionality to decrease computational load and avoid overfitting. The fully connected layer is typically positioned at the end of the network, taking the high-level filtered images and converting them into a single vector which can be used to classify the image. 
+
+<USES/APPLICATIONS>
+CNNs are predominantly used in image-based tasks, but also have use-cases in audio and text analysis. Their potential applications span multiple sectors. In the medical field, CNNs are used for automated image analysis for tasks like tumor detection in brain MRIs. In self-driving vehicles, CNNs aid in recognizing objects such as stop signs and pedestrians. Image recognition algorithms powered by CNNs are integral to many social media platforms, particularly for tagging and identifying people. Many voice recognition systems are also leveraging CNNs for extracting features from input sounds.
+
+<VARIATIONS>
+There are many modifications and variations to the standard CNN structure. Some of the well-known ones are the LeNet, AlexNet, ZFNet, GoogLeNet, and ResNet, each with unique layer architectures and evolving depths. The likes of Capsule Networks, proposed by Geoffrey Hinton, also attempt to resolve some of the CNN's limitations. CNNs are among numerous types of neural networks used in deep learning, such as Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), and more. They function as part of a larger AI ecosystem working towards pattern recognition and predictive analytics.

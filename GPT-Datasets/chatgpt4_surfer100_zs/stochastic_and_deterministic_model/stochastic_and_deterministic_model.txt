@@ -1,0 +1,14 @@
+Introduction:
+Stochastic and deterministic models represent two fundamental concepts in the understanding and prediction of systems' behavior in a variety of fields. While deterministic models rely on definite and precise set of conditions and rules guaranteeing a specific outcome, stochastic models factor in the element of randomness and probability allowing for a range of possible outcomes. The choice between using a deterministic or stochastic model often depends on the system in question, the quality and quantity of data available, and the overall purpose of the investigation.
+
+History:
+The notion of deterministic systems can be traced back to Newtonian physics, which assumed clockwork precision and predictability. In the early 20th century, the introduction of quantum theory introduced randomness into the field of physics, pushing scientists towards more probabilistic or stochastic models. In other fields such as economics, biology, computer science and engineering, both types of models have been developed to help explain and predict phenomena, each taking root at different times according to the philosophies and technologies of their eras.
+
+Key Ideas:
+Deterministic models are characterized by a fixed outcome with no probability involved. Variables and parameters are set, and the result can be precisely calculated. This makes it highly useful for systems governed by well-known laws of physics. On the other hand, stochastic models permit randomness and probability, making them more flexible in modeling real-world observations. They can capture a variety of outcomes and provide an understanding of the probabilities associated with each outcome. Stochastic models also allow us to comprehend how randomness and uncertainty can affect system behavior.
+
+Variations:
+Deterministic models vary in complexity, from relatively simple linear programming and network optimization models to more complex ones that utilize difference equations or differential equations. Stochastic models also vary widely according to the source of randomness, range of possible outcomes, and functions of random variables involved. Some examples include Markov chains, random walks, and stochastic differential equations.
+
+Applications:
+In practice, deterministic models are very common in physics, chemistry, and engineering where laws of nature govern outcomes. However, stochastic models find broad use in fields such as finance, genetics, and epidemiology, where inherent uncertainty and randomness exist. For instance, in finance, stochastic models help predict price movements by accounting for unpredictable factors. In epidemiology, they simulate the spread of diseases by taking into account the randomness involved in disease transmission. In general, deterministic models give a solid theoretical grounding, while stochastic models capture the essence of real-world randomness and uncertainty.

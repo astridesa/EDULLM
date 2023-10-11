@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Gated Recurrent Units (GRUs) are a type of recurrent neural network (RNN), which is a specialized model for handling sequential data within the field of machine learning. They provide solutions to shortcomings in traditional RNN models, specifically the vanishing gradient problem, by including gating mechanisms. GRUs are used in many Natural Language Processing (NLP) applications to analyze and predict sequential data, due to their capability to remember long range dependencies – a valuable feature for understanding the context in sentences or time series data.
+
+<HISTORY>
+GRUs were introduced by Kyunghyun Cho in 2014 while he was a part of the University of Montreal. RNNs, which were used for sequence-based tasks often suffered from the problem of vanishing gradients, where the network could not effectively learn long-distance dependencies in the data. To overcome these problems, the concept of gates was introduced in the LSTM model, which could control information flow over time steps. However, LSTM was relatively complex; GRUs were then proposed as a simpler but equally effective alternative that also utilized gating mechanisms.
+
+<KEY IDEAS>
+The key concept behind GRUs is their gating mechanisms known as the reset and update gates. These gates determine the degree to which previous information is incorporated into the current unit's state. The reset gate determines how much past information to forget, while the update gate defines how much of the current state should be a replication of the past state. These gates are implemented using sigmoid functions, which output values between 0 (completely ignore the past information) and 1 (fully accept the past information). This mechanism helps GRUs hold on to long-term dependencies more effectively.
+
+<USES/APPLICATIONS>
+GRUs have found extensive usage in tasks that involve sequential data. In the field of natural language processing (NLP), they are primarily used in tasks such as language modeling, text generation, sentiment analysis, and machine translation. They are also common in time-series data analysis, like predicting stock prices or weather, because they can remember data from the beginning of the sequence when making predictions.
+
+<VARIATIONS>
+While GRUs offer a solution to vanishing gradients while being computationally more efficient than LSTMs, other variants have been developed. For instance, the Layer Normalization GRU (LN-GRU) introduces normalization into the GRU structure for faster training speeds. The Independently Recurrent Neural Network (IndRNN) allows each neuron to be trained independently for avoiding gradient vanishing and explosion. The non-saturating recurrent unit (NRU) is another recent development, which extends the gating mechanism of GRUs to enable a larger memory capacity. Such variations address diverse requirements and constraints in RNN learning.

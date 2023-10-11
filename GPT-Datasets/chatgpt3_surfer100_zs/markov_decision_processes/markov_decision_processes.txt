@@ -1,0 +1,17 @@
+Title: Markov Decision Processes: A Survey
+Introduction:
+Markov Decision Processes (MDPs) are mathematical frameworks used to model decision-making problems under uncertainty. This article aims to provide readers with a comprehensive overview of MDPs, including their history, key ideas, variations, and applications.
+
+History:
+MDPs were first introduced by Richard E. Bellman in the 1950s as an extension of Markov chains to encompass decision-making processes. Initially developed for stochastic control problems, MDPs gained recognition due to their ability to represent sequential decision-making problems in a wide range of domains, from robotics to economics.
+
+Key Ideas:
+At the heart of MDPs lies the concept of a Markov chain, where the next state's probability distribution only depends on the current state. MDPs introduce the concept of actions and rewards, allowing decision-makers to impact the future states of the system through their choices. Key components include the state space, action space, transition probabilities, rewards, and an optimization criterion.
+
+Variations:
+While basic MDPs assume perfect knowledge of the underlying model, variations have been developed to handle different scenarios. Partially Observable MDPs (POMDPs) consider situations where the system's states are not directly observable. Hierarchical MDPs (HMDPs) provide a framework for modeling problems with temporal abstraction. Other variations address infinite-horizon problems, continuous state and action spaces, and uncertain models.
+
+Applications:
+MDPs find applications in various domains, such as robotic control, autonomous systems, game theory, finance, and healthcare. Reinforcement learning algorithms, which often rely on MDPs as their underlying framework, have been successfully applied to tasks like route planning, resource allocation, and decision-making in uncertain environments.
+
+In conclusion, Markov Decision Processes offer a powerful and flexible framework for modeling sequential decision-making under uncertainty. Understanding their history, key ideas, variations, and applications can provide valuable insights into this field and its potential in addressing complex real-world problems.

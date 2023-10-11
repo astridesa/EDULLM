@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Wordnet is a large lexical database of English words that are linked together by their semantic relationships. It's part of the field of computational linguistics and can be understood as a combination of a dictionary and a thesaurus. Wordnet groups words into sets of cognitive synonyms, or synsets, which express a distinct concept. It's used widely for word-sense disambiguation, information retrieval, automatic text classification, natural language understanding, and machine translation.
+
+<HISTORY> 
+Wordnet was created at Princeton University's Cognitive Science Laboratory under the direction of Professor of Psychology - George A. Miller in 1985. The project started with a clear intention to mimic human semantic memory and how it influences language understanding. The first version was released in 1990, representing a novel approach to text processing, focusing more on the semantic connections between words than their strict definitions.
+
+<KEY IDEAS> 
+Wordnet links words and groups them based on their meanings into "synsets". Synsets are interconnected via a network of semantic relationships. Besides synonymy, it includes hypernyms (superordinate), hyponyms (subordinate), meronyms (part), holonyms (whole), etc. The fundamental idea behind Wordnet is that the lexical meanings of words can be arranged in a hierarchical structure where every node represents a set of synonyms, forming a sort of semantic tree.
+
+<USES/APPLICATIONS>
+Wordnet has become an invaluable tool for many tasks in natural language processing such as word-sense disambiguation, information retrieval, text classification, named entity recognition, etc. It has also been employed in machine translations to find corresponding words in different languages with the same meaning. Apart from linguistics and language processing, it’s used as a semantic network in artificial intelligence studies, mimicking human memory.
+
+<VARIATIONS> 
+Wordnet has inspired many similar projects for other languages, such as BulNet for Bulgarian, GermaNet for German, and EuroWordNet, which is a multilingual database with wordnets for several European languages. Each of these variations serves a similar purpose as the original Wordnet, but for a different linguistic context. In a wider context, Wordnet stands as a crucial tool for semantic network construction, fueling various linguistic and artificial intelligence research.

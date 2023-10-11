@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Knowledge Distillation (KD) is a method in the field of machine learning used to transfer knowledge from a larger network (teacher) to a smaller one (student). The main motivation is to create models that possess the predictive power of bigger networks but are compact and efficient enough for real-world applications. This compromise between complexity and performance is crucial in scenarios where computational resources are limited, such as edge computing, mobile devices, and embedded systems.
+
+<HISTORY>
+Knowledge Distillation was first introduced by Geoffrey Hinton, Oriol Vinyals, and Jeffrey Dean in a paper titled "Distilling the Knowledge in a Neural Network", presented at NIPS 2014 Workshop. The paper addressed the problem of computational resource limitation in deploying deep neural networks. By "distilling" the knowledge from a cumbersome model to a more compact one, they provided a feasible solution to exploit the capability of deep learning in resource-limited scenarios.
+
+<KEY IDEAS>
+Knowledge Distillation involves training a smaller network (student) to mimic the behavior of a larger, more complex network (teacher). The key idea here lies in leveraging the softmax outputs of the teacher model, known as "soft targets", which carry richer information than the original labels. By minimizing the divergence between the student and teacher distributions on unlabeled data, the student network can learn more generalized features and yield better performance. This process may involve various temperature scaling approaches and loss functions, such as the Kullback-Leibler Divergence for softening probability distributions.
+
+<USES/APPLICATIONS>
+Knowledge Distillation is primarily used to create compact and efficient models for real-time applications where computational resources are limited. This includes applications like computer vision tasks (including object detection, recognition, or image segmentation) on mobile devices, speech recognition systems, machine translation, or any environment where AI needs to be deployed at the edge. It is also used in scenarios where inference speed is crucial.
+
+<VARIATIONS>
+Knowledge Distillation has sparked considerable research and led to various adaptations. One such variation is "self-distillation", where a model acts as its own teacher. "Born-Again Neural Networks" leverages the idea of multiple student generations, while "Online Knowledge Distillation" distills knowledge in real-time. "Distillation of multiple teacher models" aggregates knowledge from numerous teachers into a single student. This concept is further extended to fields beyond Neural Networks, such as Reinforcement Learning, where the idea of distillation is used to deal with policy learning under hardware constraints.

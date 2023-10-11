@@ -1,0 +1,18 @@
+Title: Vision Transformer: A Survey on Transformers in Computer Vision
+
+Introduction:
+Vision Transformer, or ViT, is a deep learning architecture that applies the transformer model, initially developed for natural language processing, to computer vision tasks. By transforming image data into sequences, the ViT model surpasses traditional convolutional neural networks in image understanding. This survey article explores the evolution, key ideas, variations, and applications of Vision Transformers in computer vision.
+
+History:
+The concept of using transformers for computer vision originated from the need for an alternative to convolutional neural networks. In 2019, Dosovitskiy et al. presented the Vision Transformer, introducing a novel approach that achieved state-of-the-art performance on large-scale image recognition tasks. Since then, researchers have made significant advancements in adapting transformers for diverse computer vision applications.
+
+Key Ideas:
+The key idea behind Vision Transformers is to divide an image into patches and treat each patch as a token. These tokens are then processed by a transformer network, enabling interaction between the image patches for better context modeling. The self-attention mechanism in transformers allows efficient modeling of global interactions, boosting the network's capability to capture long-range dependencies within the image.
+
+Variations:
+Several variations of the Vision Transformer architecture have emerged, aiming to enhance its performance and address specific challenges. Various modifications include hybrid models that combine transformers with convolutional neural networks, improved positional encodings, and attention mechanisms that handle spatial information more effectively. Such variations allow researchers to explore different computational trade-offs and adapt the architecture to diverse visual tasks.
+
+Applications:
+Vision Transformers have been successfully applied to various computer vision tasks. These include image classification, object detection, semantic segmentation, image generation, and even video processing. By leveraging the power of transformers, Vision Transformers showcase their prowess in modeling global context, handling long-range dependencies, and achieving state-of-the-art performance across different visual tasks and datasets.
+
+In conclusion, the emergence of Vision Transformers has demonstrated their potential in revolutionizing the field of computer vision. Researchers continue to explore and improve upon this architecture to unlock new possibilities for image understanding and advance the state of the art in various visual tasks.

@@ -1,0 +1,19 @@
+**Introduction**
+
+Machine Translation (MT) is the process of converting text or speech from one language to another using computer algorithms. As a subfield of computational linguistics, it uses artificial intelligence to create systems capable of interpreting and translating different languages. MT can assist in breaking down language barriers, helping people communicate more effectively and accurately across diverse languages.
+
+**History**
+
+The conception of MT dates back to the 17th century, but systematic research began only after the advent of digital computers in the 1940s. In 1954, IBM and Georgetown University collaborated on the first publicly demonstrated MT system "Georgetown-IBM Experiment." Over the decades, MT evolved from rule-based models to statistical models and currently to the state-of-the-art neural MT models, framing a fascinating journey of evolution.
+
+**Key Ideas**
+
+The fundamentals of MT revolve around three primary types: Rule-Based, Statistical, and Neural Machine Translation. Rule-Based models leverage linguistic rules and dictionaries for translation, requiring extensive lexicons and grammatical patterns. Statistical models, introduced in the late 1980s, rely on analyzing large amounts of bilingual corpora to predict translations. Lastly, Neural MT, the most recent development, employs deep learning algorithms to translate languages, providing significantly improved translation quality.
+
+**Variations**
+
+Apart from the three predominant types, several variants of machine translation exist, including hybrid systems. Hybrid MT models combine the best features of rule-based and statistical methods for better translation output. There are also specialized MT systems like those focusing on specific language pairs or industry-specific translations, which cater to niche requirements. A unique and innovative approach is the 'interactive machine translation,' where translators work in tandem with MT systems to optimize translation results.
+
+**Applications**
+
+MT finds applications in various sectors. For multilingual websites, MT enables automatic translation of content, aiding in global reach. In tourism, MT helps in translating signs, menus, and instructions, making traveling easier for foreigners. It's extensively used in social networking sites to translate user-generated content. Moreover, businesses use MT for translating e-mails, technical documents, manuals, etc., to communicate seamlessly across different geographies. In recent years, MT has also started to penetrate domains like healthcare, legal, and mobile apps, transforming the way we communicate and access information.

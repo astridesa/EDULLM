@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Language modeling is an integral part of Natural Language Processing (NLP). It refers to the development of probabilistic models that can predict the next word in a sentence given the words that precede it. These models, a crucial aspect of machine learning language processing, help machines understand the grammar and context of human language. The core applications of language modeling include speech recognition, translation, part-of-speech tagging, and many more. The process is deeply rooted in statistical and probability theory.
+
+<HISTORY>
+Language modeling was first introduced in the field of Information Retrieval. The idea was to make machines understand and create human-like text. One of the earliest language models, the Shannon model, was introduced in 1948 by Claude Shannon, known as the 'father of information theory.’ However, language modeling took a significant leap with the advent of neural networks. The shift from classical methods to neural networks in the 20th century resulted in more sophisticated models that could generate and understand the complex nuances of human language.
+
+<KEY IDEAS>
+Language modeling primarily involves determining the probability distribution of a sequence of words. It is formulated using the Chain Rule of Probability. Two common approaches to language modeling are count-based models (N-gram models) and prediction-based models (Neural Network models). N-gram models, the simplest form, predict the next word based on the last 'n' words. However, they suffer from the curse of dimensionality and sparsity. Neural Language Models, such as Long Short-Term Memory (LSTM) and Gated Recurrent Units (GRU), overcome these drawbacks by capturing long-term dependencies and handling vanishing gradient problems.
+
+<USES/APPLICATIONS>
+Language models are ubiquitous in our lives and play a fundamental part in a multitude of applications. They are essential in machine translation, which facilitates communication between different language speakers. Speech recognition, the technology behind virtual assistants like Siri and Alexa, also relies heavily on these models. Other key applications of language modeling include information retrieval, text summarization, sentiment analysis, and auto-complete functions in text editors.
+
+<VARIATIONS>
+Over the years, numerous variations of language models have been developed. N-gram models, Feed-Forward Neural Network Language Models (NNLM), Recurrent Neural Network Language Models (RNNLM), LSTM, and GRU are some of these conventional model variations. Recently, transformer-based models like GPT (Generative Pretrained Transformer) and BERT (Bidirectional Encoder Representations from Transformers) have taken language modeling to unprecedented heights. Equipped with context recognition capabilities, these models have revolutionized the sphere of NLP, making impressive strides in machine translation, sentiment analysis, and more.

@@ -1,0 +1,14 @@
+## 1. Introduction 
+Dependency parsing is a critical segment in Natural Language Processing (NLP) which deals with establishing grammatical relationships between words in a sentence. It creates a "tree" of dependencies where nodes represent words and arcs demonstrate a binomial relationship between the words in the sentence. The process helps understand the hierarchical structure of sentences, identifying syntactic roles and semantic relationships between words, thereby enabling more efficient interpretation of language by machines. 
+
+## 2. History
+The concept of Dependency Parsing hails from Panini's grammatical description of Sanskrit, dated back to 7th Century BCE. It garnered considerable attention in Computational Linguistics in the late 1950s. Tesnière, a French linguist, played a significant role in modernizing this concept during the latter half of the 20th Century. The advent of machine learning and computing power in recent decades has provided new possibilities for Dependency Parsing, which has now become an integral part of NLP research.
+
+## 3. Key Ideas
+The essential notions in Dependency Parsing revolve around the principles of "head" and "dependent". Every sentence or clause has a core or "head" word, and other words gravitate around it, serving as "dependents". The "head" determines its dependents' grammatical categories and influences their postcode congruence. Some dependents may also have their dependents, resulting in a hierarchical structure of words in a sentence. The words aren't necessarily adjacent and can be non-contiguous.
+
+## 4. Variations 
+There are several variations in the approach for Dependency Parsing. The two most commonly used methods are "transition-based parsing" and "graph-based parsing." Transition-based parsing uses a stack-based process to build dependency trees, whereas graph-based parsing uses dynamic programming to verify the best possible combinations. Other less-used variations include Eisner's algorithm, Covington’s algorithm, and MaltParser, each having specific use-cases and advantages.
+
+## 5. Applications
+Dependency Parsing lends itself to numerous applications in Machine Translation, Information Extraction, Question Answering, and Sentiment Analysis. It enables efficient extraction of semantic relationships between words, thereby significantly improving machine comprehension and translation of human language. Moreover, by identifying the structure and relationship between words in a sentence, dependency parsing is instrumental in sentiment analysis where it helps in understanding the sentiment conveyed in a particular text. It also aids in summarization tools by mapping the content hierarchically and distinguishing key points.

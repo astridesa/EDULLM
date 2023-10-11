@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Linear Discriminant Analysis (LDA) is a method used in statistics, pattern recognition, and machine learning to find a linear combination of features that characterizes or separates two or more classes of objects or events. This statistical technique is part of the broader field of discriminant analysis and has numerous applications, including face recognition, image retrieval, and information retrieval. The motivation behind LDA is to project a dataset onto a lower-dimensional space with good class-separability to avoid overfitting and reduce computational costs.
+
+<HISTORY>
+Originally, Linear Discriminant Analysis was developed for two-class problems by Ronald A. Fisher who introduced it in the article "The Use of Multiple Measurements in Taxonomic Problems" in 1936. Fisher formulated this technique for creating a linear combination of features that maximizes the variance between categories, whilst minimizing the variance within each category, and it has since been generalized for more than two classes.
+
+<KEY IDEAS>
+The key idea behind LDA is to maximize class separability. This is achieved by transforming the inputs into a new space where the between-class scatter is maximized and the within-class scatter is minimized. Given a set of predictors, LDA creates an axis and projects the data onto this line in order to maximize the separation between the different classes. Once this is achieved, the efficiency in classifying new data points is increased. For two classes, LDA can be perceived as computing a hyperplane to separate the classes, for multiple classes, it gives multiple hyperplanes.
+
+<USES/APPLICATIONS>
+Linear Discriminant Analysis has applications in a variety of fields. In finance, it is used for predicting bankruptcy and credit risk. In marketing, it is used for customer identification, while in healthcare, it's applied for patient risk predictions. This method is also employed in image recognition, identifying morphological features that differentiate objects or species. For example, it has been used for the identification of faces, characters, and even objects in satellite images. It is also beneficial in reducing the dimensionality in high-dimensional datasets while maintaining the essential aspects of the data.
+
+<VARIATIONS>
+Variations of Linear Discriminant Analysis include Quadratic Discriminant Analysis (QDA), which is similar to LDA but does not assume equal covariance matrices for the classes. Another variation is Regularized Discriminant Analysis (RDA), which combines the features of LDA and QDA to enhance classification accuracy. Another similar technique is Principal Component Analysis (PCA), but it does not consider classes and so does not aim at maximizing the separation between the classes. All these methods represent different solutions to dimensionality reduction and classification tasks based on different assumptions and requirements.

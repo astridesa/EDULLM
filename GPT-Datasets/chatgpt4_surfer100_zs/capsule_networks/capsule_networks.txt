@@ -1,0 +1,16 @@
+**Article: Capsule Networks**
+    
+**Introduction**
+Capsule Networks, or CapsNets, are an exciting breakthrough in the field of artificial intelligence. They are a type of artificial neural network designed to improve problems of conventional Convolutional Neural Networks (CNNs) including viewpoint changes, hierarchical relationships, and data efficiency. CapsNets efficiently encode internal data representations in vectors rather than scalars, thus providing rich information for analysis across multiple dimensions. They provide a sophisticated method in deep learning systems to better process and understand complex and dynamic patterns in input data.
+
+**History**
+The concept of Capsule Networks was first introduced by Geoffrey Hinton, a pioneer in artificial intelligence, in 2011. However, it didn't gain much attention until Hinton, with Sara Sabour and Nicholas Frosst, elaborated the details in 2017 in a dynamic routing-based CapsNet paper. The conceptualization was a response to drawbacks of previous models, specifically Convolutional Neural Networks, that failed to account for spatial hierarchies between simple and complex objects.
+
+**Key Ideas**
+The fundamental idea of Capsule Networks hinges on grouping neurons into ‘capsules’. Instead of merely predicting the presence of a feature, Capsule Networks consider the precise spatial and orientation relationships between features. This "Dynamic Routing Between Capsules" algorithm ensures that the network can understand hierarchical relationships and pose information. Moreover, these capsules can capture far richer properties of the input through their multi-dimensional activity vectors. This pioneering design drastically improves over other networks that fail to retain complex information in rich contexts.
+
+**Variations**
+Several variations of Capsule Networks have emerged since its inception. Matrix Capsule Networks, Convolution Capsule Networks, and Stacked Capsule Autoencoders are some note-worthy examples. Matrix Capsule Networks advance the original idea by adding routing by agreement, wherein the capsule activity is represented by a matrix and the routing softmax is replaced by an EM routing algorithm. Convolution Capsule Networks use capsules to capture overlapping relationships between features. Stacked Capsule Autoencoders, on the other hand, learn part-whole relationships directly from pixel images.
+
+**Applications**
+The applications of Capsule Networks extend across various domains. In computer vision, they provide improved image classification, object detection, and segmentation. In aspect-based sentiment analysis, they execute tasks like feature extraction and sentiment classification with better accuracy than other networks. In the medical field, CapsNets are used for improved detection and diagnosis of diseases like cancer by analyzing medical imagery. These networks also show promise in areas such as facial recognition and handwriting digit recognition.

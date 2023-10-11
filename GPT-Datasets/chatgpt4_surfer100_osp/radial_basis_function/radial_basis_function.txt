@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Radial Basis Function (RBF) is a well-known method used for function approximation in various fields, prominently within machine learning. It is considered a part of neural networks and computational intelligence paradigms. RBF is usually employed to interpolate multidimensional functions due to its explicit control over the smoothness of the approximated function. RBF comes with a strong theoretical foundation rooted in linear algebra, which alongside its vast applications within regression, time series prediction, control, and signal processing make it a widely applied concept.
+
+<HISTORY>
+The Radial Basis Function was first introduced during the 1980s by Robert Schaback, Martin Buhmann and many others. It was developed with an aim to tackle the challenge of function approximation in multiple dimensions. At first, many linear and non-linear methods struggled to efficiently approximate functions, but the robustness and the generalization performance of RBFs addressed these issues, and hence, were quickly recognized in many different fields.
+
+<KEY IDEAS>
+The core idea of Radial Basis Function is to approximate a multidimensional function by linearly combining basis functions, which are generally Gaussian, Multiquadric, Inverse Multiquadric, and others. The function is estimated by a weighted sum of radial basis functions, where the optimal weights are determined by the learning algorithm. Each radial basis function depends solely on the distance from a center point, the basis function. The greater the distance, the smaller is the function value. This way, the RBF network is quite efficient at capturing complex multidimensional mappings.
+
+<USES/APPLICATIONS>
+Radial Basis Function networks have been used in a number of applications in various fields. These include function approximation, time series prediction, classification, and system control. They are commonly used in system identification and control due to their structured knowledge representation, generalization capability, and realtime execution speed. In the field of computer vision and image processing, RBFs have been employed for fast image scanning, texture generation and multi-resolution analysis.
+
+<VARIATIONS>
+Variations of the Radial Basis Function primarily encompass different types of basis functions, such as Gaussian, Multiquadric, Inverse Multiquadric, amongst others. These variations significantly affect the performance of the approximation. In addition, there exist hybrid models that combine RBFs with other methodologies, such as Support Vector Machines (SVMs) and other types of neural networks, which aim to take advantage of the strengths of each method. As such, the RBF and its variations are significant constituents in the broader fields of machine learning and computational intelligence.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+A Recommendation System is a filtering system that seeks to predict and show the preferences of a user by collecting preferences from several users (collaborative filtering) or by using the content of the items(objects, goods or services) to make suggestions (content-based filtering). This subfield of computer science is part of the larger fields of machine learning and data mining. Recommendation systems are largely used in different internet applications such as music platforms, e-commerce websites, and social media platforms, with the goal of providing items that a user is most likely to be interested in. 
+
+<HISTORY>
+The concept of recommendation systems was introduced in the early 1990s within the context of e-commerce, to address the problem of information overload which was a significant problem for internet users. GroupLens, a recommendation system for Usenet News, is widely considered as one of the first recommendation systems. Over the years, recommendation systems have evolved and been refined, incorporating more complex and effective algorithms. 
+
+<KEY IDEAS>
+Recommendation Systems employ a combination of various methods and algorithms, mostly revolving around collaborative filtering and content-based filtering. Collaborative filtering gathers and analyzes information from multiple users and their activities to make recommendations. Content-based filtering, on the other hand, relies on the description or attributes of an item to recommend additional items of similar nature. More recently, hybrid methods combining collaborative and content-based filtering have been developed to overcome the limitations of each.
+
+<USES/APPLICATIONS> 
+Recommendation systems have found use in a wide variety of internet applications and sectors. For instance, in e-commerce, companies like Amazon and Alibaba use these systems to suggest products to users based on their previous searches or purchases. Netflix and Spotify use recommendation systems to suggest movies and music respectively, tailored to a user's preference. In social media, platforms like Facebook, Twitter, and LinkedIn employ the systems to suggest friends, pages, or jobs that a user might be interested in.
+
+<VARIATIONS>
+Several variations of the recommendation system exist. Some are based on demographic filtering, where recommendations are made based on demographic similarities among users. Others use utility-based or knowledge-based techniques, which consider the utility of an item or user's knowledge about an item to make recommendations. More recently, with advances in AI and machine learning, deep learning-based recommendation systems have been emerging. These are able to process large-scale datasets, capture complex patterns, and perform better recommendations. Recommendation systems, thus, fit into the broader context of personalization and information retrieval in AI.

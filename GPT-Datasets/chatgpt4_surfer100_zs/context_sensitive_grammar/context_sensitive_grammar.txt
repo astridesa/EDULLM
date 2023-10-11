@@ -1,0 +1,14 @@
+**Introduction**
+Context-Sensitive Grammar (CSG) is an essential theoretical spectrum of formal language theory in computer science and linguistics. This type of grammar, proposed by Noam Chomsky as part of the Chomsky hierarchy, is far more expressive than regular and context-free grammars, and is capable of encapsulating every deterministic and non-deterministic context-free language, along with many others. It's widely recognized for its computational expressiveness in linguistic structure and interpretation.
+
+**History**
+The concept of Context-Sensitive Grammar was introduced as part of the cognitive revolution in the 1950s by linguist and political critic Noam Chomsky. With a desire to understand more about the complexity of natural languages, Chomsky brought up his Hierarchy which includes Regular, Context-Free, Context-Sensitive, and Recursively Enumerable Grammars. Among these, the class of context-sensitive grammars represents a significant leap in linguistic complexity from the context-free grammars.
+
+**Key Ideas**
+A context-sensitive grammar has three essential elements: a set of non-terminal symbols, a set of terminal symbols, and a set of production rules. The rules indicate how the symbols can be combined and manipulated. The defining characteristic separating context-sensitive grammars is that the production rules can be applied based on the linguistic context, meaning a rule may only be applied if certain symbols appear at certain places. This feature adds a significant complexity and expressiveness to the languages it can generate.
+
+**Variations**
+There are numerous variations of context-sensitive grammar, including linear context-sensitive grammars, which result in languages somewhere between context-free and full context-sensitive grammars, and noncontracting or monotonic grammars, that limit the application of production rules. A more expressive form of context-sensitive grammar is the recursively enumerable grammar which allows both expanding and contracting transformations.
+
+**Applications**
+Context-sensitive grammars find most of their use in formal language theory and theoretical computer science for describing parsing rules, language recognizers, and computational language aspects. However, their use is limited due to the high complexity and computational resources required for parsing context-sensitive languages. Nevertheless, they are invaluable in studying complex language phenomena, natural language processing, and as a theoretical foundation for the syntax of programming languages.

@@ -1,0 +1,14 @@
+<INTRODUCTION>
+A Recommendation System serves a crucial role in the digital space by providing users with suggestions based on their preferences and behavior. They assist in various decision-making processes, such as what items to buy, what music to listen to or what online news to read. In essence, these systems predict what users might prefer to optimize their user experience on digital platforms. They operate through complex machine learning techniques, developing an understanding of the user's preferences and suggesting corresponding products or services.
+
+<HISTORY>
+The initial recommendation system launched in 1992 was a news recommendation system called GroupLens. It was based on collaborative filtering, a technique utilizing user behavior such as ratings and interactions, to filter out and recommend items. Amazon's item-to-item collaborative filtering system, launched around 1998, solidified the role of recommendation systems in personalizing online shopping experiences. Since then, advances in machine learning and data processing have led to improvements in the accuracy and effectiveness of recommendation systems.
+
+<KEY IDEAS>
+At the core of recommendation systems are collaborative filtering and content-based filtering. Collaborative filtering takes into account user behaviors and interactions, giving similar recommendations to users exhibiting similar behaviors. Content-based filtering, on the other hand, focuses on the attributes of items and gives recommendations based on the similarity of these attributes. Hybrid filtering combines both methods to increase recommendation quality. The systems utilize user profiles, item descriptions, and implicitly or explicitly expressed preferences to deliver personalized content.
+
+<APPLICATIONS>
+Recommendation systems have widespread applications across various digital platforms. E-commerce websites use recommendation systems to propose products to users based on past purchases and browsing history. Streaming platforms like Netflix and Spotify employ recommendation systems to propose movies, series, and music users might enjoy. These systems also aid in content personalization in news portals and social media platforms by suggesting articles or posts according to user interests and behaviors.
+
+<VARIATIONS>
+Over the years, there have been significant improvements and variations to the basic recommendation system. With cutting-edge advances in machine learning and artificial intelligence, more complex models have emerged such Multiple Criteria Decision Making (MCDM)-based systems, context-aware systems, and deep learning-based recommenders. These variations aim to improve recommendation quality, diversify results, and ensure a richer experience for the user.

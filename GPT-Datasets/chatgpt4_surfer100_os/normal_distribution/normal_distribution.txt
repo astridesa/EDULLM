@@ -1,0 +1,14 @@
+<INTRODUCTION>
+The Normal Distribution, also known as Gaussian Distribution, is a probability distribution that is symmetric about the mean. It showcases data near to the mean more frequently in comparison to data further from the mean, forming the well-known bell curve. Defined by its mean and standard deviation, the Normal Distribution is a fundamental concept in statistical data theory. The Gaussian values may resemble a variety of naturally occurring phenomena, from heights, test scores, measurement errors, and even light intensity.
+
+<HISTORY>
+The Normal Distribution has a fascinating history, dating back to the late 18th century. The name 'Gaussian' was given in honor of the mathematician Carl Friedrich Gauss, who first rigorously analyzed the formula. However, its initial discovery is often credited to Abraham de Moivre, who discovered it as an approximation to the binomial distribution. Over the centuries, Normal Distribution has become central to both the natural and social sciences due to the central limit theorem establishing that, under certain conditions, the mean of random variables independently drawn from the same distribution converges to the Normal Distribution.
+
+<KEY IDEAS>
+At the heart of a Normal Distribution are two parameters - the mean (μ) and standard deviation (σ). The mean indicates where the bell curve is centered, while the standard deviation determines the spread or width of the bell curve. Approximately 68% of data falls within one standard deviation from the mean, 95% within two, and 99.7% within three. It is also important to note the properties of the Normal Distribution - symmetry about the mean, asymptotic nature of the distribution, and a peak at the mean.
+
+<VARIATIONS>
+Normal Distribution has essential variations, including the Standard Normal Distribution, where the mean is zero and the standard deviation is one. Other variations include the Log-normal distribution and Cumulative distribution function. Furthermore, bivariate and multivariate normal distributions are extensions to higher dimensions, crucial in multiple random variable scenarios.
+
+<APPLICATIONS>
+Normal Distribution finds its applications in various fields. In education, teachers typically assign grades based on the assumption that students' performance is normally distributed. Financial analysts use it to analyze and forecast stock returns. In production, quality control departments use normal distribution to understand and control product quality. Moreover, because of the central limit theorem, normal distributions can model several random processes in nature, even if their individual behaviors are not ordinarily distributed, affirming the importance of Normal Distribution in statistical understanding and assumptions.

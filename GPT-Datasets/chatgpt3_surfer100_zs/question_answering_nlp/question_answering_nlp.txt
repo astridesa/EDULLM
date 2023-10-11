@@ -1,0 +1,18 @@
+Survey Article: Question Answering NLP
+
+Introduction:
+Question Answering (QA) is a field within Natural Language Processing (NLP) that focuses on developing systems capable of automatically answering questions posed by humans in a natural language format. QA systems aim to bridge the gap between human-machine communication and provide users with accurate and relevant information in a prompt manner.
+
+History:
+The history of QA can be traced back to the early days of NLP research. The first QA systems emerged in the 1960s, employing rule-based approaches. Over the years, with advancements in machine learning techniques and availability of large-scale datasets, QA has witnessed significant progress, paving the way for more sophisticated models.
+
+Key Ideas:
+In QA, several key ideas have been explored to tackle the challenge of answering questions accurately. These include the use of semantic representation, information retrieval techniques, deep learning architectures, and the integration of external knowledge sources. Emphasis is placed on understanding the meaning behind questions and retrieving relevant knowledge from various sources.
+
+Variations:
+QA exhibits various variations depending on the nature of questions and underlying techniques. Factoid QA focuses on answering fact-based questions, while non-factoid QA deals with more complex reasoning tasks. Community QA involves leveraging the collective knowledge of users, while conversational QA systems aim to engage in dynamic question-answer dialogues.
+
+Applications:
+QA finds applications across numerous domains. In the educational sector, QA systems assist learners by answering factual or conceptual questions. In customer support, QA helps automate responses to frequently asked questions. Moreover, QA plays a crucial role in information retrieval systems, virtual assistants, and decision support systems, enhancing user experience and productivity.
+
+In conclusion, QA has evolved over time and continues to be an active area of research within NLP. With advancements in machine learning and large-scale language models, the accuracy and effectiveness of QA systems are continually improving, making them an indispensable component of various applications in today's information-centric world.

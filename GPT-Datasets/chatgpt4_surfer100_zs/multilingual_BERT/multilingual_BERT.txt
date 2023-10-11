@@ -1,0 +1,17 @@
+Title: Multilingual Bert: A Comprehensive Survey
+
+1. Introduction:
+Multilingual Bert, or M-Bert, signifies a transformative step in the realm of Natural Language Processing (NLP). This language model, derived from the innovative Bert base model, has the unique ability to understand and translate various languages simultaneously. Contrary to language-specific models, M-Bert not only brings greater efficiency and seamlessness but also facilitates the understanding of low-resource languages, making it a ground-breaking game-changer in the NLP universe.
+
+2. History:
+Conceptualized and developed by Google engineers in 2018, M-Bert is based on the Bert (Bidirectional Encoder Representations from Transformers) model. Bert provided a marked improvement on former NLP models by handling tasks bidirectionally. Designed to understand language context holistically, it revolutionized the performance of NLP tasks. Following this success, M-Bert was introduced, having the capability of understanding 104 languages.
+
+3. Key Ideas:
+M-Bert's primary strength lies in its ability to comprehend multiple languages simultaneously. By enabling effective transfer learning, the model can understand the context from both directions, unlike traditional language models. Its architecture utilizes transformer networks, which deal with the parallel processing of sentences, thereby enhancing its efficiency. A major aspect that sets M-Bert apart is its capacity to manipulate low-resource languages, a feat rarely achieved by monolingual models.
+
+4. Variations:
+Numerous variations like XLM, XLM-R, mT5, and UNIMO have been proposed since the introduction of M-Bert. The XLM model combines translation language modeling and causal language modeling, while XLM-R is a refined variant of XLM managing 100 languages. mT5, designed for multilingual masked language modeling, supports a whopping 101 languages. UNIMO expands M-Bert's capabilities, offering multilingual understanding and generation.
+
+5. Applications:
+Having diverse abilities, M-Bert finds an extensive range of applications. It is widely utilized in translation services, semantic understanding, and sentiment analysis across different languages. Popular platforms like Google Translate and Microsoft Bing leverage M-Bert to provide efficient translation services. In the field of research, M-Bert plays a crucial role in understanding linguistic patterns, language diversity, and investigating cross-lingual transfer effects.
+

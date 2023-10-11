@@ -1,0 +1,14 @@
+<INTRODUCTION>
+Highway Network is a type of deep learning model used in machine learning. It belongs to the field of Neural Networks and can be considered as a key improvement of traditional feed-forward neural networks. The main motivation behind the creation of the model was to solve the vanishing gradient problem, which is a common issue in training deep neural networks. Highway Network’s applications are wide, ranging from image classification to natural language processing.
+
+<HISTORY>
+The concept of Highway Networks was introduced by Rupesh Kumar Srivastava, Klaus Greff, and Jürgen Schmidhuber in 2015. The primary goal was to create a deeper neural network model that could be trained end-to-end without suffering from the typical learning difficulties like vanishing or exploding gradients.
+
+<KEY IDEAS>
+Highway Networks are characterized by their key innovation, the transformation gate, that helps regulate information flow. Transformation gates control the proportion of input transferred or transformed. The main idea behind Highway Networks is to allow unimpeded information to flow across several layers allowing activation functions to take both raw input and transformed input. This addresses the vanishing gradient problem, permitting the learning of complex functions without the necessity for a task-specific architecture.
+
+<USES/APPLICATIONS>
+Highway Networks have been used effectively in various tasks requiring deep learning. They are particularly useful in text and image recognition tasks due to their ability to regulate information flow and transfer learning from one task to another quickly without much retraining. In the field of Natural Language Processing, they've been used for sentence classification, machine translation, and sentiment analysis as mid-generation models. For image recognition tasks, they're effective in CIFAR-100 object recognition and SVHN digit recognition tasks.
+
+<VARIATIONS>
+Several subsequent variations have built on the concepts introduced by Highway Networks. For instance, LSTMs used a similar gating mechanism for sequence prediction tasks even before Highway Networks came to be. Post Highway Networks, the newly proposed architecture Residual Networks also adapted the concept of skipped connections. This had shown great success in the ImageNet challenge. Another notable development was Dense Networks, which also use the concept of skipped connections but in a dense manner i.e., each layer is connected to every other layer in a feed-forward fashion. Each of these models continues to be a piece in the broader picture of solving deep learning challenges.
